@@ -1,0 +1,30 @@
+{
+  "slug": "manifest-med-tio-teser-json",
+  "status": "draft",
+  "outline_complete": false,
+  "content_complete": false,
+  "fact_checked": false,
+  "concepts_registered": false,
+  "reviewed": false,
+  "notes": "Auto-generated from markdown",
+  "last_updated": "2026-02-23T13:41:54.360Z",
+  "versions": [
+    {
+      "timestamp": "2026-02-23T13:41:54.360Z",
+      "message": "Generated in editor from markdown"
+    }
+  ],
+  "meta": {
+    "synopsis": "",
+    "summary": "Detta manifest presenterar tio fundamentala teser för att bygga en semantiskt styrd domänarkitektur i en AI-driven organisation. Kapitlet formulerar principiella regler för hur domäner ska avgränsas, hur system ska interagera via systemtjänster snarare än CRUD-operationer, och hur beroenden måste vara strikt riktade. Central är idén att semantik och struktur måste förenas genom formaliserade begrepp och verifierbara arkitekturprinciper. Manifestet positionerar arkitektur som ett aktivt styrsystem för att kontrollera och avgränsa AI-agenter, inte bara som dokumentation.",
+    "message": "",
+    "tags": "domänarkitektur, systemtjänster, semantisk formalisering, beroendehantering, verifierbar governance, kontrollerad intelligens",
+    "promise": "Läsaren får en tydlig, principiell referensram med tio konkreta teser som kan användas för att bygga och utvärdera domänarkitekturer. Du kommer att förstå varför CRUD-exponering är problematisk, hur systemtjänster ska fungera som domänernas publika kontrakt, och varför semantisk formalisering är nödvändig för att styra AI-system. Manifestet ger dig argumentationskraft och ett teoretiskt fundament för arkitekturbeslut, särskilt när organisationen arbetar med autonoma agenter. Du får också ett ramverk för att göra arkitekturprinciper verifierbara och därmed exekverbara.",
+    "analysis": "**Styrkor:** Kapitlet är koncist, principiellt och akademiskt stringent formulerat. De tio teserna är tydligt avgränsade och bygger logiskt på varandra. Manifestformen ger auktoritet och tydlighet, vilket fungerar väl för att kommunicera icke-förhandlingsbara principer. Distinktionen mellan systemtjänster och resurstjänster är kristallklar, liksom kravet på semantisk formalisering.\n\n**Svagheter:** Kapitlet är starkt normativt utan att ge kontext om varför dessa principer är nödvändiga – det förutsätter att läsaren redan förstår problembilden. Det saknar helt praktiska exempel, vilket gör det svårt att översätta teserna till konkreta arkitekturbeslut. För verksamhetsroller kan språket vara för abstrakt och akademiskt. Kopplingen till övriga kapitel är implicit – manifestet står för sig själv men refererar inte till var läsaren kan fördjupa sig. Tes 7 om verifierbarhet är kraftfull men utvecklas inte praktiskt.",
+    "improvements": "**Kontextualisering:** Lägg till en kort inledning (2-3 stycken) som förklarar varför ett manifest behövs och vilka problem det adresserar – särskilt i AI-driven verksamhet.\n\n**Praktiska exempel:** Efter varje tes eller i en separat sektion, ge ett konkret exempel som illustrerar principen i praktiken (t.ex. vad som händer när Tes 3 bryts).\n\n**Länkningar:** Lägg till fotnoter eller en avslutande sektion som hänvisar till specifika kapitel där varje tes utvecklas mer detaljerat.\n\n**Vokabulär för olika roller:** Överväg en sidoruta som översätter nyckelbegrepp till verksamhetsspråk (\"domänsuveränitet\" → \"varje område ansvarar för sin egen information\").\n\n**Verifierbarhet:** Utveckla Tes 7 med exempel på hur principer kan göras testbara (t.ex. genom arkitekturregler i CI/CD).\n\n**Visuell struktur:** Överväg en grafisk representation av hur de tio teserna förhåller sig till varandra – kanske grupperade i semantik, struktur och governance.",
+    "todo": [],
+    "slug": "manifest-med-tio-teser",
+    "title": "Manifest med tio teser"
+  },
+  "meta_updated": "2026-02-23T13:48:10.739Z"
+}

@@ -1,0 +1,117 @@
+{
+  "slug": "namngivningsregler",
+  "status": "draft",
+  "outline_complete": false,
+  "content_complete": false,
+  "fact_checked": false,
+  "concepts_registered": false,
+  "reviewed": false,
+  "notes": "Imported from Word",
+  "last_updated": "2026-01-19 06:17",
+  "versions": [
+    {
+      "timestamp": "2026-01-19 06:17",
+      "version_type": "WORD_IMPORT",
+      "message": "Importerat fr\u00e5n Word"
+    }
+  ],
+  "meta": {
+    "synopsis": "",
+    "summary": "Kapitlet definierar namngivningsregler f\u00f6r f\u00f6retagsarkitektur med fokus p\u00e5 verksamhetsn\u00e4ra terminologi. Grundregeln \u00e4r att dom\u00e4ner, aff\u00e4rsf\u00f6rm\u00e5gor och systemtj\u00e4nster ska namnges s\u00e5 att verksamhetskunniga direkt kan relatera till dem, inte som teknisk implementation. Rekommenderat format \u00e4r Verb + Objekt (t.ex. 'Utf\u00e4rda Faktura'). Kapitlet varnar f\u00f6r att inkludera systemnamn, tekniska l\u00f6sningar eller protokoll i namnen. Sista delen introducerar dataprodukter som en medveten representation av information med tydligt syfte, \u00e4gare, livscykel och kvalitetskrav.",
+    "message": "Namnge systemtj\u00e4nster som aff\u00e4rserbjudanden \u2013 inte som kod, system eller teknik. Anv\u00e4nd verksamhetens spr\u00e5k och undvik tekniska implementationsdetaljer. Dataprodukter ska behandlas som avsiktliga, \u00e5teranv\u00e4ndbara informationsk\u00e4llor med tydligt ansvar.",
+    "tags": [
+      "Namngivningsregler",
+      "Systemtj\u00e4nster",
+      "Aff\u00e4rsf\u00f6rm\u00e5gor",
+      "Dom\u00e4ner",
+      "Verb + Objekt",
+      "Verksamhetsn\u00e4ra terminologi",
+      "Dataprodukter",
+      "CRUD",
+      "H\u00e4ndelsestyrda tj\u00e4nster",
+      "Enterprise Architecture"
+    ],
+    "promise": "Efter att ha l\u00e4st detta kapitel kommer l\u00e4saren att kunna skapa tydliga, verksamhetsn\u00e4ra namn f\u00f6r systemtj\u00e4nster som underl\u00e4ttar kommunikation mellan IT och verksamhet, samt f\u00f6rst\u00e5 skillnaden mellan aff\u00e4rsf\u00f6rm\u00e5gor, dom\u00e4ner, systemtj\u00e4nster och dataprodukter.",
+    "analysis": {
+      "strengths": [
+        "Tydlig och pedagogisk struktur med konkreta exempel och kontraster (\u2705 vs \u274c)",
+        "Stark koppling mellan teori och praktik genom fakturahanteringsexemplet",
+        "Snabb checklista som g\u00f6r reglerna operationaliserbara",
+        "Bra progression fr\u00e5n grundregel till avancerade koncept som h\u00e4ndelsestyrda tj\u00e4nster",
+        "Konsekvent anv\u00e4ndning av svenska och engelska exempel som speglar verkligheten"
+      ],
+      "weaknesses": [
+        "Strukturen \u00e4r fragmenterad \u2013 numreringen hoppar (1, 2, 3, 5, 7, 10) vilket skapar f\u00f6rvirring",
+        "Dataprodukter-sektionen k\u00e4nns som ett separat kapitel \u2013 kopplingen till namngivningsregler \u00e4r svag",
+        "Spr\u00e5kblandning (svenska/engelska) diskuteras inte systematiskt \u2013 n\u00e4r ska man v\u00e4lja vilket?",
+        "Redundans mellan olika sektioner (t.ex. upprepad f\u00f6rklaring av Verb + Objekt)",
+        "Mots\u00e4gelser: 'Registera Kund' vs 'Register Customer' \u2013 ingen tydlig v\u00e4gledning om vilket som \u00e4r b\u00e4ttre",
+        "Stavfel och inkonsekvent spr\u00e5k: 'Registera' (fel stavning av 'Registrera'), 'Kommandotj\u00e4nster' (b\u00f6r vara 'Kommandtj\u00e4nster' eller 'Kommando-tj\u00e4nster')",
+        "Oklart vad 'Accessum' och 'Mobilaris' \u00e4r (n\u00e4mns utan kontext i Fordon-exemplet)"
+      ]
+    },
+    "improvements": [
+      {
+        "priority": "critical",
+        "issue": "Fixa numreringen och strukturen",
+        "suggestion": "Anv\u00e4nd konsekvent numrering (1-11) eller dela upp i tydliga sektioner med underrubriker. Alternativt: anv\u00e4nd principnummer (Princip 1, Princip 2, etc.)"
+      },
+      {
+        "priority": "critical",
+        "issue": "Separera eller integrera dataprodukter-sektionen",
+        "suggestion": "Antingen: (1) Flytta dataprodukter till eget kapitel, eller (2) Skriv explicit koppling: 'Dataprodukter f\u00f6ljer samma namngivningsregler som systemtj\u00e4nster: Verb + Objekt (t.ex. H\u00e4mta Kundprofil)'"
+      },
+      {
+        "priority": "high",
+        "issue": "Spr\u00e5kval saknar systematisk v\u00e4gledning",
+        "suggestion": "L\u00e4gg till explicit regel: 'Anv\u00e4nd svenska f\u00f6r verksamhetsn\u00e4ra begrepp d\u00e4r svensk terminologi anv\u00e4nds i organisationen. Anv\u00e4nd engelska n\u00e4r: (1) international samverkan kr\u00e4vs, (2) branschstandard \u00e4r engelska, (3) ingen etablerad svensk term finns.'"
+      },
+      {
+        "priority": "high",
+        "issue": "Stavfel och inkonsekvent terminologi",
+        "suggestion": "R\u00e4tta 'Registera' till 'Registrera'. Standardisera 'tj\u00e4nster' vs 'services' \u2013 v\u00e4lj en prim\u00e4r term och var konsekvent."
+      },
+      {
+        "priority": "medium",
+        "issue": "Exempel saknar kontext",
+        "suggestion": "F\u00f6rklara eller ta bort referenserna till 'Accessum' och 'Mobilaris', alternativt skriv: '...i ekonomisystemet, i kundregistret och i flotthanteringssystemet' (generiska namn)"
+      },
+      {
+        "priority": "medium",
+        "issue": "CRUD-sektionen \u00e4r f\u00f6rvirrande placerad",
+        "suggestion": "Flytta CRUD-diskussionen direkt efter grundregeln (sektion 2) eftersom den f\u00f6rklarar vad man INTE ska g\u00f6ra innan man visar vad man ska g\u00f6ra"
+      },
+      {
+        "priority": "low",
+        "issue": "Blandning av inneh\u00e5llstyper",
+        "suggestion": "Separera tydligare mellan: (1) Regler, (2) Exempel, (3) Riktlinjer. \u00d6verv\u00e4g sidoruta eller annan formatering f\u00f6r exemplen."
+      },
+      {
+        "priority": "low",
+        "issue": "Saknar guidning f\u00f6r gr\u00e4nsfall",
+        "suggestion": "L\u00e4gg till sektion om vanliga dilemman: Vad g\u00f6r man n\u00e4r verksamheten redan anv\u00e4nder tekniska termer? N\u00e4r finns b\u00e5de svensk och engelsk term? N\u00e4r verksamheten \u00e4r oense?"
+      }
+    ],
+    "todo": [],
+    "target_audience": "F\u00f6retagsarkitekter, systemintegrat\u00f6rer och verksamhetsutvecklare som arbetar med att definiera och dokumentera systemtj\u00e4nster och dataprodukter",
+    "tone": "Instruktiv och preskriptiv med pedagogiska exempel. Blandning av formellt och informellt spr\u00e5k (t.ex. 'Om alla \u00e4r ja \u2192 namnet \u00e4r bra')",
+    "consistency_issues": [
+      "Inkonsekvent anv\u00e4ndning av svensk/engelsk terminologi utan tydlig systematik",
+      "Numrering hoppar mellan sektioner",
+      "Blandning av 'tj\u00e4nster' och 'services' utan distinktion",
+      "Stavfel: 'Registera' anv\u00e4nds flera g\u00e5nger ist\u00e4llet f\u00f6r 'Registrera'"
+    ],
+    "missing_elements": [
+      "Versionhantering av systemtj\u00e4nster (n\u00e4mns i checklistan men f\u00f6rklaras aldrig)",
+      "Hur man hanterar legacy-system med redan etablerade tekniska namn",
+      "Governanceprocess f\u00f6r att godk\u00e4nna nya tj\u00e4nstenamn",
+      "Relation till API-design och teknisk implementation",
+      "Konkreta exempel p\u00e5 n\u00e4r reglerna bryter samman eller beh\u00f6ver anpassas"
+    ],
+    "structural_recommendation": "F\u00f6resl\u00e5r omstrukturering till: (1) Grundprinciper och format, (2) Vad man ska undvika, (3) Konsistens och kvalitet, (4) Specialfall (h\u00e4ndelsestyrda tj\u00e4nster), (5) Praktisk checklista, (6) Ut\u00f6kade exempel. Flytta dataprodukter till separat kapitel med egen djupdykning.",
+    "readability_score": "Medel-h\u00f6g. L\u00e4tt att f\u00f6rst\u00e5 grundkoncepten tack vare exempel, men strukturen och hoppen i numrering skapar on\u00f6dig kognitiv belastning.",
+    "actionability": "H\u00f6g. Checklistan och konkreta exempel g\u00f6r det m\u00f6jligt att direkt till\u00e4mpa reglerna. Dock saknas guidning f\u00f6r implementering i organisationen (vem beslutar, hur hanteras konflikter, etc.).",
+    "meta_tags": []
+  },
+  "sections": []
+}

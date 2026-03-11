@@ -1,0 +1,19 @@
+{
+  "chapters": [
+    {
+      "id": "agentarkitektur",
+      "title": "Agentarkitektur",
+      "order": 1
+    },
+    {
+      "id": "state-management",
+      "title": "State management for agenter",
+      "order": 2
+    },
+    {
+      "id": "verktygsintegration",
+      "title": "Verktygsintegration och MCP",
+      "order": 3
+    }
+  ]
+}

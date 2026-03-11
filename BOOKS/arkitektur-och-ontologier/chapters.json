@@ -1,0 +1,58 @@
+{
+  "chapters": [
+    {
+      "id": "från-begrepp-till-agentic-autonomi-semantisk-styrning-i-praktiken",
+      "title": "Från begrepp till agentic autonomi – semantisk styrning i praktiken",
+      "order": 1,
+      "last_updated": "2026-02-22T16:10:44.452Z"
+    },
+    {
+      "id": "tio-teser-för-en-semantiskt-styrd-domänarkitektur",
+      "title": "Tio teser för en semantiskt styrd domänarkitektur",
+      "order": 2,
+      "last_updated": null
+    },
+    {
+      "id": "ontologier-en-powerpointpresentation-till-en-grupp-verksamhetskunniga",
+      "title": "Ontologier en powerpointpresentation till en grupp verksamhetskunniga",
+      "order": 3,
+      "last_updated": null
+    },
+    {
+      "id": "tjänstelager-domäner-och-semantisk-styrning-i-en-ai-driven-arkitektur",
+      "title": "Tjänstelager, domäner och semantisk styrning i en AI-driven arkitektur",
+      "order": 5
+    },
+    {
+      "id": "från-tjänstelager-till-semantik-och-domäner",
+      "title": "Från tjänstelager till semantik och domäner",
+      "order": 6
+    },
+    {
+      "id": "centrala-begrepp-för-ontologier",
+      "title": "Centrala begrepp för ontologier",
+      "order": 7
+    },
+    {
+      "id": "vision-när-arkitektur-blir-ett-styrsystem-för-intelligens",
+      "title": "Vision när arkitektur blir ett styrsystem för intelligens",
+      "order": 8
+    },
+    {
+      "id": "forslag-pa-struktur-for-boken",
+      "title": "Forslag pa struktur for boken",
+      "order": 11
+    },
+    {
+      "id": "sammanfattning-domancentrerad-och-semantiskt-styrd-arkitekturmodell",
+      "title": "Sammanfattning domancentrerad och semantiskt styrd arkitekturmodell",
+      "order": 12
+    },
+    {
+      "id": "exempel-doman-fordon",
+      "title": "Exempel doman fordon",
+      "order": 13
+    }
+  ],
+  "last_updated": 1772058668.8789008
+}

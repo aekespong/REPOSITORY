@@ -1,0 +1,23 @@
+{
+  "versions": [
+    {
+      "timestamp": "2026-02-25T22:46:57.818Z",
+      "message": "Ursprunglig version"
+    }
+  ],
+  "last_updated": "2026-02-25T22:46:57.818Z",
+  "meta": {
+    "promise": "Detta kapitel lovar att visa dig exakt hur du kombinerar strikt tjänstearkitektur (systemtjänster vs resurstjänster) med semantisk modellering (OWL) och maskinvaliderbara arkitekturregler (SHACL) – illustrerat genom ett konkret fordondomän-exempel där varje princip, beroende och valideringsregel kan spåras från EA-capability ner till kod.",
+    "analysis": "**Styrkor:**\n\n- **Konkret och praktiskt**: Använder fordondomänen (registrering, besiktning, service) som genomgående exempel – mycket lättare att förstå än abstrakta förklaringar\n- **Tydlig governance-modell**: Skiljer strikt mellan systemtjänster (exponerade) och resurstjänster (interna CRUD), vilket löser ett vanligt arkitekturproblem\n- **Maskinvaliderbara regler**: SHACL-exemplen är faktiskt körbara och visar exakt hur man förhindrar att resurstjänster exponeras\n- **Helhetsvy**: Knyter ihop EA-verktyg, capabilities, tjänster, data, ontologi och validering\n\n**Svagheter:**\n\n- **Struktur och progression**: Kapitlet hoppar mellan abstrakta principer, konkreta exempel och teknisk implementation utan tydlig röd tråd\n- **Målgruppsförvirring**: Blandar EA-perspektiv, utvecklarperspektiv och ontologi-expertnivå – oklart vem som är primär läsare\n- **Saknar visuellt stöd**: Texten beskriver komplexa relationer och dataflöden som skulle gynnas enormt av diagram\n- **Kodexempel är ofullständiga**: SHACL-exemplen har syntaxfel (radbrytningar i URI:er) och saknar kontext för hur de körs\n- **Ingen tydlig problemställning**: Börjar direkt med lösningen utan att etablera vilket problem detta löser\n- **Redundans**: Upprepar samma principer flera gånger utan att fördjupa\n- **Saknar implementation guidance**: Hur integreras detta i CI/CD? Vilka verktyg behövs? Vad är migrationsstrategi?",
+    "improvements": "**Strukturella förbättringar:**\n\n1. **Börja med problemet**: Inled med ett scenario där brist på tjänstegräns-disciplin skapar kaos (t.ex. extern konsument som direkt muterar besiktningsdata)\n\n2. **Progressiv komplexitet**: \n   - Först: Grundprinciper + enkel figur\n   - Sedan: Fordonexempel med systemtjänster\n   - Därefter: Lägg till OWL för semantik\n   - Sist: SHACL för governance-automatisering\n\n3. **Lägg till visuella element**:\n   - Domänkarta över Fordon-domänen\n   - Sekvensdiagram för `Planeringsschema()` som visar tillåtna/förbjudna anrop\n   - Lagermodell: Konsument → Systemtjänst → Resurstjänst → Data\n   - SHACL-valideringsflöde\n\n**Innehållsförbättringar:**\n\n4. **Komplettera med anti-patterns**: Visa konkreta exempel på vad som INTE får hända (med före/efter-kod)\n\n5. **Utöka SHACL-exemplen**:\n   - Fixa syntaxfel i URI:er\n   - Lägg till exempel på valideringsresultat (både pass och fail)\n   - Visa hur man integrerar i deployment pipeline\n\n6. **EA-integration**: Expandera avsnitt 7 med skärmdumpar eller mockups från LeanIX/ArchiMate som visar hur modellen ser ut i verktyget\n\n7. **Lägg till praktisk sektion**:\n   - Checklista för att klassificera om en tjänst är system- eller resurstjänst\n   - Decision tree för när systemtjänst får anropa annan systemtjänst\n   - Template för tjänstekontrakt\n\n8. **Migration och adoption**:\n   - Hur hanterar man legacy-tjänster som bryter mot reglerna?\n   - Hur införs detta stegvis i en organisation?\n   - Hur utbildar man utvecklare?\n\n**Språkliga förbättringar:**\n\n9. **Konsekvent terminologi**: Definiera och håll fast vid termer – t.ex. används både \"orkestrerar\" och \"opererar på\" utan tydlig skillnad\n\n10. **Lägg till sammanfattningsrutor**: Efter varje huvudavsnitt – \"Nyckelpunkter\" som destillerar essensen\n\n11. **Konkret call-to-action**: Avsluta med tydliga nästa-steg för läsaren",
+    "tags": [
+      "tjänstearkitektur",
+      "domändriven-design",
+      "semantisk-modellering",
+      "SHACL-validering",
+      "enterprise-architecture",
+      "governance-automation"
+    ]
+  },
+  "meta_updated": "2026-02-28T08:17:45.647Z"
+}

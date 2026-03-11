@@ -1,0 +1,402 @@
+{
+  "slug": "business-design",
+  "status": "draft",
+  "outline_complete": false,
+  "content_complete": false,
+  "fact_checked": false,
+  "concepts_registered": false,
+  "reviewed": false,
+  "notes": "Imported from Word",
+  "last_updated": "2026-02-06T08:10:54.231Z",
+  "versions": [
+    {
+      "timestamp": "2026-01-19 06:17",
+      "version_type": "WORD_IMPORT",
+      "message": "Importerat från Word"
+    },
+    {
+      "timestamp": "2026-01-20 17:54",
+      "version_type": "EDIT",
+      "message": "uppdaterat"
+    }
+  ],
+  "meta": {
+    "synopsis": "",
+    "summary": "Kapitlet behandlar design av systemtjänster i komplexa, säkerhetskritiska verksamheter där processinriktat arbete, många aktörer och höga korrekthetskrav ställer särskilda arkitektoniska utmaningar. Genom tre progressivt eskalerande exempel illustreras hur systemdesign avgör verksamhetsstyrning, ansvarsfördelning och säkerhet. Särskild vikt läggs vid AI-agenters roll och riskerna med generella administrativa tjänster. Kapitlet avslutas med perspektiv från ledning och styrgrupp, där arkitektur positioneras som ett aktivt styrmedel snarare än teknisk infrastruktur.",
+    "message": "Arkitektur är inte teknik – det är verkställd styrning. När AI och automation införs blir systemtjänsternas design det som i praktiken avgör vem som fattar beslut, på vilka grunder och med vilka konsekvenser. God arkitektur gör rätt beteende enkelt, riskfyllt beteende svårt och ansvar synligt.",
+    "tags": [
+      "Systemarkitektur",
+      "Tjänstedesign",
+      "AI-styrning",
+      "Säkerhetskritiska system",
+      "Governance",
+      "Ansvarsfördelning",
+      "Processintention",
+      "Riskhantering",
+      "Verksamhetsstyrning",
+      "Arkitekturprinciper"
+    ],
+    "promise": "Läsaren får ett strukturerat ramverk för att designa systemtjänster som balanserar flexibilitet mot kontroll, och konkreta verktyg för att utvärdera om befintliga system skapar oavsiktliga genvägar förbi etablerade processer och säkerhetsmekanismer.",
+    "analysis": "",
+    "improvements": [
+      {
+        "area": "Implementering",
+        "suggestion": "Lägg till avsnitt om migrationsstrategier från generella till specifika tjänster",
+        "rationale": "Många organisationer har redan problematiska lösningar och behöver praktisk vägledning för förflyttning"
+      },
+      {
+        "area": "Balans",
+        "suggestion": "Inkludera diskussion om när mindre formell styrning kan vara lämplig (riskbaserat förhållningssätt)",
+        "rationale": "Undviker att kapitlet uppfattas som 'one size fits all' och ökar trovärdigheten"
+      },
+      {
+        "area": "Mätbarhet",
+        "suggestion": "Introducera konkreta metrics för arkitekturkvalitet (t.ex. tjänstespecificitet, ansvarskedja-djup, undantagsfrekvens)",
+        "rationale": "Gör principerna mätbara och möjliggör systematisk uppföljning"
+      },
+      {
+        "area": "Organisatorisk förändring",
+        "suggestion": "Utöka med avsnitt om kulturella utmaningar och hur motstånd mot strukturerad design kan hanteras",
+        "rationale": "Teknisk arkitektur är värdelös utan organisatorisk bärkraft"
+      },
+      {
+        "area": "Verktyg och metoder",
+        "suggestion": "Inkludera konkreta modelleringstekniker eller notationer för att beskriva intention, sammanhang och ansvar",
+        "rationale": "Ger praktiker konkreta verktyg att använda i designarbetet"
+      },
+      {
+        "area": "Falskärsavsnitt",
+        "suggestion": "Lägg till kort avsnitt om vanliga missförstånd (t.ex. 'microservices löser detta automatiskt', 'RBAC är tillräckligt')",
+        "rationale": "Förebygger vanliga feltolkningar av budskapet"
+      }
+    ],
+    "todo": [],
+    "meta_tags": [],
+    "core_thesis": "Arkitektur är det faktiska styrmedlet i organisationer – inte policyer eller dokument. Om ett system tillåter en handling har organisationen redan godkänt den. Därför måste designbeslut fattas med full medvetenhet om ansvar, risk och konsekvens.",
+    "target_audience": {
+      "primary": [
+        "Systemarkitekter",
+        "IT-ledning",
+        "Verksamhetsarkitekter",
+        "Säkerhetsansvariga"
+      ],
+      "secondary": [
+        "Styrgrupper",
+        "Produktägare",
+        "Processansvariga",
+        "Riskansvariga"
+      ],
+      "prerequisite_knowledge": "Grundläggande förståelse för systemdesign, processorientering och verksamhetsstyrning"
+    },
+    "strengths": [
+      "Progressiv pedagogik: exempel går från enkelt (kundadress) till komplext (säkerhetskritisk besiktning)",
+      "Konkret och praktiskt: undviker abstraktion genom verklighetsnära scenarion",
+      "Tvärfunktionellt perspektiv: täcker teknik, verksamhet, styrning och ledning",
+      "Tydlig positionering av AI som aktör, inte administratör",
+      "Explicit behandling av governance som designfråga",
+      "Balanserad ton: varken teknikromantisk eller teknikfientlig",
+      "Checklistor och konkreta frågeställningar för beslutsfattare"
+    ],
+    "weaknesses": [
+      "Begränsad behandling av implementeringsutmaningar och organisatorisk förändring",
+      "Saknar diskussion om avvägningar mellan säkerhet och innovation/hastighet",
+      "Inga kvantitativa metoder eller metrics för att mäta arkitekturkvalitet",
+      "Begränsad behandling av legacy-system och teknisk skuld",
+      "Saknar diskussion om kostnader och resursallokering",
+      "Ingen behandling av inkrementella förflyttningar mot idealtillstånd",
+      "Kulturella och organisatoriska förändringsaspekter underbelyst"
+    ],
+    "structural_suggestions": [
+      "Överväg att flytta 'Ledningens perspektiv' och 'Styrgruppens perspektiv' till början som motiverande ramverk",
+      "Introducera en visuell modell tidigt som visar sambanden mellan intention-sammanhang-roll-handling",
+      "Lägg till en sammanfattande beslutsmatris: vilken typ av ärende kräver vilken nivå av arkitekturkontroll",
+      "Inkludera ett 'anti-exempel' från verklig värld där brist på arkitekturkontroll ledde till incident"
+    ],
+    "conceptual_gaps": [
+      "Begränsad behandling av graderade säkerhetsnivåer – inte allt är lika kritiskt",
+      "Saknar diskussion om hur man validerar att arkitekturen verkligen förhindrar risker (testning, audit)",
+      "Ingen hantering av temporära undantagssituationer (driftstörningar, kriser)",
+      "Avsaknad av diskussion om tredjepartssystem och integrationsgränser",
+      "Begränsad behandling av användarupplevelse – för strikta system kan också skapa risker genom irritation och 'workarounds'"
+    ],
+    "technical_depth_assessment": {
+      "current_level": "Mellannivå med hög konceptuell komplexitet",
+      "code_examples": "Pseudokod-exemplen är bra men skulle kunna kompletteras med kontrasterande kodexempel (REST API design, event sourcing patterns)",
+      "architecture_patterns": "Implicit CQRS, explicit intention-driven design. Skulle kunna namnge och referera till etablerade patterns mer.",
+      "missing_technical_topics": [
+        "Event sourcing för spårbarhet",
+        "Saga patterns för distribuerade processer",
+        "Policy engines och regelmotor-arkitektur",
+        "Zero-trust principer i tjänstedesign"
+      ]
+    },
+    "audience_adaptation": {
+      "for_developers": "Lägg till mer specifika designmönster och kodexempel",
+      "for_architects": "Nuvarande nivå är optimal",
+      "for_management": "Överväg en 2-sidors executive summary med enbart besiktningsexemplet och checkfrågorna",
+      "for_governance": "Styrgruppssektionen är utmärkt men skulle kunna separeras som fristående beslutsunderlag"
+    },
+    "real_world_applicability": {
+      "high": [
+        "AI-agent constraints",
+        "Separation of read/write operations",
+        "Context-dependent permissions",
+        "Governance checklists"
+      ],
+      "medium": [
+        "Fullständig intention-driven design (organisatoriskt utmanande)",
+        "Strikt separation mellan förslag och beslut (kan behöva pragmatism)"
+      ],
+      "challenges": [
+        "Legacy system-integration – kapitlet förutsätter greenfield",
+        "Organisationskulturella aspekter – motstånd mot 'krångligare' system",
+        "Kostnad-nytta för mindre kritiska delar av verksamheten"
+      ]
+    },
+    "pedagogical_effectiveness": {
+      "story_arc": "Stark – från abstrakt via generellt till extremt säkerhetskritiskt exempel",
+      "repetition_value": "Hög – samma principer appliceras i olika kontexter befäster lärande",
+      "risk": "Längd och abstraktionsnivå kan skapa kognitiv överbelastning",
+      "memorable_elements": "Besiktningsexemplet är kraftfullt och minnesvärt. Frasen 'Om ett system tillåter en handling har organisationen redan godkänt den' är utmärkt."
+    },
+    "missing_perspectives": [
+      "Användarnas perspektiv – de som faktiskt ska arbeta i systemen",
+      "Ekonomiperspektivet – kostnad för säkerhet vs kostnad för incident",
+      "Juridiskt perspektiv – ansvarsfrågor vid AI-fattade beslut",
+      "Evolutionärt perspektiv – hur migrerar man från osäker till säker arkitektur?"
+    ],
+    "key_terms": [
+      "Systemtjänster",
+      "Intention-driven design",
+      "Ansvarsgränser",
+      "AI-agenter som aktörer",
+      "Kontextberoende behörigheter",
+      "Säkerhetskritiska processer",
+      "Arkitektur som styrmedel",
+      "Separation av förslag och beslut",
+      "Spårbarhet",
+      "Governance genom design"
+    ],
+    "quotable_insights": [
+      "En systemtjänst är inte enbart en teknisk komponent – den är ett uttryck för hur organisationen tillåter handlingar att utföras.",
+      "Om ett system tillåter en handling, har organisationen redan godkänt den.",
+      "Arkitekturen definierar agentens beteende.",
+      "Att ge en AI-agent breda administrativa rättigheter är inte automatisering – det är delegering av ansvar utan kontroll.",
+      "God governance börjar inte i dokument – den börjar i designbeslut.",
+      "Arkitektens främsta uppgift är att se till att farliga handlingar är tekniskt omöjliga."
+    ],
+    "ideal_use_cases": [
+      "Utbildningsmaterial för enterprise architects i säkerhetskritiska branscher",
+      "Beslutsunderlag för styrgrupper som överväger AI-automation",
+      "Designriktlinjer för team som bygger flerpartssystem",
+      "Grund för arkitekturgranskning av befintliga system",
+      "Referensmaterial vid upphandling av säkerhetskritiska system"
+    ],
+    "critical_success_factors": {
+      "for_implementation": [
+        "Organisatoriskt stöd från ledning – annars ses som 'IT som krånglar'",
+        "Tydlig incident/kostnad som motiverar investeringen",
+        "Stegvis införande – kan inte göras överallt samtidigt",
+        "Balans mellan säkerhet och användarupplevelse"
+      ]
+    },
+    "overall_assessment": {
+      "rating": "8.5/10",
+      "justification": "Ett starkt, välstrukturerat kapitel med tydligt budskap och praktisk applicerbarhet i rätt kontext. Framstående integration av tekniska, verksamhetsmässiga och styrningsaspekter. Huvudsakliga svagheter är begränsad behandling av implementeringsutmaningar, kulturella aspekter och avsaknad av kvantifierbara metrics. Särskilt värdefullt för organisationer som befinner sig i mognadsfas där de börjar inse att ad-hoc-lösningar skapar systemrisk.",
+      "best_suited_for": "Organisationer i säkerhetskritiska domäner med etablerade processer som står inför digitalisering och AI-införande",
+      "less_suited_for": "Startups och organisationer i tidig utvecklingsfas där explorativt lärande är viktigare än strukturerad kontroll"
+    },
+    "recommendation": "PUBLICERA med mindre justeringar. Prioritera: (1) Lägg till 2-3 diagram, (2) Skapa en 2-sidors executive summary, (3) Överväg att dela i två kapitel om detta är del av större verk. Materialet är för värdefullt för att förkortas aggressivt, men behöver strukturella förändringar för optimal tillgänglighet.",
+    "critical_analysis": {
+      "theoretical_foundation": "Kapitlet kombinerar systemteori, riskhantering och governance på ett integrerat sätt. Den teoretiska grunden är solid men implicit – explicit koppling till etablerade ramverk (TOGAF, Zachman, COBIT) hade stärkt trovärdigheten för erfarna läsare.",
+      "practical_applicability": "Hög applicerbarhet i reglerade, säkerhetskritiska verksamheter (gruvindustri, sjukvård, energi, transport). Något begränsad applicerbarhet i snabbrörliga digitala miljöer där 'move fast and break things' fortfarande är normen. Exemplen är välvalda men alla från samma domän (gruv/fordon) – ytterligare exempel från andra branscher hade stärkt generaliseringen.",
+      "assumption_analysis": [
+        "Antar att organisationer har tillräcklig arkitekturmognad för att förstå skillnaden mellan intention och implementation",
+        "Utgår från att beslutsforum vill och kan fatta arkitekturbeslut (inte alltid självklart)",
+        "Förutsätter tillgång till resurser för att designa specifika tjänster istället för generella (kan vara utmanande i mindre organisationer)",
+        "Antar att 'rätt' är objektivt definierbart (i praktiken ofta förhandlingsfråga mellan intressenter)"
+      ],
+      "logical_coherence": "Mycket hög intern logik. Argumentationen bygger konsekvent från grundprinciper via praktiska exempel till organisatoriska konsekvenser. Den progressiva strukturen från teknisk design via AI-perspektiv till ledningsperspektiv är pedagogiskt effektiv.",
+      "biases_and_limitations": [
+        "Stark bias mot kontroll och säkerhet (rimlig i säkerhetskritiska kontexter men kan hämma innovation)",
+        "Implicit antagande att långsammare beslut är säkrare beslut (sant i vissa, men inte alla, kontexter)",
+        "Begränsad behandling av situationer där osäkerhet är oundviklig och beslut måste fattas ändå",
+        "Risk för överarkitektur i mindre kritiska delar av verksamheten"
+      ]
+    },
+    "missing_elements": [
+      "Kostnads-nyttoanalys av strukturerad vs generell design",
+      "Behandling av kompetenskrav och kompetensutveckling",
+      "Diskussion om verktyg för att tekniskt verkställa designprinciperna (policy engines, API gateways, etc.)",
+      "Juridiska aspekter: GDPR, ansvarsfrågor vid AI-användning, dokumentationskrav",
+      "Internationella standarder och best practices (ISO 27001, NIST, etc.)",
+      "Hantering av akuta situationer där normal process måste brytas"
+    ],
+    "tone_and_style": {
+      "assessment": "Auktoritativ men inte dogmatisk. Saklig och analytisk med pedagogiska exempel. Balanserar teknisk precision med tillgänglighet för icke-teknisk publik.",
+      "improvements": "Något för enhetlig ton genom hela kapitlet – överväg mer direkt, uppmanande ton i ledningssektionerna och mer tekniskt djup i designsektionerna."
+    },
+    "use_cases": [
+      "Arkitekturgranskningar av befintliga system",
+      "Requirements engineering för nya systemtjänster",
+      "Riskbedömning vid införande av AI och automation",
+      "Styrgruppsbeslut om arkitekturinvesteringar",
+      "Utbildningsmaterial för tvärfunktionella team",
+      "Vägledning vid regulatoriska granskningar"
+    ],
+    "related_concepts_to_explore": [
+      "Zero Trust Architecture i relation till tjänstedesign",
+      "Event Sourcing som mekanism för spårbarhet",
+      "Domain-Driven Design och Bounded Contexts",
+      "Policy as Code och deklarativ styrning",
+      "Explainable AI i beslutskedjor",
+      "Sociotechnical Systems Theory"
+    ]
+  },
+  "sections": [],
+  "org_tasks": [
+    {
+      "title": "Inventera befintliga systemtjänster och deras intentioner",
+      "description": "Genomför en kartläggning av alla systemtjänster som hanterar kritiska affärsoperationer. Dokumentera för varje tjänst: intention, vilka roller som kan använda den, i vilket sammanhang, och om den är läsande eller skrivande. Identifiera generella admin-tjänster som möjliggör omfattande ändringar.",
+      "completed": false
+    },
+    {
+      "title": "Granska AI-agenters och automationens faktiska behörigheter",
+      "description": "Lista alla AI-agenter och automatiserade processer som idag har tillgång till systemtjänster. Analysera vilka handlingar de faktiskt kan utföra, särskilt om de har tillgång till säkerhetskritiska eller datakvalitetsändrande operationer. Bedöm risknivå för varje integration.",
+      "completed": false
+    },
+    {
+      "title": "Separera läs- och skrivoperationer arkitekturellt",
+      "description": "Identifiera systemtjänster där läsning och skrivning idag är sammanblandade. Skapa en plan för att arkitekturellt separera dessa, med särskilt fokus på säkerhetskritiska områden. Prioritera områden där AI eller externa aktörer har tillgång.",
+      "completed": false
+    },
+    {
+      "title": "Implementera kontextberoende behörighetskontroll",
+      "description": "Utöka behörighetssystemet från enbart rollbaserad kontroll till att även inkludera sammanhang (process, ärende, livscykelsteg). Börja med ett pilotområde där detta är mest kritiskt. Dokumentera hur olika roller får olika behörigheter beroende på kontext.",
+      "completed": true
+    },
+    {
+      "title": "Etablera designprinciper för nya systemtjänster",
+      "description": "Formulera organisationens designprinciper för systemtjänster baserat på kapitlets ramverk. Inkludera krav på tydlig intention, kontextberoende behörigheter, separation av förslag och beslut, samt spårbarhet. Förankra i arkitektur- och utvecklingsteam.",
+      "completed": false
+    },
+    {
+      "title": "Skapa process för hantering av korrigeringar och undantag",
+      "description": "Designa en specifik process för att hantera korrigeringar av felaktig data, separat från normal dataändring. Inkludera granskningssteg, spårbarhet och tydligt ansvar. Implementera motsvarande systemstöd som inte kringgår etablerade processer.",
+      "completed": false
+    },
+    {
+      "title": "Införa arkitekturgranskning i styrgruppens agenda",
+      "description": "Lägg till återkommande arkitekturgranskning som punkt i styrgruppens möten. Använd checkfrågorna från kapitlet som grund. Låt arkitekter presentera hur nya eller förändrade systemtjänster påverkar ansvar, risk och styrning.",
+      "completed": false
+    },
+    {
+      "title": "Utbilda produktägare och kravställare i intention-driven design",
+      "description": "Genomför workshops för produktägare, kravställare och systemägare där kapitlets principer förmedlas. Fokusera på att formulera krav utifrån intention, sammanhang och roll snarare än teknisk funktion. Skapa mallar för kravdokumentation.",
+      "completed": false
+    },
+    {
+      "title": "Kartlägga ansvarskedjor för säkerhetskritiska beslut",
+      "description": "Identifiera alla processer och systemoperationer som påverkar säkerhet, regelefterlevnad eller ekonomiskt ansvar. Dokumentera ansvarskedjan från användare via systemtjänst till faktiskt utfall. Identifiera luckor där ansvar är otydligt.",
+      "completed": false
+    },
+    {
+      "title": "Implementera spårbarhet för alla kritiska ändringar",
+      "description": "Säkerställ att alla ändringar i säkerhetskritiska system loggar: vem, när, varför (intention), i vilket sammanhang, och med vilket resultat. Överväg event sourcing-mönster för kritiska domäner. Skapa rapporter för regelbunden granskning.",
+      "completed": false
+    },
+    {
+      "title": "Begränsa AI-agenters behörigheter till analys och förslag",
+      "description": "Revidera alla AI-implementationer så att agenter endast har tillgång till läsande tjänster samt tjänster för att skapa förslag och flagga avvikelser. Ta bort direkta skrivrättigheter till kritiska masterdata. Dokumentera nya begränsningar och motivering.",
+      "completed": false
+    },
+    {
+      "title": "Etablera metrics för arkitekturkvalitet",
+      "description": "Definiera mätbara indikatorer för god arkitektur: antal specifika vs generella tjänster, andel ändringar som går via etablerad process, frekvens av undantag, genomsnittlig ansvarskedjelängd. Implementera mätning och regelbunden uppföljning.",
+      "completed": false
+    },
+    {
+      "title": "Skapa migrationsplan från generella till specifika tjänster",
+      "description": "För identifierade problematiska generella tjänster, skapa en prioriterad plan för att ersätta dem med specifika, intention-drivna alternativ. Börja med mest säkerhetskritiska områden. Inkludera riskbedömning och tidplan.",
+      "completed": false
+    }
+  ],
+  "meta_updated": "2026-02-18T10:39:38.394Z",
+  "edit_tasks": [
+    {
+      "title": "Struktur: Flytta ledningsperspektiv till början",
+      "description": "Omstrukturera kapitlet så att 'Ledningens perspektiv' och 'Styrgruppens perspektiv' placeras tidigt som motiverande ramverk. Detta hjälper läsaren att förstå varför arkitekturfrågor är strategiska innan de tekniska detaljerna presenteras.",
+      "completed": false
+    },
+    {
+      "title": "Visuellt: Skapa modell för intention-sammanhang-roll-handling",
+      "description": "Introducera ett diagram eller visuell modell tidigt i kapitlet som illustrerar sambanden mellan intention, sammanhang, roll och handling. Gör denna modell till ett återkommande referensobjekt genom kapitlet.",
+      "completed": false
+    },
+    {
+      "title": "Nytt avsnitt: Migrationsstrategier",
+      "description": "Lägg till ett praktiskt avsnitt om hur organisationer kan migrera från generella till specifika tjänster. Inkludera stegvis approach, prioritering baserat på risk och hantering av legacy-system.",
+      "completed": false
+    },
+    {
+      "title": "Nytt avsnitt: Riskbaserat förhållningssätt",
+      "description": "Inkludera diskussion om när mindre formell styrning kan vara lämplig. Introducera en matris som visar vilken typ av ärende som kräver vilken nivå av arkitekturkontroll baserat på risk och komplexitet.",
+      "completed": false
+    },
+    {
+      "title": "Mätbarhet: Introducera arkitekturmetrics",
+      "description": "Lägg till avsnitt med konkreta metrics för att mäta arkitekturkvalitet: tjänstespecificitet, ansvarskedja-djup, undantagsfrekvens, spårbarhetskomplettering. Förklara hur dessa kan användas i systematisk uppföljning.",
+      "completed": false
+    },
+    {
+      "title": "Nytt avsnitt: Kulturella utmaningar",
+      "description": "Utöka med avsnitt om organisatoriska och kulturella utmaningar vid implementering av strukturerad arkitektur. Inkludera strategier för att hantera motstånd mot 'krångligare' system och hur man balanserar säkerhet mot användarupplevelse.",
+      "completed": false
+    },
+    {
+      "title": "Verktyg: Lägg till modelleringstekniker",
+      "description": "Inkludera konkreta modelleringstekniker eller notationer för att beskriva intention, sammanhang och ansvar. Föreslå t.ex. DSL-fragment, JSON-scheman eller diagram-notationer som praktiker kan använda direkt.",
+      "completed": false
+    },
+    {
+      "title": "Nytt avsnitt: Vanliga missförstånd",
+      "description": "Skapa ett 'Falskärs-avsnitt' som adresserar vanliga missförstånd såsom 'microservices löser detta automatiskt', 'RBAC är tillräckligt' och 'detta gäller bara stora organisationer'.",
+      "completed": false
+    },
+    {
+      "title": "Exempel: Lägg till case från annan bransch",
+      "description": "Komplettera gruv/fordonsexemplen med ett konkret exempel från annan bransch (t.ex. sjukvård eller finans) för att demonstrera generaliserbarheten av principerna.",
+      "completed": false
+    },
+    {
+      "title": "Kodexempel: Utöka med kontrasterande patterns",
+      "description": "Komplettera pseudokod med kontrasterande kodexempel som visar REST API design, event sourcing patterns och policy engine-arkitektur. Visa både 'rätt' och 'fel' approach.",
+      "completed": false
+    },
+    {
+      "title": "Nytt avsnitt: Validering och testning",
+      "description": "Lägg till diskussion om hur man validerar att arkitekturen verkligen förhindrar risker genom automatiserade tester, security audits och penetrationstestning av designbeslut.",
+      "completed": false
+    },
+    {
+      "title": "Nytt avsnitt: Akuta undantagssituationer",
+      "description": "Hantera temporära undantagssituationer såsom driftstörningar och kriser där normal process måste brytas. Förklara hur arkitekturen kan möjliggöra kontrollerade 'break glass'-scenarier med full spårbarhet.",
+      "completed": true
+    },
+    {
+      "title": "Executive summary: Skapa 2-sidors sammanfattning",
+      "description": "Producera en fristående 2-sidors executive summary fokuserad på besiktningsexemplet och checkfrågorna, optimerad för styrgrupper och ledning.",
+      "completed": false
+    },
+    {
+      "title": "Kostnads-nytta: Lägg till ekonomiskt perspektiv",
+      "description": "Inkludera avsnitt om kostnad för säkerhet vs kostnad för incident. Ge ramverk för hur man kan motivera investeringar i strukturerad arkitektur genom riskanalys.",
+      "completed": false
+    },
+    {
+      "title": "Referenser: Länka till etablerade ramverk",
+      "description": "Stärk trovärdigheten genom att explicit koppla kapitlets principer till etablerade ramverk såsom TOGAF, Zachman, COBIT, ISO 27001 och NIST. Visa var dessa stödjer eller kompletterar resonemanget.",
+      "completed": false
+    }
+  ]
+}

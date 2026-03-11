@@ -1,0 +1,32 @@
+{
+  "chapters": [
+    {
+      "id": "chapter1",
+      "title": "Ch 1",
+      "order": 1,
+      "last_updated": "2026-02-07T23:10:35.927Z"
+    },
+    {
+      "id": "chapter12",
+      "title": "Ch 3  ",
+      "order": 2,
+      "last_updated": "2026-02-07T23:10:35.927Z"
+    },
+    {
+      "id": "chapter2",
+      "title": "Ch 2",
+      "order": 3,
+      "last_updated": "2026-02-07T23:10:35.927Z"
+    },
+    {
+      "id": "manifest-med-tio-teser",
+      "title": "Manifest med tio teser",
+      "order": 4
+    },
+    {
+      "id": "nested",
+      "title": "Nested",
+      "order": 5
+    }
+  ]
+}

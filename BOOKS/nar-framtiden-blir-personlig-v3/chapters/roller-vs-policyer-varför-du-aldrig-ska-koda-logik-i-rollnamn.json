@@ -1,0 +1,104 @@
+{
+  "slug": "accessum_login",
+  "status": "draft",
+  "outline_complete": false,
+  "content_complete": false,
+  "fact_checked": false,
+  "concepts_registered": false,
+  "reviewed": false,
+  "notes": "Imported from Word",
+  "last_updated": "2026-02-10T15:41:37.655Z",
+  "versions": [
+    {
+      "timestamp": "2026-01-19 06:17",
+      "version_type": "WORD_IMPORT",
+      "message": "Importerat från Word"
+    }
+  ],
+  "meta": {
+    "meta_tags": [],
+    "promise": "Efter att ha läst detta kapitel kommer du att förstå skillnaden mellan roller och policyer i auktoriseringssystem, och varför du aldrig bör koda logik (som OR/AND) direkt i rollnamn. Du får konkreta exempel på hur man implementerar policyer i ASP.NET Core, riktlinjer för när roller respektive policyer ska användas, och ett 'smell test' för att identifiera dåligt designade roller. Detta gör att du kan bygga mer underhållbara, säkra och flexibla auktoriseringslösningar där åtkomstregler kan ändras utan att påverka Identity Provider eller kräva stora migrationer.",
+    "analysis": "**Styrkor:** Kapitlet levererar en mycket tydlig och pedagogisk förklaring av ett vanligt designmisstag i IAM-system. Strukturen är logisk med konkreta exempel i C#/Blazor som visar både problemet och lösningen. De fem punkterna som förklarar varför 'Manager|Approver' är problematiskt är väl genomtänkta och täcker tekniska, organisatoriska och säkerhetsmässiga aspekter. 'Smell test' i slutet är praktiskt och lätt att tillämpa.\n\n**Svagheter:** Kapitlet är mycket tekniskt fokuserat på ASP.NET Core-implementation, vilket gör det mindre tillgängligt för ledning och verksamhetsroller. Det saknas affärsperspektiv på kostnader och risker med felaktig design. Ingen diskussion om migrationsstrategi från befintliga 'combo roles' till policyer. Kopplingen till andra kapitel eller övergripande IAM-arkitektur saknas helt. Kapitlet är mer ett blogginlägg än ett handbogskapitel - det saknar kontext, fördjupning och bredare perspektiv.",
+    "improvements": "1. **Lägg till inledning och kontext:** Förklara var detta kapitel passar in i bokens helhet och varför frågan är viktig ur företagsperspektiv, inte bara tekniskt.\n\n2. **Skapa rollspecifika sektioner:** Lägg till boxar med 'För ledningen', 'För verksamheten', 'För IT-arkitekter' som översätter de tekniska råden till olika perspektiv.\n\n3. **Lägg till migrationsstrategi:** Ett dedikerat avsnitt om hur man identifierar och migrerar från befintliga combo-roller till policy-baserad auktorisering.\n\n4. **Komplettera med fler IdP-exempel:** Visa inte bara ASP.NET Core utan även motsvarande implementation i Azure AD/Entra ID, Okta eller andra vanliga plattformar.\n\n5. **Lägg till konsekvensanalys:** Kvantifiera kostnaderna av felaktig design (tid för ändringar, säkerhetsrisker, audit-komplexitet) och fördelarna med rätt design.\n\n6. **Skapa beslutsträd:** Ett visuellt flödesschema som hjälper läsaren avgöra om något ska vara en roll, grupp, policy eller claim.\n\n7. **Länka till relaterade kapitel:** Referera till kapitel om RBAC vs ABAC, policy-engines, Identity Governance och säkerhetsarkitektur.",
+    "tags": "roller vs policyer, auktoriseringsdesign, IAM-antipatterns, policy-baserad åtkomstkontroll, rollspridning, minsta behörighet"
+  },
+  "sections": [],
+  "meta_updated": "2026-02-25T17:27:52.385Z",
+  "edit_tasks": [
+    {
+      "title": "Skriv en kontextualiserande inledning",
+      "description": "Lägg till ett inledande avsnitt (150-200 ord) före den nuvarande texten som placerar kapitlet i bokens sammanhang. Förklara varför distinktionen mellan roller och policyer är kritisk för IAM-arkitektur och hur detta kapitel relaterar till övergripande designprinciper. Inkludera en mening om vem som har mest nytta av kapitlet.",
+      "completed": false
+    },
+    {
+      "title": "Förbättra kapitlets huvudrubrik",
+      "description": "Nuvarande rubrik är frånvarande eller otydlig. Skapa en tydlig, beskrivande H1-rubrik som fångar kapitlets kärna, t.ex. 'Roller vs Policyer: Varför du aldrig ska koda logik i rollnamn' eller 'Design av auktorisering: Separation mellan identitet och åtkomstlogik'.",
+      "completed": true
+    },
+    {
+      "title": "Lägg till en sammanfattande ingressruta",
+      "description": "Skapa en visuellt framhävd sammanfattningsruta direkt efter inledningen med 3-4 bullet points som täcker: (1) Vad kapitlet handlar om, (2) Varför det är viktigt, (3) Vad läsaren kommer kunna göra efteråt, (4) Uppskattad lästid.",
+      "completed": false
+    },
+    {
+      "title": "Bryt ut 'Problemet' i ett eget huvudavsnitt",
+      "description": "Texten börjar direkt med exemplet 'Manager|Approver'. Skapa ett tydligt huvudavsnitt '## Problemet: Logik kodad i rollnamn' som introducerar anti-mönstret innan kodexemplet. Detta ger bättre pedagogisk progression och gör det lättare att skanna kapitlet.",
+      "completed": false
+    },
+    {
+      "title": "Lägg till övergångstext mellan problemet och förklaringen",
+      "description": "Efter Blazor-kodexemplet kastas läsaren direkt in i 'Varför detta är ett anti-pattern'. Lägg till 2-3 meningar som förklarar att vi nu ska djupdyka i varför detta tillvägagångssätt är problematiskt ur flera perspektiv. Detta skapar en mjukare övergång.",
+      "completed": false
+    },
+    {
+      "title": "Förstärk de fem punkterna med mini-exempel",
+      "description": "De fem punkterna som förklarar anti-mönstret är bra men abstrakta. Lägg till en kort mening med ett konkret mini-exempel under varje punkt. T.ex. under 'Hårdkodad logik': 'Om en ny regel införs att även Controllers ska kunna godkänna, måste du skapa 'Manager|Approver|Controller' och uppdatera alla användare.'",
+      "completed": false
+    },
+    {
+      "title": "Skapa visuell hierarki i 'Lösningen'-avsnittet",
+      "description": "Avsnittet om lösningen är texttungt. Bryt upp det i underrubriker: '### Separera roller från logik', '### Implementera policyer i ASP.NET Core', '### Registrera policyer i applikationen'. Detta gör det lättare att navigera och återvända till specifika delar.",
+      "completed": false
+    },
+    {
+      "title": "Lägg till kommentarer i kodexemplen",
+      "description": "Kodexemplen saknar kommentarer. Lägg till inline-kommentarer i C#-koden som förklarar vad varje del gör, särskilt för läsare som inte är djupt insatta i ASP.NET Core. Förklara t.ex. vad 'RequireAssertion' gör och varför vi använder OR-logik här istället för i rollnamnet.",
+      "completed": false
+    },
+    {
+      "title": "Skapa en jämförelsetabell",
+      "description": "Lägg till en tabell som visuellt kontrasterar 'Roller' vs 'Policyer' med kolumner för: Syfte, Var de definieras, Vem hanterar dem, Flexibilitet, Exempel. Placera denna efter lösningsavsnittet och innan 'Riktlinjer'. Detta konkretiserar distinktionen.",
+      "completed": false
+    },
+    {
+      "title": "Utöka 'Riktlinjer'-avsnittet med exempel",
+      "description": "De fyra riktlinjerna är bra men skulle bli starkare med konkreta exempel. Efter varje riktlinje, lägg till 'Exempel:' följt av 1-2 praktiska cases. T.ex. 'Roller för identitet: Manager, Editor, Viewer' och 'Policyer för åtkomst: CanApproveExpenses, CanPublishContent'.",
+      "completed": false
+    },
+    {
+      "title": "Förbättra 'Smell Test'-avsnittet",
+      "description": "Smell test är värdefullt men presenteras som en platt lista. Gör om detta till en checklistbox med visuell framhävning (t.ex. en färgad box med ikon). Lägg till en inledande mening: 'Använd denna checklista för att identifiera problematiska rolldesigner i ditt system.' Lägg även till 'Om du svarade JA på något av ovanstående, överväg att refaktorera till policyer.'",
+      "completed": false
+    },
+    {
+      "title": "Lägg till ett verkligt fallstudieexempel",
+      "description": "Kapitlet saknar ett verkligt eller realistiskt case som visar konsekvenserna. Lägg till ett avsnitt '## Case: Från kombineringsroller till policyer' som beskriver en fiktiv men realistisk organisation som migrerade från combo-roller. Inkludera utmaningar de mötte och resultat de uppnådde (t.ex. minskad tid för åtkomständringar, färre säkerhetsincidenter).",
+      "completed": false
+    },
+    {
+      "title": "Skapa en sammanfattande slutsats",
+      "description": "Kapitlet slutar abrupt efter smell test. Lägg till ett avsnitt '## Sammanfattning' som återkopplar till kapitlets huvudbudskap i 3-4 stycken. Inkludera: (1) Kärnan i problemet, (2) Lösningen i korthet, (3) Nästa steg för läsaren, (4) Referens till relaterade kapitel om RBAC/ABAC.",
+      "completed": false
+    },
+    {
+      "title": "Lägg till navigeringslänkar till relaterade kapitel",
+      "description": "I sammanfattningen eller i en separat 'Läs vidare'-box, lägg till länkar/referenser till relaterade kapitel: RBAC vs ABAC, Policy Engines, Identity Governance, och migreringsstrategier. Formulera dessa som 'För djupare förståelse av policy-engines, se Kapitel X' eller liknande.",
+      "completed": false
+    },
+    {
+      "title": "Skapa sidebars för olika roller",
+      "description": "Lägg till 2-3 visuellt framhävda sidebars riktade till olika läsare: (1) 'För ledningen: Kostnadsaspekter' - förklara affärskostnaden av felaktig design, (2) 'För arkitekter: Tekniska överväganden' - fördjupning i policy-engines och claims-baserad auktorisering, (3) 'För utvecklare: Implementation checklist' - steg-för-steg guide.",
+      "completed": false
+    }
+  ]
+}

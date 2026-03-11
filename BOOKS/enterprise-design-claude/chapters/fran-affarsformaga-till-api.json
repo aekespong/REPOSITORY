@@ -1,0 +1,61 @@
+{
+  "slug": "fran-affarsformaga-till-api",
+  "status": "draft",
+  "outline_complete": false,
+  "content_complete": false,
+  "fact_checked": false,
+  "concepts_registered": false,
+  "reviewed": false,
+  "notes": "Imported from Word",
+  "last_updated": "2026-01-21T20:09:26.108Z",
+  "versions": [
+    {
+      "timestamp": "2026-01-19 10:39",
+      "version_type": "WORD_IMPORT",
+      "message": "Importerat från Word"
+    }
+  ],
+  "meta": {
+    "synopsis": "",
+    "summary": "Detta kapitel behandlar den kritiska kopplingen mellan verksamhetens behov och teknisk implementation genom att etablera en tydlig väg från affärsförmåga till API. Kapitlet introducerar affärsförmågor som stabil utgångspunkt, domäner som semantiska gränser, och domäntjänster som den nivå där ansvar och användning möts. En central distinktion görs mellan systemtjänster som uttrycker verksamhetsavsikt och resurs-API:er som hanterar information. Kapitlet lägger grunden för ett gemensamt språk som överbryggar klyftan mellan verksamhet och IT.",
+    "message": "",
+    "tags": "affärsförmåga, domändriven design, domäntjänst, systemtjänster, resurs-API, verksamhetsarkitektur",
+    "promise": "Efter att ha läst detta kapitel kommer du att förstå hur man bygger en logisk kedja från verksamhetens behov till konkreta API:er. Du får verktyg för att skilja mellan stabila affärsförmågor och föränderliga system, avgränsa domäner baserat på språk och sammanhang, och designa domäntjänster med tydligt ansvar. Du kommer att kunna identifiera skillnaden mellan systemtjänster och resurs-API:er, vilket hjälper dig att undvika vanliga designmisstag. Kapitlet ger dig ett gemensamt språk som fungerar både i styrelserummet och i utvecklingsteamet.",
+    "analysis": "**Styrkor:** Kapitlet har en mycket stark konceptuell struktur som bygger logiskt från verksamhet till teknik. Distinktionen mellan systemtjänster och resurs-API:er är värdefull och sällan tydliggjord i annan litteratur. Språket är koncist och undviker överflödig teknisk jargong samtidigt som det förblir precist. Påståendet att \"digitalisering misslyckas sällan på grund av teknik\" är kraftfullt och sätter rätt ton.\n\n**Svagheter:** Kapitlet är för abstrakt och saknar helt konkreta exempel som skulle göra begreppen gripbara. Ingen visualisering eller diagram erbjuds för att illustrera kedjan från affärsförmåga till API. Definitionerna är korta och skulle gynnas av utökad förklaring. Relationen till organisatoriskt ansvar och förvaltning nämns knappt. Det saknas koppling till hur detta förhåller sig till andra arkitekturramverk eller metoder.\n\n**Målgruppsanpassning:** Språket är tillgängligt för alla tre rollgrupper, men ledning och verksamhet skulle behöva fler konkreta exempel för att förstå praktisk tillämpning. IT-perspektivet är mer välutvecklat än verksamhetsperspektivet.\n\n**Luckor:** Kapitlet nämner inte hur konflikter mellan domäner hanteras, hur man avgör domängränser i praktiken, eller vad som händer när verksamheten förändras. Implementationsaspekter och verktyg saknas helt.\n\n**Koppling till helheten:** Kapitlet fungerar som ett konceptuellt fundament men behöver tydligare kopplingar till senare kapitel om implementation och förvaltning.",
+    "improvements": "**Struktur:** Lägg till en inledande översiktsbild som visar hela kedjan från affärsförmåga till API. Skapa en explicit sektion om \"Hur man avgränsar domäner i praktiken\". Lägg till en sammanfattande tabell som jämför systemtjänster och resurs-API:er sida vid sida.\n\n**Exempel:** Introducera ett genomgående exempel (t.ex. \"Hantera kundorder\") som följs genom hela kedjan: från affärsförmåga → domän → domäntjänst → systemtjänst/resurs-API. Visa konkreta fel-exempel där distinktionen mellan tjänsttyper inte gjorts. Inkludera ett verkligt case från en organisation som tillämpat modellen.\n\n**Definitioner:** Utöka varje huvudbegrepp med tydliga egenskaper, ansvar och gränser. Lägg till en ordlista i slutet av kapitlet. Förklara relationen mellan \"domän\" i DDD-mening och \"domän\" som organisatoriskt begrepp.\n\n**Länkningar:** Referera explicit till senare kapitel som utvecklar implementationen. Koppla till eventuella kapitel om informationsmodellering eller API-design. Nämn relation till enterprise architecture frameworks (TOGAF, etc.) om relevant för boken.\n\n**Längd:** Kapitlet bör fördubblas i längd. Lägg till sektioner om: praktisk tillämpning, vanliga fallgropar, organisatoriska implikationer, och migration från befintliga system. Inkludera checklistor för att avgöra domängränser och tjänsttyper.",
+    "todo": []
+  },
+  "meta_updated": "2026-02-26T11:30:07.668Z",
+  "edit_tasks": [
+    {
+      "title": "Utveckla inledningen med konkret exempel",
+      "description": "Skriv om första stycket för att inte bara uttrycka påståendet om att digitalisering misslyckas på grund av klyftan mellan verksamhet och IT, utan illustrera detta med ett kort, konkret scenario (2-3 meningar). Exempel: En verksamhetschef som efterfrågar 'kundinformation' medan IT-avdelningen diskuterar REST-endpoints. Detta gör det abstrakta påståendet omedelbart gripbart för läsaren.",
+      "completed": false
+    },
+    {
+      "title": "Skapa genomgående exempel genom hela kapitlet",
+      "description": "Introducera ett praktiskt exempel (t.ex. 'Hantera kundorder' eller 'Behandla försäkringsärende') redan i andra eller tredje stycket. Återkom till detta exempel i varje huvudavsnitt för att visa hur det uttrycks som: affärsförmåga → domän → domäntjänst → systemtjänst/resurs-API. Detta skapar en röd tråd och gör abstrakta begrepp konkreta. Varje begrepp ska illustreras med hur det tillämpas på samma exempel.",
+      "completed": false
+    },
+    {
+      "title": "Förbättra övergångar mellan huvudavsnitt",
+      "description": "Lägg till övergångsmeningar i slutet av varje huvudavsnitt som explicit kopplar till nästa nivå i kedjan. Exempel: Efter avsnittet om affärsförmågor, avsluta med 'Men för att realisera dessa förmågor behöver vi förstå var ansvar börjar och slutar – vi behöver definiera domäner.' Detta skapar en berättande flöde från verksamhet till teknik istället för en lista av separata koncept.",
+      "completed": false
+    },
+    {
+      "title": "Utöka distinktionen mellan systemtjänster och resurs-API:er",
+      "description": "Avsnittet om skillnaden mellan systemtjänster och resurs-API:er är för kort givet dess vikt. Utöka med: (1) En explicit jämförelsetabell med egenskaper, användningsområden och exempel. (2) Ett konkret fel-exempel som visar vad som händer när man blandar ihop dessa (t.ex. ett resurs-API som försöker uttrycka affärslogik). (3) 3-4 heuristiker för hur man avgör vilken typ av tjänst man behöver. Detta avsnitt bör vara dubbelt så långt som nuvarande version.",
+      "completed": false
+    },
+    {
+      "title": "Lägg till praktisk sektion om domängränsdragning",
+      "description": "Skapa en ny undersektion under 'Domänen – Den semantiska gränsen' med titeln 'Hur avgränsar man domäner i praktiken?'. Inkludera: (1) 3-4 konkreta kriterier för att identifiera domängränser (t.ex. språkskillnader, olika förändringshastighet, organisatoriska gränser). (2) Ett kort exempel på en gränsdragningsövning. (3) En varning om vanliga misstag (för stora/små domäner). Detta gör kapitlet mer praktiskt användbart.",
+      "completed": false
+    },
+    {
+      "title": "Stärk avslutningen med framåtreferenser och sammanfattning",
+      "description": "Kapitlet saknar en tydlig avslutning. Lägg till en avslutande sektion (150-200 ord) som: (1) Sammanfattar kedjan från affärsförmåga till API i 3-4 punkter. (2) Explicit refererar till kommande kapitel där varje koncept utvecklas (t.ex. 'I kapitel X fördjupar vi oss i API-design', 'Kapitel Y behandlar organisatoriskt ansvar för domäner'). (3) Avslutar med en reflektion om varför detta gemensamma språk är kritiskt för lyckad digitalisering. Detta ger läsaren closure och kontext för fortsatt läsning.",
+      "completed": false
+    }
+  ]
+}

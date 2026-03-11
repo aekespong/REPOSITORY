@@ -1,0 +1,56 @@
+{
+  "chapters": [
+    {
+      "id": "fran-affarsformaga-till-api",
+      "title": "Från affärsförmåga till API",
+      "order": 1,
+      "last_updated": "2026-02-17T05:02:46.650Z"
+    },
+    {
+      "id": "beroenden-ansvar-och-granser",
+      "title": "Beroenden, ansvar och gränser",
+      "order": 2,
+      "last_updated": "2026-02-17T05:02:46.650Z"
+    },
+    {
+      "id": "standardsystem-som-en-del-av-losningsarkitekturen",
+      "title": "Standardsystem som en del av lösningsarkitekturen",
+      "order": 3,
+      "last_updated": "2026-02-17T05:02:46.650Z"
+    },
+    {
+      "id": "reglerna-i-praktiken",
+      "title": "Reglerna i praktiken",
+      "order": 4,
+      "last_updated": "2026-02-17T05:02:46.650Z"
+    },
+    {
+      "id": "mastertabell-gemensamt-sprak-och-arkitektur",
+      "title": "Mastertabell - gemensamt språk och arkitektur",
+      "order": 5,
+      "last_updated": "2026-02-17T05:02:46.650Z"
+    },
+    {
+      "id": "vilka-begrepp-maste-alla-kunna-och-varfor",
+      "title": "Vilka begrepp måste alla kunna - och varför?",
+      "order": 6,
+      "last_updated": "2026-02-17T05:02:46.650Z"
+    },
+    {
+      "id": "regelverk-for-identifiering-och-design-av-domantjanster",
+      "title": "Regelverk för identifiering och design av domäntjänster",
+      "order": 7,
+      "last_updated": "2026-02-17T05:02:46.650Z"
+    },
+    {
+      "id": "metamodellen-for-enterprise-design",
+      "title": "Metamodellen for enterprise design",
+      "order": 9
+    },
+    {
+      "id": "sammanfattning-till-ledningen",
+      "title": "Sammanfattning till ledningen",
+      "order": 10
+    }
+  ]
+}

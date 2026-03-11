@@ -1,0 +1,63 @@
+{
+  "slug": "manifest-med-tio-teser-json",
+  "status": "draft",
+  "outline_complete": false,
+  "content_complete": false,
+  "fact_checked": false,
+  "concepts_registered": false,
+  "reviewed": false,
+  "notes": "Auto-generated from markdown",
+  "last_updated": "2026-02-23T12:24:28.088Z",
+  "versions": [
+    {
+      "timestamp": "2026-02-23T12:24:28.088Z",
+      "message": "Generated in editor from markdown"
+    }
+  ],
+  "meta": {
+    "synopsis": "",
+    "summary": "Detta kapitel presenterar ett principiellt manifest i tio teser som utgör fundamentet för en semantiskt styrd domänarkitektur. Manifestet formulerar hur organisationer kan bygga arkitekturer som både möjliggör och kontrollerar autonom intelligens genom tydliga domängränser, formaliserade begrepp och verifierbara principer. Teserna spänner från grundläggande arkitekturprinciper om domänsuveränitet och beroendehantering till mer avancerade koncept om semantisk formalisering och exekverbar governance. Kapitlet fungerar som en normativ grund för hela bokens budskap och erbjuder ett koncist ramverk för beslutsfattare. Genom sina tio teser etablerar det en tydlig vision för hur arkitektur måste utvecklas för att hantera AI-drivna organisationer.",
+    "message": "",
+    "tags": "domänarkitektur, systemtjänster, semantisk formalisering, arkitekturprinciper, exekverbar governance, kontrollerad intelligens",
+    "promise": "Efter att ha läst detta kapitel kommer du att ha en klar och principiell grund för att förstå och argumentera för en modern domänarkitektur. Du får tio konkreta, verifierbara teser som du kan använda som beslutsunderlag när ni utformar eller utvärderar er arkitektur. Du kommer att kunna skilja mellan intern mekanik och externa kontrakt, förstå varför semantisk formalisering är kritisk, och se hur arkitektur fungerar som ett styrsystem för AI och autonoma system. Teserna ger dig ett gemensamt språk för att diskutera arkitekturfrågor med både tekniska team och ledning, och ett ramverk för att bedöma om era nuvarande arkitekturval står sig i en AI-driven framtid.",
+    "analysis": "Styrkorna i detta kapitel är dess täthet, stringens och normativa tydlighet. Manifestformen gör budskapet kraftfullt och minnesvärt, och teserna bygger på varandra i en logisk progression från grundläggande domänprinciper till övergripande styrsystem. Strukturen är akademiskt solid och varje tes är koncis nog att memorera men ändå innehållsrik. Kapitlet lyckas också binda samman de tekniska och semantiska aspekterna på ett övertygande sätt.\n\nSvagheterna ligger främst i abstraktionsnivån och bristen på konkreta exempel. För läsare utan djup arkitekturkunskap kan teserna framstå som alltför teoretiska och svåra att omsätta i praktiken. Det saknas helt illustrativa exempel, verkliga scenarion eller visualiseringar som skulle kunna göra principerna mer konkreta. Manifestformen, trots sin styrka, kan också uppfattas som kategorisk och möjligen avskräckande för läsare som söker en mer dialogisk ton.\n\nFör målgruppen är kapitlet starkast för IT-arkitekter och tekniskt kunniga beslutsfattare, men kan vara utmanande för verksamhetsnära roller och ledning utan teknisk bakgrund. Kopplingen till övriga kapitel är implicit snarare än explicit – det hade gynnats av tydligare hänvisningar.",
+    "improvements": "1. **Lägg till en inledande sektion** som förklarar varför ett manifest behövs och hur det ska användas – som beslutsverktyg, utvärderingsinstrument eller principdokument.\n\n2. **Komplettera varje tes med ett kort exempel** (1-2 meningar) som illustrerar principen i praktiken, exempelvis hur Tes 3 tillämpas i en specifik domän som 'Kundhantering' eller 'Orderhantering'.\n\n3. **Skapa en visuell sammanfattning** – en diagram eller tabell som visar hur de tio teserna relaterar till varandra och vilka som är grundläggande respektive härledda.\n\n4. **Lägg till en avslutande sektion** med rubriken 'Från princip till praktik' som kortfattat beskriver hur organisationer kan börja tillämpa teserna, kanske i form av en checklista eller bedömningsmatris.\n\n5. **Förenkla språket i 2-3 teser** som är särskilt abstrakta (t.ex. Tes 6 och 9) genom att lägga till en underrubrik eller kort förklaring som gör dem mer tillgängliga.\n\n6. **Lägg till explicita kopplingar** till andra kapitel, exempelvis '(se kapitel X för implementation)' eller '(fördjupning i kapitel Y)' vid relevanta teser.\n\n7. **Överväg en inledande sammanfattning** i form av en visuell 'policyöversikt' som visar hur teserna mappar mot verksamhetsmål, tekniska principer och governance.",
+    "todo": [],
+    "slug": "manifest-med-tio-teser",
+    "title": "Manifest med tio teser"
+  },
+  "meta_updated": "2026-02-23T13:33:22.246Z",
+  "edit_tasks": [
+    {
+      "title": "Skriv en kontextualiserande inledning före teserna",
+      "description": "Lägg till en inledande sektion (200-300 ord) före Tes 1 som förklarar manifestets syfte och användning. Beskriv vem som ska använda det (arkitekter, beslutsfattare, ledning), i vilka situationer (arkitekturutvärderingar, strategiska beslut, AI-införande), och hur teserna förhåller sig till resten av boken. Detta skapar en mjukare ingång än att kasta läsaren rakt in i Tes 1 och ökar chansen att hela målgruppen förstår kontexten.",
+      "completed": false
+    },
+    {
+      "title": "Konkretisera tre mest abstrakta teserna med mikro-exempel",
+      "description": "Identifiera de tre teserna som är mest teoretiska (troligen Tes 6 om semantisk formalisering, Tes 9 om exekverbar governance och en till). Lägg till en kort exemplifiering (2-3 meningar) direkt efter varje tes som visar principen i praktiken. Exempelvis: för Tes 6, visa hur 'Kund'-begreppet formaliseras i en ontologi; för Tes 9, ge ett exempel på en automatiserad policy-kontroll. Behåll manifestets koncisa ton men gör abstraktionen gripbar.",
+      "completed": false
+    },
+    {
+      "title": "Förstärk övergångarna mellan teserna",
+      "description": "Granska övergångarna mellan varje tes och lägg till korta kopplingssatser (5-15 ord) där logiska hopp är stora. Till exempel mellan Tes 3 och 4, eller mellan Tes 7 och 8. Använd fraser som 'Detta förutsätter att...', 'Nästa konsekvens av detta är...', eller 'För att möjliggöra detta krävs...'. Detta förstärker den logiska progressionen och gör läsningen mindre hackig.",
+      "completed": false
+    },
+    {
+      "title": "Lägg till avslutande sektion 'Från princip till handling'",
+      "description": "Skriv en avslutande sektion (300-400 ord) som övergår från det normativa till det praktiska. Inkludera: (1) en kort sammanfattning av manifestets kärna, (2) konkreta första steg för organisationer (t.ex. 'Börja med att kartlägga era domängränser', 'Genomför en semantisk mognadsanalys'), och (3) explicita hänvisningar till kommande kapitel där teserna operationaliseras. Detta ger läsaren en känsla av framåtrörelse och minskar risken att manifestet upplevs som en återvändsgränd.",
+      "completed": false
+    },
+    {
+      "title": "Variera meningsstruktur för bättre läsflöde",
+      "description": "Granska teserna för monotoni i meningslängd och struktur. Flera teser följer mönstret: lång principförklaring följt av lång konsekvens. Variera genom att i 2-3 teser dela upp långa meningar i kortare, eller introducera en retorisk fråga. Exempelvis i Tes 5 eller Tes 8 där komplexiteten är hög. Behåll den formella tonen men skapa rytmvariation som underlättar läsning av den täta texten.",
+      "completed": false
+    },
+    {
+      "title": "Skapa visuell strukturmarkör för manifestets disposition",
+      "description": "Lägg till en kort, visuell översikt (bullet list eller numrerad lista med 10 punkter) direkt efter inledningen som visar alla tesers titlar/huvudbudskap innan den fullständiga texten börjar. Detta fungerar som en innehållsförteckning och mental karta som hjälper läsaren att förstå helheten innan de dyker ner i detaljer. Det stärker också manifestets användbarhet som referensdokument.",
+      "completed": false
+    }
+  ],
+  "org_tasks": []
+}

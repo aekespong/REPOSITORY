@@ -1,0 +1,35 @@
+{
+  "slug": "ontologier_presentation-json",
+  "status": "draft",
+  "outline_complete": false,
+  "content_complete": false,
+  "fact_checked": false,
+  "concepts_registered": false,
+  "reviewed": false,
+  "notes": "Auto-generated from markdown",
+  "last_updated": "2026-02-23T21:24:02.986Z",
+  "versions": [
+    {
+      "timestamp": "2026-02-23T21:24:02.986Z",
+      "message": "Generated in editor from markdown"
+    }
+  ],
+  "meta": {
+    "synopsis": "",
+    "summary": "",
+    "message": "",
+    "tags": [
+      "presentations-design",
+      "verksamhetskommunikation",
+      "systemarkitektur-pedagogik",
+      "AI-styrning",
+      "domändriven-design",
+      "change-management"
+    ],
+    "promise": "Detta kapitel ger dig en färdig PowerPoint-presentationsstruktur som översätter komplex systemarkitektur till ett verksamhetsspråk. Du lär dig kommunicera tekniska arkitekturprinciper - domäner, systemtjänster vs resurstjänster, semantisk styrning och AI-kontroll - på ett sätt som engagerar och övertygar verksamhetskunniga beslutsfattare om värdet av strukturerad digitalisering.",
+    "analysis": "Kapitlet är ett välutvecklat kommunikationsverktyg som lyckas översätta teknisk arkitektur till verksamhetsnytta. Styrkan ligger i den pedagogiska progressionen: från problemformulering (symptom i organisationer) via lösningskomponenter (domäner, tjänstetyper) till konkret värde och framtidsperspektiv. Strukturen följer klassisk presentationsteknik med tydlig början, mitt och slut, samt avslutar med diskussionsfrågor som aktiverar publiken.\n\nPresentationen balanserar skickligt mellan tillräcklig teknisk precision för trovärdighet och tillgängligt språk för förståelse. Användningen av konkreta exempel (Fordon.Besiktning.BokaTid()) gör abstrakta begrepp påtagliga. AI-perspektivet integreras naturligt som en konsekvens av god arkitektur snarare än som en separat fråga.\n\nDock saknas vissa praktiska element: visuella riktlinjer för slides, tidsuppskattning, övergångsfraser mellan slides, och konkreta case-studier. Presentationen är också starkt konceptuell - verksamhetskunniga kan behöva mer konkreta före-och-efter-scenarier för att fullt ut förstå värdet.",
+    "improvements": "**Förstärk det visuella:** Lägg till förslag på visualiseringar för varje slide - diagram över domänstrukturer, flödesscheman för systemtjänster vs resurstjänster, före-och-efter-illustrationer av systemkaos vs strukturerad arkitektur.\n\n**Lägg till konkreta case:** Inkludera 1-2 detaljerade scenarioexempel som följer genom hela presentationen, t.ex. 'Kundbesök bokar besiktning via app' som visar hur domäner, tjänster och AI samverkar i praktiken.\n\n**Tidssätt presentationen:** Ange rekommenderad tid per slide och totaltid, samt markera var interaktion/diskussion kan ske.\n\n**Utveckla diskussionsdelen:** Skapa workshops-övningar eller arbetsblad som publiken kan använda för att kartlägga sina egna domäner och tjänster under eller efter presentationen.\n\n**Lägg till riskkommunikation:** Utveckla slide 3 med konkreta exempel på vad som gått fel i kända organisationer (anonymiserat) när arkitekturprinciper ignorerats.\n\n**Inkludera implementation roadmap:** Lägg till en avslutande slide om nästa steg - hur börjar vi, vad är första fasen, vilka resurser behövs.\n\n**Förtydliga målgrupper:** Differentiera innehållet för olika verksamhetsnivåer (C-level vs avdelningschefer vs verksamhetsarkitekter) med alternativa fokusområden.",
+    "todo": []
+  },
+  "meta_updated": "2026-02-23T21:24:24.359Z"
+}

@@ -1,0 +1,69 @@
+{
+  "slug": "beroenden-ansvar-och-granser",
+  "status": "draft",
+  "outline_complete": false,
+  "content_complete": false,
+  "fact_checked": false,
+  "concepts_registered": false,
+  "reviewed": false,
+  "notes": "Imported from Word",
+  "last_updated": "2026-01-21T21:33:18.207Z",
+  "versions": [
+    {
+      "timestamp": "2026-01-19 10:39",
+      "version_type": "WORD_IMPORT",
+      "message": "Importerat från Word"
+    }
+  ],
+  "meta": {
+    "synopsis": "",
+    "summary": "",
+    "message": "",
+    "tags": [
+      "arkitekturgränser",
+      "beroendestyrning",
+      "domändriven-design",
+      "AI-integration",
+      "systemansvar",
+      "arkitektonisk-disciplin"
+    ],
+    "promise": "Efter att ha läst detta kapitel kommer du att förstå hur man skapar och upprätthåller tydliga arkitektoniska gränser som skyddar systemets integritet samtidigt som de möjliggör flexibilitet. Du kommer att kunna definiera vilka komponenter som får användas av externa konsumenter (inklusive AI), och varför dessa regler är avgörande för långsiktig hållbarhet och spårbarhet i moderna system.",
+    "analysis": "Kapitlet behandlar ett kritiskt ämne - arkitektoniska gränser - men är för tunt i sin nuvarande form. Styrkan ligger i den tydliga principen 'externa konsumenter använder domäntjänster - inte domäner' och det moderna perspektivet på AI som konsument. Svagheten är bristen på konkreta exempel, visualiseringar och djupare förklaring av konsekvenser. Texten antyder en beroendematris men den är ofullständig. Kapitlet känns mer som en outline än ett färdigt kapitel - det saknar den pedagogiska progression och djup som krävs för att läsaren ska kunna tillämpa principerna i praktiken.",
+    "improvements": "1. **Konkretisera med exempel**: Lägg till kodexempel eller scenarion som visar både rätt och fel användning av beroenden. Visa vad som händer när gränser bryts.\n\n2. **Komplettera beroendematrisen**: Skapa en fullständig matris som visar alla relationer (Extern, Domän-till-domän, Intern). Använd visuella hjälpmedel.\n\n3. **Fördjupa AI-perspektivet**: Detta är unikt och modernt - ge konkreta exempel på AI-användningsfall, risker vid fel beroenden, och hur man designar 'safety rails' för autonoma agenter.\n\n4. **Lägg till konsekvensanalys**: Förklara vad som händer när reglerna bryts - teknisk skuld, säkerhetsrisker, spårbarhetsförlust.\n\n5. **Bygg ut 'frihet med disciplin'**: Ge riktlinjer för hur team praktiskt arbetar med dessa gränser i vardagen - code reviews, arkitekturtester, governance.\n\n6. **Lägg till ett avsnitt om gränsdokumentation**: Hur dokumenterar och kommunicerar man dessa regler så att hela organisationen förstår dem?",
+    "todo": []
+  },
+  "meta_updated": "2026-02-26T11:37:50.096Z",
+  "edit_tasks": [
+    {
+      "title": "Expandera inledningen med konkret scenario",
+      "description": "Skriv om inledningen för att börja med ett kort, verkligt scenario som illustrerar vad som händer när arkitektoniska gränser bryts (t.ex. en AI-agent som direkt manipulerar en domänmodell och skapar inkonsistens). Använd detta som 'hook' innan du presenterar kapitlets huvudprincip. Detta skapar omedelbar relevans och visar varför ämnet är viktigt.",
+      "completed": false
+    },
+    {
+      "title": "Skapa visuell beroendematris med förklarande text",
+      "description": "Den nuvarande beroendematrisen är ofullständig. Bygg ut den till en komplett tabell som visar alla kombinationer (Extern→Domäntjänst, Extern→Domän, Domän→Domän, etc.) med tydliga ikoner eller färgkodning (✓ Tillåtet, ✗ Förbjudet, ⚠ Särskilda villkor). Lägg till ett stycke under varje rad som förklarar *varför* regeln gäller och vad konsekvensen är av att bryta den. Detta gör matrisen från passiv referens till aktivt läroverktyg.",
+      "completed": true
+    },
+    {
+      "title": "Lägg till före/efter-kodexempel för varje beroendetyp",
+      "description": "För minst tre olika beroendetyper (t.ex. Extern→Domän, Domän→Domän, Intern komponent), skapa par av kodexempel: först ett 'anti-pattern' som bryter mot gränsen, sedan den korrekta implementeringen. Använd konsekvent syntax (C#/Java/TypeScript) och kommentera koden med förklaringar. Placera dessa exempel direkt efter den relevanta regeln i texten för att konkretisera abstrakta principer.",
+      "completed": false
+    },
+    {
+      "title": "Fördjupa AI-avsnittet med riskscenarios och säkerhetsmekanismer",
+      "description": "Avsnittet om AI som konsument är unikt men för tunt. Expandera med: (1) 2-3 konkreta riskscenarios där AI bryter gränser (med konsekvenser), (2) designmönster för 'safety rails' (rate limiting, scope restrictions, audit logging), (3) ett exempel på hur man versionshanterarar API:er för AI-konsumenter. Detta gör AI-perspektivet från trendig mention till praktiskt användbar vägledning.",
+      "completed": false
+    },
+    {
+      "title": "Skapa konsekvensanalys-tabell för regelbrott",
+      "description": "Lägg till en ny sektion 'Konsekvenser av bristande gränser' med en tabell som visar: Typ av regelbrott → Kortsiktiga effekter → Långsiktiga effekter → Återställningskostnad. Exempelvis 'AI anropar domän direkt' → 'Validering kringgås' → 'Datakorruption, förlorad spårbarhet' → 'Omfattande refactoring + datamigrering'. Detta gör abstrakta risker konkreta och mätbara.",
+      "completed": false
+    },
+    {
+      "title": "Lägg till praktisk checklista för implementering",
+      "description": "Avsluta kapitlet med en konkret checklista (5-8 punkter) för hur team implementerar och upprätthåller dessa gränser i praktiken: code review-kriterier, automatiska arkitekturtester (t.ex. ArchUnit, NetArchTest), dokumentationsmallar, onboarding-rutiner för nya utvecklare. Gör varje punkt handlingsbar med verb i imperativ ('Konfigurera ArchUnit att validera...', 'Dokumentera tillåtna beroenden i...'). Detta omvandlar principerna till genomförbart arbete.",
+      "completed": false
+    }
+  ],
+  "org_tasks": []
+}

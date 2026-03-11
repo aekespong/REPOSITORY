@@ -1,0 +1,59 @@
+{
+  "slug": "centrala-begrepp-för-ontologier-json",
+  "status": "draft",
+  "outline_complete": false,
+  "content_complete": false,
+  "fact_checked": false,
+  "concepts_registered": false,
+  "reviewed": false,
+  "notes": "Auto-generated from markdown",
+  "last_updated": "2026-02-28T11:47:43.576Z",
+  "versions": [
+    {
+      "timestamp": "2026-02-28T11:47:43.576Z",
+      "message": "Generated in editor from markdown"
+    }
+  ],
+  "meta": {
+    "synopsis": "",
+    "summary": "",
+    "message": "",
+    "tags": [],
+    "promise": "",
+    "analysis": "",
+    "improvements": [],
+    "todo": []
+  },
+  "edit_tasks": [
+    {
+      "title": "Stärk kapitlets inledning med en tydlig läsvärd",
+      "description": "Skriv om inledande stycket för att tydligt kommunicera vad läsaren kommer att lära sig och varför detta är relevant för deras arbete. Inkludera en kort roadmap över kapitlets huvudavsnitt. Försäkra dig om att inledningen väcker intresse och sätter kapitlet i ett större sammanhang.",
+      "completed": false
+    },
+    {
+      "title": "Lägg till konkreta exempel i teoretiska avsnitt",
+      "description": "Identifiera avsnitt som primärt innehåller teori och abstrakta koncept. För varje sådant avsnitt, lägg till minst ett konkret exempel från verkliga organisationer eller projekt som illustrerar konceptet i praktiken. Prioritera exempel från integration/arkitekturdomänen som målgruppen kan relatera till.",
+      "completed": false
+    },
+    {
+      "title": "Förbättra övergångar mellan huvudavsnitt",
+      "description": "Granska övergångarna mellan kapitlets huvudavsnitt. Lägg till eller förbättra övergångsmeningar som skapar en röd tråd och visar hur avsnitten hänger ihop logiskt. Varje nytt avsnitt ska knyta an till det föregående och introducera vad som kommer härnäst.",
+      "completed": false
+    },
+    {
+      "title": "Bryt upp långa stycken för bättre läsbarhet",
+      "description": "Identifiera stycken som är längre än 6-7 rader och dela upp dessa i kortare enheter. Varje stycke ska behandla en huvudidé. Använd punktlistor där det finns uppräkningar eller flera relaterade element. Se till att varje stycke har en tydlig öppningsmening.",
+      "completed": false
+    },
+    {
+      "title": "Konsekvent användning av nyckeltermer och definitioner",
+      "description": "Skapa en lista över kapitlets nyckelbegrepp och säkerställ att de definieras vid första användningen. Kontrollera att samma termer används konsekvent genom hela kapitlet (undvik att växla mellan synonymer för samma koncept). Överväg att lägga till en ordlista eller highlighted definitions för de viktigaste begreppen.",
+      "completed": true
+    },
+    {
+      "title": "Förstärk kapitlets avslutning med actionable takeaways",
+      "description": "Skriv om eller förstärk kapitlets avslutande avsnitt för att sammanfatta de viktigaste insikterna. Inkludera 3-5 konkreta takeaways som läsaren kan agera på. Skapa en brygga till nästa kapitel genom att antyda vad som kommer härnäst i läsarens lärresa.",
+      "completed": true
+    }
+  ]
+}

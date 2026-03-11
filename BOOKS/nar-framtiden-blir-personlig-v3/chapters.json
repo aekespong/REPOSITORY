@@ -1,0 +1,106 @@
+{
+  "chapters": [
+    {
+      "id": "forord",
+      "title": "Förord",
+      "order": 1,
+      "last_updated": "2026-02-10T10:31:46.839Z"
+    },
+    {
+      "id": "ai-agenter",
+      "title": "AI-agenter",
+      "order": 2,
+      "last_updated": "2026-02-10T10:31:46.839Z"
+    },
+    {
+      "id": "fran-strategi-till-sista-kodraden",
+      "title": "Från strategi till sista kodraden",
+      "order": 3,
+      "last_updated": "2026-02-10T10:31:46.839Z"
+    },
+    {
+      "id": "namngivningsregler",
+      "title": "Namngivningsregler",
+      "order": 4,
+      "last_updated": "2026-02-10T10:31:46.839Z"
+    },
+    {
+      "id": "systemtjanst-system-service-del-av-integration-design",
+      "title": "Systemtjänst (System Service) - del av Integration Design",
+      "order": 5,
+      "last_updated": "2026-02-10T10:31:46.839Z"
+    },
+    {
+      "id": "modernisering-inom-integrationsomradet",
+      "title": "Modernisering inom integrationsområdet",
+      "order": 6,
+      "last_updated": "2026-02-10T10:31:46.839Z"
+    },
+    {
+      "id": "integration-design-for-att-etablera-stodjande-tjanster",
+      "title": "Integration Design - för att etablera stödjande tjänster",
+      "order": 7,
+      "last_updated": "2026-02-10T10:31:46.839Z"
+    },
+    {
+      "id": "human-design-nar-ansvar-och-omdome-har-betydelse",
+      "title": "Human Design – när ansvar och omdöme har betydelse",
+      "order": 8,
+      "last_updated": "2026-02-10T10:31:46.839Z"
+    },
+    {
+      "id": "business-design",
+      "title": "Business Design",
+      "order": 9,
+      "last_updated": "2026-02-10T10:31:46.839Z"
+    },
+    {
+      "id": "att-minska-gapet-mellan-verksamhet-och-it",
+      "title": "Att minska gapet mellan verksamhet och IT",
+      "order": 10,
+      "last_updated": "2026-02-10T10:31:46.839Z"
+    },
+    {
+      "id": "enterprise-design-helhetsansvar-genom-design",
+      "title": "Enterprise Design – helhetsansvar genom design",
+      "order": 11,
+      "last_updated": "2026-02-10T10:31:46.839Z"
+    },
+    {
+      "id": "forandringar-for-utvecklare-och-arkitekter-och-it-avdelningen",
+      "title": "Förändringar för utvecklare och arkitekter och IT-avdelningen",
+      "order": 12,
+      "last_updated": "2026-02-10T10:31:46.839Z"
+    },
+    {
+      "id": "nar-arbete-forandras",
+      "title": "När arbete förändras",
+      "order": 13,
+      "last_updated": "2026-02-10T10:31:46.839Z"
+    },
+    {
+      "id": "att-tanka-i-konsekvenser-inte-i-losningar",
+      "title": "Att tänka i konsekvenser, inte i lösningar",
+      "order": 14,
+      "last_updated": "2026-02-10T10:31:46.839Z"
+    },
+    {
+      "id": "ai-ett-hot-eller-en-mojlighet",
+      "title": "AI - ett hot eller en möjlighet?",
+      "order": 15,
+      "last_updated": "2026-02-10T10:31:46.839Z"
+    },
+    {
+      "id": "design_av_systemtjanst",
+      "title": "Design av systemtjänst",
+      "order": 16,
+      "last_updated": "2026-02-10T10:31:46.839Z"
+    },
+    {
+      "id": "roller-vs-policyer-varför-du-aldrig-ska-koda-logik-i-rollnamn",
+      "title": "Roller vs Policyer: Varför du aldrig ska koda logik i rollnamn",
+      "order": 17
+    }
+  ],
+  "last_updated": 1772043752.8731568
+}

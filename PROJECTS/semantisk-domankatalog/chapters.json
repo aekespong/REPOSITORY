@@ -1,0 +1,19 @@
+{
+  "chapters": [
+    {
+      "id": "domaner-och-begrepp",
+      "title": "Domaner och begrepp",
+      "order": 1
+    },
+    {
+      "id": "ontologimodell",
+      "title": "Ontologimodell",
+      "order": 2
+    },
+    {
+      "id": "katalogstruktur",
+      "title": "Katalogstruktur och API",
+      "order": 3
+    }
+  ]
+}

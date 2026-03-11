@@ -1,0 +1,31 @@
+{
+  "slug": "kompletterande-json",
+  "status": "draft",
+  "outline_complete": false,
+  "content_complete": false,
+  "fact_checked": false,
+  "concepts_registered": false,
+  "reviewed": false,
+  "notes": "Auto-generated from markdown",
+  "last_updated": "2026-02-25T22:27:15.360Z",
+  "versions": [
+    {
+      "timestamp": "2026-02-25T22:25:09.955Z",
+      "message": "Generated in editor from markdown"
+    },
+    {
+      "timestamp": "2026-02-25T22:27:15.360Z",
+      "message": "tagit bort prompt"
+    }
+  ],
+  "meta": {
+    "synopsis": "",
+    "summary": "",
+    "message": "",
+    "tags": [],
+    "promise": "",
+    "analysis": "",
+    "improvements": [],
+    "todo": []
+  }
+}

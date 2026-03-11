@@ -1,0 +1,24 @@
+{
+  "chapters": [
+    {
+      "id": "vision-och-mal",
+      "title": "Vision och mal",
+      "order": 1
+    },
+    {
+      "id": "arkitekturbeslut",
+      "title": "Arkitekturbeslut",
+      "order": 2
+    },
+    {
+      "id": "spec-driven-workflow",
+      "title": "Spec-driven workflow",
+      "order": 3
+    },
+    {
+      "id": "roadmap",
+      "title": "Roadmap",
+      "order": 4
+    }
+  ]
+}

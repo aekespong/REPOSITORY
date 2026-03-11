@@ -1,0 +1,54 @@
+{
+  "chapters": [
+    {
+      "id": "utgangspunkt-fran-verkligt-problem-till-arkitektur",
+      "title": "1. Utgångspunkt: från verkligt problem till arkitektur",
+      "order": 1
+    },
+    {
+      "id": "affarsformagor-som-struktur-inte-process",
+      "title": "2. Affärsförmågor som struktur – inte process",
+      "order": 2
+    },
+    {
+      "id": "fran-affarsformaga-till-doman",
+      "title": "3. Från affärsförmåga till domän",
+      "order": 3
+    },
+    {
+      "id": "domantjanster-vad-andra-far-anvanda",
+      "title": "4. Domäntjänster – vad andra får använda",
+      "order": 4
+    },
+    {
+      "id": "systemtjanster-nar-nagot-ska-goras",
+      "title": "5. Systemtjänster – när något ska göras",
+      "order": 5
+    },
+    {
+      "id": "resurs-api-er-nar-information-ska-anvandas",
+      "title": "6. Resurs-API:er – när information ska användas",
+      "order": 6
+    },
+    {
+      "id": "intern-struktur-komponenter-repositories-och-acl",
+      "title": "7. Intern struktur: komponenter, repositories och ACL",
+      "order": 7
+    },
+    {
+      "id": "beroenden-i-praktiken",
+      "title": "8. Beroenden i praktiken",
+      "order": 8
+    },
+    {
+      "id": "ai-i-praktiken-striktare-regler-inte-losare",
+      "title": "9. AI i praktiken – striktare regler, inte lösare",
+      "order": 9
+    },
+    {
+      "id": "sammanfattning-sa-anvands-enterprise-design",
+      "title": "10. Sammanfattning – så används Enterprise Design",
+      "order": 10
+    }
+  ]
+}
