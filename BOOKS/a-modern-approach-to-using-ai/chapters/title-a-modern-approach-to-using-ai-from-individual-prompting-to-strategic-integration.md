@@ -1,4 +1,4 @@
-# Title A Modern Approach to Using AI: From Individual Prompting to Strategic Integration
+# A Modern Approach to Using AI: From Individual Prompting to Strategic Integration
 
 
 ---
