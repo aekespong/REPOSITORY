@@ -1,4 +1,4 @@
-# Optional Angle (Especially Strong Given Your Background)
+# AI as part of Enterprise Architecture capability.
 
 Since you work with architecture and governance, you could also add:
 

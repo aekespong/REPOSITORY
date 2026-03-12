@@ -1,54 +1,49 @@
 {
   "chapters": [
     {
-      "id": "a-modern-approach-to-using-ai-from-individual-prompting-to-strategic-integration",
-      "title": "Working Title",
-      "order": 5
-    },
-    {
-      "id": "introduction-ai-is-not-a-tool-it-s-a-capability-shift",
-      "title": "1. Introduction: AI Is Not a Tool — It’s a Capability Shift",
-      "order": 6
+      "id": "introduction-ai-is-not-a-tool--its-a-capability-shift",
+      "title": "Introduction ai is not a tool  its a capability shift",
+      "order": 1
     },
     {
       "id": "from-individual-ai-use-to-collaborative-ai-collabai",
       "title": "2. From Individual AI Use to Collaborative AI (CollabAI)",
-      "order": 7
+      "order": 2
     },
     {
       "id": "ai-as-shared-infrastructure-not-just-a-chat-window",
       "title": "3. AI as Shared Infrastructure — Not Just a Chat Window",
-      "order": 8
+      "order": 3
     },
     {
       "id": "a-modern-integration-architecture-for-ai-llm-usage",
       "title": "4. A Modern Integration Architecture for AI/LLM Usage",
-      "order": 9
+      "order": 4
     },
     {
       "id": "the-real-shift-from-tool-usage-to-ai-operating-model",
       "title": "5. The Real Shift: From Tool Usage to AI Operating Model",
-      "order": 10
+      "order": 5
     },
     {
-      "id": "optional-angle-especially-strong-given-your-background",
+      "id": "ai-as-part-of-enterprise-architecture-capability",
       "title": "Optional Angle (Especially Strong Given Your Background)",
-      "order": 11
+      "order": 6
     },
     {
       "id": "suggested-article-structure-final-outline",
       "title": "Suggested Article Structure (Final Outline)",
-      "order": 12
-    },
-    {
-      "id": "a-modern-approach-to-using-ai",
-      "title": "A Modern Approach to Using AI",
-      "order": 13
+      "order": 7
     },
     {
       "id": "grand-writer-a-generic-tool-for-creatingupdating-markdown-to-support-the-team",
       "title": "Grand writer   a generic tool for creatingupdating markdown to support the team",
-      "order": 14
+      "order": 8
+    },
+    {
+      "id": "a-modern-approach-to-using-ai",
+      "title": "A Modern Approach to Using AI",
+      "order": 9
     }
   ]
 }

@@ -1,4 +1,4 @@
-# 4. A Modern Integration Architecture for AI/LLM Usage
+# A Modern Integration Architecture for AI/LLM Usage
 
 This section gives the article technical credibility and management relevance.
 

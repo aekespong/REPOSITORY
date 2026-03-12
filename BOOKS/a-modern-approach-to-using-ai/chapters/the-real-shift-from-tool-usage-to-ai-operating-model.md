@@ -1,4 +1,4 @@
-# 5. The Real Shift: From Tool Usage to AI Operating Model
+# The Real Shift: From Tool Usage to AI Operating Model
 
 This is your concluding insight.
 

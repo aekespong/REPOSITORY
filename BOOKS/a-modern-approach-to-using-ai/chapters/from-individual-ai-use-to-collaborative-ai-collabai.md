@@ -1,6 +1,6 @@
-# 2. From Individual AI Use to Collaborative AI (CollabAI)
+# From Individual AI Use to Collaborative AI (CollabAI)
 
-## 2.1 The Limits of Solo Prompting
+## The Limits of Solo Prompting
 
 Describe the typical early-stage AI usage:
 
@@ -18,7 +18,7 @@ Problem:
 
 --- 
 
-## 2.2 CollabAI: AI as a Team Member
+## CollabAI: AI as a Team Member
 
 Introduce the CollabAI concept:
 

@@ -1,4 +1,4 @@
-# 3. AI as Shared Infrastructure — Not Just a Chat Window
+# AI as Shared Infrastructure — Not Just a Chat Window
 
 This is where you introduce your second idea.
 
