@@ -1,0 +1,14 @@
+{
+  "chapters": [
+    {
+      "id": "apm-metamodell-för-ardoq-leanix-inspirerad",
+      "title": "APM-metamodell för Ardoq — LeanIX-inspirerad",
+      "order": 1
+    },
+    {
+      "id": "reviderad-apm-metamodell-för-ardoq",
+      "title": "Reviderad APM-metamodell för Ardoq",
+      "order": 2
+    }
+  ]
+}

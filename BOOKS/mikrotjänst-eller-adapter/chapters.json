@@ -1,0 +1,144 @@
+{
+  "chapters": [
+    {
+      "id": "mikrotjanst-eller-adapter",
+      "title": "Mikrotjänst eller adapter",
+      "order": 1
+    },
+    {
+      "id": "hur-många-moderna-arkitekturer-landar-idag",
+      "title": "Hur många moderna arkitekturer landar idag",
+      "order": 2
+    },
+    {
+      "id": "fem-typer-av-tjänster-i-en-modern-arkitektur",
+      "title": "Fem typer av tjänster i en modern arkitektur",
+      "order": 3
+    },
+    {
+      "id": "experience-services",
+      "title": "1. Experience services",
+      "order": 4
+    },
+    {
+      "id": "process-services",
+      "title": "2. Process services",
+      "order": 5
+    },
+    {
+      "id": "domain-services",
+      "title": "3. Domain services",
+      "order": 6
+    },
+    {
+      "id": "integration-services",
+      "title": "4. Integration services",
+      "order": 7
+    },
+    {
+      "id": "system-services",
+      "title": "5. System services",
+      "order": 8
+    },
+    {
+      "id": "var-din-ursprungliga-fråga-hamnar",
+      "title": "Var din ursprungliga fråga hamnar",
+      "order": 9
+    },
+    {
+      "id": "varför-den-här-modellen-är-användbar",
+      "title": "Varför den här modellen är användbar",
+      "order": 10
+    },
+    {
+      "id": "separation-av-förändringstakt-den-viktigaste-orsaken",
+      "title": "1. Separation av förändringstakt (den viktigaste orsaken)",
+      "order": 11
+    },
+    {
+      "id": "skydda-domänmodellen",
+      "title": "2. Skydda domänmodellen",
+      "order": 12
+    },
+    {
+      "id": "organisationsstruktur",
+      "title": "3. Organisationsstruktur",
+      "order": 13
+    },
+    {
+      "id": "de-flesta-system-behover-inte-alla-fem-lager",
+      "title": "Men här kommer den viktiga verkligheten",
+      "order": 14
+    },
+    {
+      "id": "en-ärlig-observation-från-många-arkitekter",
+      "title": "En ärlig observation från många arkitekter",
+      "order": 15
+    },
+    {
+      "id": "vad-är-en-distributed-monolith",
+      "title": "Vad är en distributed monolith?",
+      "order": 16
+    },
+    {
+      "id": "typiska-kannetecken-pa-bristande-arkitektur",
+      "title": "Typiska kännetecken",
+      "order": 17
+    },
+    {
+      "id": "hur-det-brukar-uppstå",
+      "title": "Hur det brukar uppstå",
+      "order": 18
+    },
+    {
+      "id": "varför-det-händer",
+      "title": "Varför det händer",
+      "order": 19
+    },
+    {
+      "id": "den-ironiska-konsekvensen",
+      "title": "Den ironiska konsekvensen",
+      "order": 20
+    },
+    {
+      "id": "därför-pratar-många-arkitekter-nu-om-ett-alternativ",
+      "title": "Därför pratar många arkitekter nu om ett alternativ",
+      "order": 21
+    },
+    {
+      "id": "tre-frågor-innan-man-gör-en-mikrotjänst",
+      "title": "Tre frågor innan man gör en mikrotjänst",
+      "order": 22
+    },
+    {
+      "id": "om-minst-två-av-tre-frågor-är-nej",
+      "title": "Om minst två av tre frågor är \"nej\"",
+      "order": 23
+    },
+    {
+      "id": "ett-snabbt-exempel",
+      "title": "Ett snabbt exempel",
+      "order": 24
+    },
+    {
+      "id": "en-tumregel-många-arkitekter-landar-i",
+      "title": "En tumregel många arkitekter landar i",
+      "order": 25
+    },
+    {
+      "id": "hur-api-er-brukar-förekomma-i-femlagermodellen",
+      "title": "Hur API:er brukar förekomma i femlagermodellen",
+      "order": 26
+    },
+    {
+      "id": "en-viktig-arkitekturprincip",
+      "title": "En viktig arkitekturprincip",
+      "order": 27
+    },
+    {
+      "id": "ett-vanligt-problem",
+      "title": "Ett vanligt problem",
+      "order": 28
+    }
+  ]
+}

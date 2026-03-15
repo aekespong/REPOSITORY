@@ -1,6 +1,5 @@
-**Source:** [chat.openai.com](https://chatgpt.com/c/698afa40-b0e4-838e-bda7-3ba7cb6933f2)
-
 # Roller vs Policyer: Varför du aldrig ska koda logik i rollnamn
+**Source:** [chat.openai.com](https://chatgpt.com/c/698afa40-b0e4-838e-bda7-3ba7cb6933f2)
 
 ### Prompt:
 
