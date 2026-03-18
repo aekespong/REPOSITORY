@@ -1,0 +1,18 @@
+{
+  "title": "Agentarkitektur",
+  "status": "draft",
+  "outline_complete": true,
+  "content_complete": false,
+  "notes": "Grundlaggande agentmodell beskriven",
+  "last_updated": "2026-03-18T09:12:52.422Z",
+  "versions": [
+    {
+      "timestamp": "2026-03-07 10:00",
+      "message": "Initialt utkast"
+    },
+    {
+      "timestamp": "2026-03-18T09:12:52.422Z",
+      "message": "Saved from chapter editor (.md)"
+    }
+  ]
+}

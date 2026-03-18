@@ -6,13 +6,18 @@
       "created_at": "2026-03-15T17:25:33.214Z"
     },
     {
+      "slug": "living-architecture",
+      "title": "Living Architecture Design",
+      "created_at": "2026-03-18T15:27:39.787Z"
+    },
+    {
       "slug": "ai-agent-framework",
       "title": "AI Agent Framework",
       "created_at": "2026-03-07 10:00"
     },
     {
       "slug": "gw-platform",
-      "title": "Grand Writer Platform",
+      "title": "Document Writer Platform",
       "created_at": "2026-03-07 10:00"
     },
     {

@@ -1,0 +1,264 @@
+{
+  "chapters": [
+    {
+      "id": "living-architecture-design",
+      "title": "Living Architecture Design",
+      "order": 1
+    },
+    {
+      "id": "1-grundprincip-allt-är-pr-allt-är-spårbart",
+      "title": "🔧 1. Grundprincip: Allt är PR + allt är spårbart",
+      "order": 2
+    },
+    {
+      "id": "2-länka-allt-men-med-id-inte-bara-text",
+      "title": "🔗 2. Länka ALLT – men med ID, inte bara text",
+      "order": 3
+    },
+    {
+      "id": "3-ai-som-kritisk-arkitekt-i-varje-pr",
+      "title": "🤖 3. AI som “kritisk arkitekt” i varje PR",
+      "order": 4
+    },
+    {
+      "id": "4-pr-pipeline-konkret-flöde",
+      "title": "⚙️ 4. PR-pipeline (konkret flöde)",
+      "order": 5
+    },
+    {
+      "id": "5-gör-plans-och-spec-maskinläsbara-detta-är-avgörande",
+      "title": "🧠 5. Gör PLANS och SPEC maskinläsbara (detta är avgörande)",
+      "order": 6
+    },
+    {
+      "id": "6-github-som-plattform-konkret-implementation",
+      "title": "🧩 6. GitHub som plattform (konkret implementation)",
+      "order": 7
+    },
+    {
+      "id": "7-minimera-friktion-detta-avgör-om-det-funkar",
+      "title": "🧱 7. Minimera friktion (detta avgör om det funkar)",
+      "order": 8
+    },
+    {
+      "id": "8-viktiga-risker-ärligt",
+      "title": "⚠️ 8. Viktiga risker (ärligt)",
+      "order": 9
+    },
+    {
+      "id": "9-det-riktigt-intressanta-nästa-nivå",
+      "title": "💡 9. Det riktigt intressanta (nästa nivå)",
+      "order": 10
+    },
+    {
+      "id": "min-rekommenderade-mvp",
+      "title": "🚀 Min rekommenderade MVP",
+      "order": 11
+    },
+    {
+      "id": "1-tydlig-målsättning-detta-måste-vara-kristallklart",
+      "title": "🎯 1. Tydlig målsättning (detta måste vara kristallklart)",
+      "order": 12
+    },
+    {
+      "id": "2-konkret-värde-för-varje-roll",
+      "title": "👥 2. Konkret värde – för varje roll",
+      "order": 13
+    },
+    {
+      "id": "3-feedback-som-måste-godkännas-viktig-design",
+      "title": "🔁 3. Feedback som måste godkännas (viktig design)",
+      "order": 14
+    },
+    {
+      "id": "4-alla-ska-kunna-läsa-analysen",
+      "title": "📖 4. Alla ska kunna läsa analysen",
+      "order": 15
+    },
+    {
+      "id": "5-hålla-ihop-allt-till-en-enhet",
+      "title": "🧩 5. Hålla ihop allt till EN enhet",
+      "order": 16
+    },
+    {
+      "id": "6-ai-som-frågemotor-superviktigt",
+      "title": "🤖 6. AI som frågemotor (superviktigt)",
+      "order": 17
+    },
+    {
+      "id": "7-utbildning-inbyggd-i-systemet",
+      "title": "🎓 7. Utbildning – inbyggd i systemet",
+      "order": 18
+    },
+    {
+      "id": "8-viktig-sanning-lite-obekväm",
+      "title": "⚠️ 8. Viktig sanning (lite obekväm)",
+      "order": 19
+    },
+    {
+      "id": "9-sammanfattning-essensen",
+      "title": "🚀 9. Sammanfattning (essensen)",
+      "order": 20
+    },
+    {
+      "id": "1-grundprincip",
+      "title": "🧩 1. Grundprincip",
+      "order": 21
+    },
+    {
+      "id": "2-feedback-item-datamodell",
+      "title": "🏷️ 2. Feedback Item – datamodell",
+      "order": 22
+    },
+    {
+      "id": "3-statusmodell-kärnan",
+      "title": "🚦 3. Statusmodell (kärnan)",
+      "order": 23
+    },
+    {
+      "id": "4-pr-flöde-exakt-beteende",
+      "title": "🔁 4. PR-flöde (exakt beteende)",
+      "order": 24
+    },
+    {
+      "id": "5-skillnad-på-ai-vs-människa",
+      "title": "🧠 5. Skillnad på AI vs människa",
+      "order": 25
+    },
+    {
+      "id": "6-rejection-kräver-ansvar",
+      "title": "⚖️ 6. “Rejection kräver ansvar”",
+      "order": 26
+    },
+    {
+      "id": "7-transparens-för-alla",
+      "title": "🔍 7. Transparens för alla",
+      "order": 27
+    },
+    {
+      "id": "8-aggregering-detta-ger-management-värde",
+      "title": "📊 8. Aggregering (detta ger management-värde)",
+      "order": 28
+    },
+    {
+      "id": "9-ai-feedback-struktur-så-den-blir-användbar",
+      "title": "🤖 9. AI-feedback – struktur (så den blir användbar)",
+      "order": 29
+    },
+    {
+      "id": "10-självläkande-system-nästa-nivå",
+      "title": "🧪 10. Självläkande system (nästa nivå)",
+      "order": 30
+    },
+    {
+      "id": "11-feedback-utbildning",
+      "title": "🧑‍🏫 11. Feedback = utbildning",
+      "order": 31
+    },
+    {
+      "id": "12-viktiga-designval-här-avgör-du-allt",
+      "title": "⚠️ 12. Viktiga designval (här avgör du allt)",
+      "order": 32
+    },
+    {
+      "id": "13-minimal-implementation-mvp",
+      "title": "🔧 13. Minimal implementation (MVP)",
+      "order": 33
+    },
+    {
+      "id": "14-essensen",
+      "title": "🚀 14. Essensen",
+      "order": 34
+    },
+    {
+      "id": "1-det-som-redan-finns-i-delar",
+      "title": "🧠 1. Det som redan finns (i delar)",
+      "order": 35
+    },
+    {
+      "id": "2-det-som-är-nytt-i-din-idé",
+      "title": "🔥 2. Det som är nytt i din idé",
+      "order": 36
+    },
+    {
+      "id": "3-varför-detta-inte-redan-är-standard",
+      "title": "⚠️ 3. Varför detta inte redan är standard",
+      "order": 37
+    },
+    {
+      "id": "4-närmast-du-kommer-idag",
+      "title": "🧭 4. Närmast du kommer idag",
+      "order": 38
+    },
+    {
+      "id": "5-min-ärliga-bedömning",
+      "title": "💡 5. Min ärliga bedömning",
+      "order": 39
+    },
+    {
+      "id": "6-det-verkligt-intressanta",
+      "title": "🚀 6. Det verkligt intressanta",
+      "order": 40
+    },
+    {
+      "id": "1-att-få-människor-att-acceptera-tvingande-transparens",
+      "title": "🧠 1. Att få människor att acceptera “tvingande transparens”",
+      "order": 41
+    },
+    {
+      "id": "2-rätt-nivå-på-policies-detta-är-extremt-svårt",
+      "title": "⚖️ 2. Rätt nivå på policies (detta är extremt svårt)",
+      "order": 42
+    },
+    {
+      "id": "3-ai-som-ger-fel-feedback-och-tappar-förtroende",
+      "title": "🤖 3. AI som ger fel feedback (och tappar förtroende)",
+      "order": 43
+    },
+    {
+      "id": "4-att-få-spårbarheten-att-faktiskt-fungera",
+      "title": "🔗 4. Att få spårbarheten att faktiskt fungera",
+      "order": 44
+    },
+    {
+      "id": "5-att-inte-göra-det-för-tungt",
+      "title": "🧱 5. Att inte göra det för tungt",
+      "order": 45
+    },
+    {
+      "id": "6-management-som-inte-använder-datan",
+      "title": "🧑‍💼 6. Management som inte använder datan",
+      "order": 46
+    },
+    {
+      "id": "7-olika-projekt-olika-verkligheter",
+      "title": "🧩 7. Olika projekt – olika verkligheter",
+      "order": 47
+    },
+    {
+      "id": "8-latens-i-feedback",
+      "title": "⏱️ 8. Latens i feedback",
+      "order": 48
+    },
+    {
+      "id": "9-att-hålla-kunskapen-levande",
+      "title": "🧠 9. Att hålla kunskapen levande",
+      "order": 49
+    },
+    {
+      "id": "10-den-obekväma-sanningen",
+      "title": "⚠️ 10. Den obekväma sanningen",
+      "order": 50
+    },
+    {
+      "id": "så-vad-är-det-svåraste-egentligen",
+      "title": "🧭 Så vad är *det* svåraste egentligen?",
+      "order": 51
+    },
+    {
+      "id": "min-rekommendation-för-att-lyckas",
+      "title": "🚀 Min rekommendation (för att lyckas)",
+      "order": 52
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # APM-metamodell för Ardoq
 
-Grunden är den APM-modell ni har inkl integration, men de andra är inte prioriterade.  Investeringar och projekt är viktiga och roadmaps. Det liknar portföljstyrning. Det är bra med en grundläggande organisationsstruktur och verksamhetsområden, men förmågor är inte prioriterade. De kan komma senare. 
+Grunden är den APM-modell som ingår inklusive integration, men de andra är inte prioriterade.  Investeringar och projekt är viktiga och roadmaps. Det liknar portföljstyrning. Det är bra med en grundläggande organisationsstruktur och verksamhetsområden, men förmågor är inte prioriterade. De kan komma senare. 
 
 Primära dataobjekt är viktiga. De bör kopplas till integrationerna. 
 

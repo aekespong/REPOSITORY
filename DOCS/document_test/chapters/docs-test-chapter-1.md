@@ -1,2 +1,2 @@
-# DOCS Test Chapter 1
+# DOCS Test Document
 

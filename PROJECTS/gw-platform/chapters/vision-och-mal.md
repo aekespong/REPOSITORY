@@ -5,7 +5,7 @@
 
 ## Syfte
 
-Grand Writer Platform ar ett spec-driven authoring system som kombinerar Scrivener-inspirerade forfattarverktyg med AI-agentkompatibilitet. Plattformen ska gora det mojligt for forfattare att arbeta strukturerat med bokprojekt dar AI-agenter kan assistera autonomt.
+Document Writer Platform ar ett spec-driven authoring system som kombinerar Scrivener-inspirerade forfattarverktyg med AI-agentkompatibilitet. Plattformen ska gora det mojligt for forfattare att arbeta strukturerat med bokprojekt dar AI-agenter kan assistera autonomt.
 
 ## Mal
 

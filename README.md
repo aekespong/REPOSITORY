@@ -1,4 +1,4 @@
-# REPOSITORY FOR GRAND WRITER 
+# REPOSITORY FOR DOCUMENT WRITER
 
 This is a repo for books, chapters, documents, projects and specifications.
 

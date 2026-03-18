@@ -1,6 +1,6 @@
-# Agentarkitektur
+# Arkitektur för agenter
 
-> Chapter-ID: agentarkitektur
+> Chapter-ID: arkitektur-for-agenter
 > Status: published
 
 ## Översikt

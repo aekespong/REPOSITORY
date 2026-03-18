@@ -28,7 +28,7 @@ Organisationer måste prioritera AI-beredskaphet inom infrastruktur och hos sin 
 
 Källor
 
-- https://www.se-trends.de/en/satya-nadella-Grand-new-architectures/
+- https://www.se-trends.de/en/satya-nadella-Document-new-architectures/
 
 - https://www.colibridigital.io/insights/saas-is-dead-how-microsofts-ceo-sees-the-future-of-business-software
 
@@ -261,15 +261,15 @@ Därför måste mandat för AI designas, inte antas.
 I praktiken innebär det att skilja mellan olika nivåer av handlingsförmåga:
 
 - Observerande agenter
-– sammanställer, analyserar, förklarar
-– inga åtgärder utan mänsklig bekräftelse
+  – sammanställer, analyserar, förklarar
+  – inga åtgärder utan mänsklig bekräftelse
 
 - Föreslående agenter
-– rekommenderar nästa steg
-– visar underlag och osäkerhet
+  – rekommenderar nästa steg
+  – visar underlag och osäkerhet
 
 - Utförande agenter
-– genomför åtgärder inom snävt definierade ramar
+  – genomför åtgärder inom snävt definierade ramar
 
 De flesta organisationer bör börja med de två första.
 Den tredje kräver mycket hög mognad i Integration Design, Information Design och Datakvalitet.
@@ -737,7 +737,7 @@ För att förstå samspelet mellan dessa begrepp kan man likna organisationen vi
 
 Frågor och svar
 
-Fråga: 
+Fråga:
 I boken används flera ord som avser AI: AI-lösning. AI-agent mm. Vilka finns och vad står de för?
 
 I källorna används flera olika begrepp för att beskriva AI beroende på dess roll och funktion i organisationen. Här är de mest centrala begreppen och vad de representerar:
@@ -758,7 +758,7 @@ Källorna betonar att skillnaden mellan en användbar och en farlig AI ofta ligg
 
 Sammanfattningsvis markerar dessa begrepp en förflyttning från teknik som bara utför fördefinierade regler till teknik som kan tolka sammanhang och agera på egen hand.
 
-Fråga: 
+Fråga:
 Vad är skillnaden mellan Affärsförmåga och System Service(systemtjänst)?
 
 Affärsförmågor och systemtjänster centrala delar i arbetet med Enterprise Design, men de tjänar olika syften och har olika egenskaper.
@@ -800,4 +800,3 @@ Källorna betonar att relationen mellan dessa inte är 1-till-1, utan många-ti
 Sammanfattningsvis kan man säga att affärsförmågor ger kontexten och sammanhanget (strategin), medan systemtjänsterna står för det faktiska genomförandet (arkitekturen) genom att konkretiseras via informations- och integrationsdesign.
 
 Doc Suffix
-
