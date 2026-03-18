@@ -1,9 +1,9 @@
 # Agentarkitektur
 
 > Chapter-ID: agentarkitektur
-> Status: draft
+> Status: published
 
-## Oversikt
+## Översikt
 
 AI-agenter som arbetar med strukturerat innehall behover en tydlig arkitektur for hur de laser, forstar och modifierar data. Denna sektion beskriver det arkitekturella ramverket.
 

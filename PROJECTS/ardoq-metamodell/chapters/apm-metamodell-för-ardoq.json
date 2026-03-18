@@ -1,0 +1,22 @@
+{
+  "slug": "apm-metamodell-för-ardoq",
+  "status": "draft",
+  "last_updated": "2026-03-15T21:35:05.434Z",
+  "versions": [
+    {
+      "timestamp": "2026-03-15T21:35:05.434Z",
+      "message": "Imported from markdown"
+    }
+  ],
+  "meta": {
+    "slug": "apm-metamodell-ardoq",
+    "title": "APM-metamodell för Ardoq",
+    "summary": "Detta kapitel presenterar en femdelad workspace-struktur för Ardoq som bygger på Application Portfolio Management med fokus på integrationer, dataobjekt och governance. Modellen prioriterar applikationer, integrationer, dataobjekt, projekt/investeringar och organisatoriskt ägarskap framför förmågor och processer. Genom att koppla samman dessa workspaces med tydliga relationer skapas ett kraftfullt verktyg för att svara på frågor om ägarskap, datakvalitet, GDPR-compliance och portföljstyrning. Varje workspace har definierade komponenttyper med nyckelattribut som stödjer både operativ styrning och strategisk planering. Särskilt fokus läggs på governance-lagret som binder samman alla delar genom ägarskaps- och ansvarsrelationer mellan personer, enheter och IT-komponenter.",
+    "message": "En väl genomtänkt metamodell i Ardoq ska inte försöka modellera allt – den ska fokusera på de frågor organisationen faktiskt behöver kunna svara på. Genom att prioritera applikationer, integrationer, dataobjekt, projekt och governance framför mer akademiska konstrukt som förmågor skapas ett verktyg som används dagligen av både verksamhet och IT.",
+    "promise": "Efter att ha läst detta kapitel kommer du att kunna implementera en praktisk Ardoq-metamodell anpassad för svenska organisationer. Du får konkreta komponenttyper, attribut och relationer för fem prioriterade workspaces som tillsammans möjliggör svar på kritiska frågor: Vilka applikationer saknar ägare? Vilka integrationer hanterar känslig data? Vilka projekt påverkar vilka system? Hur ser vår avvecklingsroadmap ut? Du får också en tydlig metod för att bygga governance-lagret som binder samman alla delar, inklusive kopplingar som stödjer GDPR-arbete, NIS2-compliance och portföljstyrning. Modellen är direkt applicerbar och bygger på Ardoqs etablerade best practices.",
+    "analysis": "Kapitlet är exceptionellt starkt i sin praktiska orientering och konkreta leverans. Tabellformatet med komponenttyper, nyckelattribut och relationer gör det omedelbart användbart som implementeringsguide. Den tydliga prioriteringen (applikationer och integrationer före förmågor) visar moget arkitekturledarskap och förståelse för vad som faktiskt skapar värde i en EA-implementation. Governance-workspacet som går på tvärs är elegant löst genom att fokusera på relationer snarare än nya komponenter. Avsnittet 'Vad du nu kan svara på i Ardoq' är utmärkt för att konkretisera värdet. Svagheterna ligger i att kapitlet förutsätter viss Ardoq-kunskap (workspaces, komponenter, relationer) utan att introducera dessa koncept. Det saknas också guidance kring implementeringsordning – vilken workspace ska byggas först? Hur hanteras migrering från befintliga strukturer? Kopplingen till övriga bokkapitel är oklar, särskilt till tidigare strategiska kapitel och senare implementeringskapitel.",
+    "improvements": "Lägg till ett inledande avsnitt som förklarar Ardoqs grundkoncept (workspace, component type, reference type) för läsare som inte är bekanta med verktyget. Skapa ett avsnitt om implementeringsordning med konkret vägledning: börja med Application Workspace, lägg till Organisation och Governance, därefter Data Objects och Interface-kopplingar, slutligen Portfolio. Inkludera ett textavsnitt om migreringsstrategier från befintliga Ardoq-modeller eller från andra verktyg. Lägg till visuella exempel – skärmdumpar från Ardoq som visar hur relationerna ser ut i praktiken, särskilt governance-vyerna och integration-mappningen. Förtydliga kopplingen mellan detta kapitel och bokens övriga delar, särskilt hur denna metamodell stödjer strategierna från tidigare kapitel. Lägg till ett avsnitt om underhåll och kvalitetssäkring av data i modellen – hur ofta ska ownership-status verifieras? Vem ansvarar för datakvalitet? Inkludera antipatterns eller vanliga misstag vid metamodellering i Ardoq. Överväg att lägga till ett kort avsnitt om rapporter och vyer som bör skapas ovanpå denna metamodell.",
+    "tags": "Ardoq, metamodell, Application Portfolio Management, governance, integrationer, dataobjekt, ägarskap, portfolio management, workspace-struktur, GDPR-compliance"
+  },
+  "meta_updated": "2026-03-16T11:01:06.965Z"
+}

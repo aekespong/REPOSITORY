@@ -1,0 +1,298 @@
+{
+  "2026-03-15": [
+    {
+      "time": "22:05:43",
+      "action": "save",
+      "root": "CODE",
+      "book": "code",
+      "file": "chapters/chapter1.md",
+      "ref": "CODE/code/chapters/chapter1.md"
+    },
+    {
+      "time": "22:05:47",
+      "action": "rename",
+      "root": "CODE",
+      "book": "code",
+      "file": "chapters/chapter-1.md",
+      "ref": "CODE/code/chapters/chapter-1.md",
+      "from": "chapters/chapter1.md",
+      "to": "chapters/chapter-1.md"
+    },
+    {
+      "time": "22:11:18",
+      "action": "file-editor-save",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters.json",
+      "ref": "PROJECTS/ardoq-metamodell/chapters.json"
+    },
+    {
+      "time": "22:12:17",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/omstrukturering_av_kod_2026-03-15_18-47-09.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/omstrukturering_av_kod_2026-03-15_18-47-09.md"
+    },
+    {
+      "time": "22:12:26",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/omstrukturering_av_kod_2026-03-15_18-47-09.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/omstrukturering_av_kod_2026-03-15_18-47-09.md"
+    },
+    {
+      "time": "22:12:52",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/omstrukturering_av_kod_2026-03-15_18-47-09.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/omstrukturering_av_kod_2026-03-15_18-47-09.md"
+    },
+    {
+      "time": "22:12:54",
+      "action": "rename",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/chat-reviderad-apm-metamodell-för-ardoq.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/chat-reviderad-apm-metamodell-för-ardoq.md",
+      "from": "chapters/omstrukturering_av_kod_2026-03-15_18-47-09.md",
+      "to": "chapters/chat-reviderad-apm-metamodell-för-ardoq.md"
+    },
+    {
+      "time": "22:20:37",
+      "action": "save",
+      "root": "DOCS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/apm-metamodell-för-ardoq.md",
+      "ref": "DOCS/ardoq-metamodell/chapters/apm-metamodell-för-ardoq.md"
+    },
+    {
+      "time": "22:20:40",
+      "action": "rename",
+      "root": "DOCS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/kopia-av-apm-metamodell-för-ardoq.md",
+      "ref": "DOCS/ardoq-metamodell/chapters/kopia-av-apm-metamodell-för-ardoq.md",
+      "from": "chapters/apm-metamodell-för-ardoq.md",
+      "to": "chapters/kopia-av-apm-metamodell-för-ardoq.md"
+    }
+  ],
+  "2026-03-16": [
+    {
+      "time": "07:17:36",
+      "action": "file-editor-save",
+      "root": "DOCS",
+      "book": "folders.json",
+      "file": "",
+      "ref": "DOCS/folders.json"
+    },
+    {
+      "time": "07:23:19",
+      "action": "file-editor-save",
+      "root": "DOCS",
+      "book": "folders.json",
+      "file": "",
+      "ref": "DOCS/folders.json"
+    },
+    {
+      "time": "07:23:35",
+      "action": "file-editor-save",
+      "root": "DOCS",
+      "book": "docs",
+      "file": "chapters.json",
+      "ref": "DOCS/docs/chapters.json"
+    },
+    {
+      "time": "07:33:14",
+      "action": "save",
+      "root": "DOCS",
+      "book": "docs",
+      "file": "chapters/chapter1.md",
+      "ref": "DOCS/docs/chapters/chapter1.md"
+    },
+    {
+      "time": "07:33:17",
+      "action": "rename",
+      "root": "DOCS",
+      "book": "docs",
+      "file": "chapters/docs-test-chapter-1.md",
+      "ref": "DOCS/docs/chapters/docs-test-chapter-1.md",
+      "from": "chapters/chapter1.md",
+      "to": "chapters/docs-test-chapter-1.md"
+    },
+    {
+      "time": "08:20:47",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "ai-agent-framework",
+      "file": "chapters/agentarkitektur.md",
+      "ref": "PROJECTS/ai-agent-framework/chapters/agentarkitektur.md"
+    },
+    {
+      "time": "08:30:13",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "ai-agent-framework",
+      "file": "chapters/agentarkitektur.md",
+      "ref": "PROJECTS/ai-agent-framework/chapters/agentarkitektur.md"
+    },
+    {
+      "time": "10:37:35",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/apm-metamodell-för-ardoq-leanix-inspirerad.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/apm-metamodell-för-ardoq-leanix-inspirerad.md"
+    },
+    {
+      "time": "10:37:37",
+      "action": "rename",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/leanix-inspirerad-apm-metamodell-för-ardoq.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/leanix-inspirerad-apm-metamodell-för-ardoq.md",
+      "from": "chapters/apm-metamodell-för-ardoq-leanix-inspirerad.md",
+      "to": "chapters/leanix-inspirerad-apm-metamodell-för-ardoq.md"
+    },
+    {
+      "time": "11:00:34",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/apm-metamodell-för-ardoq.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/apm-metamodell-för-ardoq.md"
+    },
+    {
+      "time": "11:03:21",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/apm-metamodell-för-ardoq.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/apm-metamodell-för-ardoq.md"
+    },
+    {
+      "time": "11:05:06",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/chat-reviderad-apm-metamodell-för-ardoq.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/chat-reviderad-apm-metamodell-för-ardoq.md"
+    },
+    {
+      "time": "11:05:38",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/chat-reviderad-apm-metamodell-för-ardoq.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/chat-reviderad-apm-metamodell-för-ardoq.md"
+    },
+    {
+      "time": "11:05:41",
+      "action": "rename",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/chatgpt-reviderad-apm-metamodell-för-ardoq.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/chatgpt-reviderad-apm-metamodell-för-ardoq.md",
+      "from": "chapters/chat-reviderad-apm-metamodell-för-ardoq.md",
+      "to": "chapters/chatgpt-reviderad-apm-metamodell-för-ardoq.md"
+    },
+    {
+      "time": "11:05:44",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/chatgpt-reviderad-apm-metamodell-för-ardoq.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/chatgpt-reviderad-apm-metamodell-för-ardoq.md"
+    },
+    {
+      "time": "11:06:50",
+      "action": "file-editor-save",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/chatgpt-reviderad-apm-metamodell-för-ardoq.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/chatgpt-reviderad-apm-metamodell-för-ardoq.md"
+    },
+    {
+      "time": "11:13:08",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/chatgpt-reviderad-apm-metamodell-för-ardoq.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/chatgpt-reviderad-apm-metamodell-för-ardoq.md"
+    }
+  ],
+  "2026-03-17": [
+    {
+      "time": "08:00:01",
+      "action": "save",
+      "root": "DOCS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/apm-metamodell-för-ardoq.md",
+      "ref": "DOCS/ardoq-metamodell/chapters/apm-metamodell-för-ardoq.md"
+    },
+    {
+      "time": "08:00:07",
+      "action": "rename",
+      "root": "DOCS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/apm-metamodell-för-ardoq-på-lkab.md",
+      "ref": "DOCS/ardoq-metamodell/chapters/apm-metamodell-för-ardoq-på-lkab.md",
+      "from": "chapters/apm-metamodell-för-ardoq.md",
+      "to": "chapters/apm-metamodell-för-ardoq-på-lkab.md"
+    },
+    {
+      "time": "17:01:04",
+      "action": "file-editor-save",
+      "root": "DOCS",
+      "book": "folders.json",
+      "file": "",
+      "ref": "DOCS/folders.json"
+    },
+    {
+      "time": "17:02:32",
+      "action": "save",
+      "root": "CODE",
+      "book": "code-index",
+      "file": "chapters/chapter-1.md",
+      "ref": "CODE/code-index/chapters/chapter-1.md"
+    },
+    {
+      "time": "17:02:35",
+      "action": "rename",
+      "root": "CODE",
+      "book": "code-index",
+      "file": "chapters/code-chapter.md",
+      "ref": "CODE/code-index/chapters/code-chapter.md",
+      "from": "chapters/chapter-1.md",
+      "to": "chapters/code-chapter.md"
+    },
+    {
+      "time": "17:03:08",
+      "action": "file-editor-save",
+      "root": "CODE",
+      "book": "folders.json",
+      "file": "",
+      "ref": "CODE/folders.json"
+    },
+    {
+      "time": "17:05:38",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "prompts",
+      "file": "chapters/chapter1.md",
+      "ref": "PROJECTS/prompts/chapters/chapter1.md"
+    },
+    {
+      "time": "17:05:42",
+      "action": "rename",
+      "root": "PROJECTS",
+      "book": "prompts",
+      "file": "chapters/prompts-test.md",
+      "ref": "PROJECTS/prompts/chapters/prompts-test.md",
+      "from": "chapters/chapter1.md",
+      "to": "chapters/prompts-test.md"
+    }
+  ]
+}

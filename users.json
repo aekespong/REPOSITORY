@@ -1,0 +1,6 @@
+{
+  "users": [
+    { "id": "guest", "name": "Guest Writer", "initials": "GW", "color": "#888888" },
+    { "id": "andre", "name": "André E", "initials": "AE", "color": "#3084F2" }
+  ]
+}

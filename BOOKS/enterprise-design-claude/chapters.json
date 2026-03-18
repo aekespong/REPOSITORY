@@ -51,11 +51,6 @@
       "id": "sammanfattning-till-ledningen",
       "title": "Sammanfattning till ledningen",
       "order": 10
-    },
-    {
-      "id": "chapter1",
-      "title": "Chapter1",
-      "order": 11
     }
   ]
 }

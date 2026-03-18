@@ -1,4 +1,4 @@
-# APM-metamodell för Ardoq — LeanIX-inspirerad
+# LeanIX-inspirerad APM-metamodell för Ardoq 
 
 ## Designprinciper
 

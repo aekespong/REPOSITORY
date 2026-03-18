@@ -1,4 +1,4 @@
-# Reviderad APM-metamodell för Ardoq
+# chatGPT Reviderad APM-metamodell för Ardoq
 
 ## Fem workspaces — prioriterade enligt dina behov
 
