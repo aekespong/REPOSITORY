@@ -2,6 +2,27 @@
 
 System configuration files for Document Writer. These files control application behaviour and should not be deleted or manually moved.
 
+```
+REPOSITORY/                       # Alla böcker
+├── {book-slug}/                # Specifik bok (slugified boknamn)
+│   ├── book.json               # Metadata: boktitel
+│   ├── chapters.json  # Master-index över alla kapitel-ID:n
+│   ├── chapters/               # Platta kapitel-filer och statusfiler
+│   │   ├── {chapter-id}.md     # Kapitelinnehåll (state: text)
+│   │   └── {chapter-id}.json # State management fil (KRITISK för AI-agenter)
+│   └── prompts/                # [Optional] Book-specific prompts override global prompts
+├── system
+│   ├── actions/                    # Global workflow actions
+│   │   └── README.md               # Action definitions and scripts
+│   ├── prompts/                    # Global LLM prompts for AI-LLM-chats/commands
+│   │   ├── prompt_analyze_meta.md
+│   │   ├── prompt_org_tasks.md
+│   │   ├── prompt_tasks.md
+│   │   └── prompt_modify.md
+├── src/server.ts               # Webbviewer för bokinnehållet
+```
+
+
 ## Files
 
 ### `settings.json`

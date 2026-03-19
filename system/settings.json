@@ -3,28 +3,28 @@
   "build": "2026-03-19 11:00",
   "roots": [
     {
-      "slug": "docs",
+      "slug": "DOCS",
       "title": "DOCS",
       "name": "Doc",
       "plural_name": "Docs",
       "created_at": "2026-03-06 14:49"
     },
     {
-      "slug": "projects",
-      "title": "PROJ<ECTS",
-      "name": "Proja",
+      "slug": "PROJECTS",
+      "title": "PROJECTS",
+      "name": "Project",
       "plural_name": "Projects",
       "created_at": "2026-03-06 14:49"
     },
     {
-      "slug": "code",
+      "slug": "CODE",
       "title": "CODE",
       "name": "Code",
       "plural_name": "Code",
       "created_at": "2026-03-07 09:23"
     },
     {
-      "slug": "books",
+      "slug": "BOOKS",
       "title": "BOOKS",
       "name": "Book",
       "plural_name": "Books",
