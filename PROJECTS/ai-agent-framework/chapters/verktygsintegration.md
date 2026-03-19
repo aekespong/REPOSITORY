@@ -5,7 +5,7 @@
 
 ## Model Context Protocol (MCP)
 
-MCP ar en standard for att koppla AI-modeller till externa verktyg och datakallor. For Document Writer innebar detta att AI-agenter kan:
+MCP ar en standard for att koppla AI-modeller till externa verktyg och datakallor. For Doc Writer innebar detta att AI-agenter kan:
 
 - Las kapitelinnehall och metadata direkt
 - Uppdatera statusflaggor och versionshistorik

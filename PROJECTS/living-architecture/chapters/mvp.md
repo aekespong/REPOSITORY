@@ -1,4 +1,6 @@
-# 🚀 Min rekommenderade MVP
+# MVP 
+
+"" 🚀 Min rekommenderade MVP
 
 Börja INTE stort. Gör detta:
 
@@ -42,5 +44,23 @@ Man ska kunna fråga med AIs hjälp om policies och exempel.
 Det du är ute efter är egentligen större än ett verktyg – det är ett **operativt sätt att styra organisationen via kod + kunskap + feedback-loopar**. Om det görs rätt blir det inte bara bättre arkitektur, utan ett system för **kontinuerligt lärande och kvalitetssäkring i hela organisationen**.
 
 Jag bryter ner det i fyra delar: värde per målgrupp, hur feedback ska fungera, hur allt hålls ihop som en enhet, och hur AI blir ett praktiskt stöd i vardagen.
+
+---
+
+# 🎯 1. Tydlig målsättning (detta måste vara kristallklart)
+
+Du behöver formulera det så här internt:
+
+>“Alla förändringar i verksamheten ska vara spårbara, begripliga och kvalitetssäkrade – i realtid.”
+
+Och:
+
+>“Kunskap ska inte vara dokument – den ska vara körbar, granskad och sökbar.”
+
+Detta gör att:
+
+- EA slutar vara teori
+- Projekt slutar vara isolerade
+- Kunskap blir en tillgång, inte en PDF
 
 ---
