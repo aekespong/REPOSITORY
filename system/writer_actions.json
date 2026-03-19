@@ -565,6 +565,266 @@
       "ref": "PROJECTS/living-architecture/chapters/living-architecture-design.md",
       "from": "chapters/1-living-architecture-design.md",
       "to": "chapters/living-architecture-design.md"
+    },
+    {
+      "time": "08:30:31",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/mvp.md",
+      "ref": "PROJECTS/living-architecture/chapters/mvp.md"
+    },
+    {
+      "time": "08:31:07",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/mvp.md",
+      "ref": "PROJECTS/living-architecture/chapters/mvp.md"
+    },
+    {
+      "time": "08:31:46",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/1-grundprincip.md",
+      "ref": "PROJECTS/living-architecture/chapters/1-grundprincip.md"
+    },
+    {
+      "time": "08:32:02",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/1-grundprincip.md",
+      "ref": "PROJECTS/living-architecture/chapters/1-grundprincip.md"
+    },
+    {
+      "time": "08:32:10",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/1-grundprincip.md",
+      "ref": "PROJECTS/living-architecture/chapters/1-grundprincip.md"
+    },
+    {
+      "time": "08:32:11",
+      "action": "rename",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/feedback-som-grundprincip.md",
+      "ref": "PROJECTS/living-architecture/chapters/feedback-som-grundprincip.md",
+      "from": "chapters/1-grundprincip.md",
+      "to": "chapters/feedback-som-grundprincip.md"
+    },
+    {
+      "time": "08:33:07",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/feedback-som-grundprincip.md",
+      "ref": "PROJECTS/living-architecture/chapters/feedback-som-grundprincip.md"
+    },
+    {
+      "time": "08:33:51",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/mvp.md",
+      "ref": "PROJECTS/living-architecture/chapters/mvp.md"
+    },
+    {
+      "time": "08:33:52",
+      "action": "rename",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/genomförande.md",
+      "ref": "PROJECTS/living-architecture/chapters/genomförande.md",
+      "from": "chapters/mvp.md",
+      "to": "chapters/genomförande.md"
+    },
+    {
+      "time": "08:33:54",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/genomförande.md",
+      "ref": "PROJECTS/living-architecture/chapters/genomförande.md"
+    },
+    {
+      "time": "08:34:52",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/genomförande.md",
+      "ref": "PROJECTS/living-architecture/chapters/genomförande.md"
+    },
+    {
+      "time": "08:34:56",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/genomförande.md",
+      "ref": "PROJECTS/living-architecture/chapters/genomförande.md"
+    },
+    {
+      "time": "08:35:09",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/genomförande.md",
+      "ref": "PROJECTS/living-architecture/chapters/genomförande.md"
+    },
+    {
+      "time": "08:36:53",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/living-architecture-design.md",
+      "ref": "PROJECTS/living-architecture/chapters/living-architecture-design.md"
+    },
+    {
+      "time": "08:37:30",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/12-viktiga-designval-här-avgör-du-allt.md",
+      "ref": "PROJECTS/living-architecture/chapters/12-viktiga-designval-här-avgör-du-allt.md"
+    },
+    {
+      "time": "08:38:05",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/12-viktiga-designval-här-avgör-du-allt.md",
+      "ref": "PROJECTS/living-architecture/chapters/12-viktiga-designval-här-avgör-du-allt.md"
+    },
+    {
+      "time": "08:38:07",
+      "action": "rename",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/viktiga-designval-här-avgör-du-allt.md",
+      "ref": "PROJECTS/living-architecture/chapters/viktiga-designval-här-avgör-du-allt.md",
+      "from": "chapters/12-viktiga-designval-här-avgör-du-allt.md",
+      "to": "chapters/viktiga-designval-här-avgör-du-allt.md"
+    },
+    {
+      "time": "08:38:52",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/1-att-få-människor-att-acceptera-tvingande-transparens.md",
+      "ref": "PROJECTS/living-architecture/chapters/1-att-få-människor-att-acceptera-tvingande-transparens.md"
+    },
+    {
+      "time": "08:38:53",
+      "action": "rename",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/change-management.md",
+      "ref": "PROJECTS/living-architecture/chapters/change-management.md",
+      "from": "chapters/1-att-få-människor-att-acceptera-tvingande-transparens.md",
+      "to": "chapters/change-management.md"
+    },
+    {
+      "time": "08:38:58",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/change-management.md",
+      "ref": "PROJECTS/living-architecture/chapters/change-management.md"
+    },
+    {
+      "time": "08:39:44",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/1-det-som-redan-finns-i-delar.md",
+      "ref": "PROJECTS/living-architecture/chapters/1-det-som-redan-finns-i-delar.md"
+    },
+    {
+      "time": "08:39:45",
+      "action": "rename",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/appendix.md",
+      "ref": "PROJECTS/living-architecture/chapters/appendix.md",
+      "from": "chapters/1-det-som-redan-finns-i-delar.md",
+      "to": "chapters/appendix.md"
+    },
+    {
+      "time": "08:44:36",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/6-det-verkligt-intressanta.md",
+      "ref": "PROJECTS/living-architecture/chapters/6-det-verkligt-intressanta.md"
+    },
+    {
+      "time": "08:45:17",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/appendix.md",
+      "ref": "PROJECTS/living-architecture/chapters/appendix.md"
+    },
+    {
+      "time": "08:46:04",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/change-management.md",
+      "ref": "PROJECTS/living-architecture/chapters/change-management.md"
+    },
+    {
+      "time": "08:47:36",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/viktiga-designval-här-avgör-du-allt.md",
+      "ref": "PROJECTS/living-architecture/chapters/viktiga-designval-här-avgör-du-allt.md"
+    },
+    {
+      "time": "08:47:38",
+      "action": "rename",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/viktiga-val-för-implmentation-här-avgör-du-allt.md",
+      "ref": "PROJECTS/living-architecture/chapters/viktiga-val-för-implmentation-här-avgör-du-allt.md",
+      "from": "chapters/viktiga-designval-här-avgör-du-allt.md",
+      "to": "chapters/viktiga-val-för-implmentation-här-avgör-du-allt.md"
+    },
+    {
+      "time": "08:48:30",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/genomförande.md",
+      "ref": "PROJECTS/living-architecture/chapters/genomförande.md"
+    },
+    {
+      "time": "09:13:50",
+      "action": "file-editor-save",
+      "root": "sidebar_settings.json",
+      "book": "",
+      "file": "",
+      "ref": "sidebar_settings.json"
+    },
+    {
+      "time": "09:37:46",
+      "action": "file-editor-save",
+      "root": "..",
+      "book": "cli.py",
+      "file": "",
+      "ref": "../cli.py"
+    },
+    {
+      "time": "09:40:21",
+      "action": "file-editor-save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "book.json",
+      "ref": "PROJECTS/living-architecture/book.json"
     }
   ]
 }

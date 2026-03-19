@@ -12,22 +12,15 @@ Det är ganska nära:
 
 --- 
 
-Vill du kan jag vara brutalt ärlig i nästa steg och:
+## Avgörande om man ska vara brutalt ärlig i nästa steg och:
 
 - peka ut **vad som kommer vara svårast att få att fungera i verkligheten**
 - eller jämföra detta med hur t.ex. stora banker / techbolag faktiskt jobbar
 
 Det är där man ser om det här kommer flyga eller krascha.
 
---- 
 
-### **You**
-
-Vad är svårast i implementeringen 
-
---- 
-
-### **ChatGPT**
+## Vad är svårast i implementeringen?
 
 Det svåraste är inte tekniken. Du kan få ihop pipelines, AI och Git ganska snabbt.
 
