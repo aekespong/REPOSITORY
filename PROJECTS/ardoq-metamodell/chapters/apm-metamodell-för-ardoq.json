@@ -1,7 +1,7 @@
 {
   "slug": "apm-metamodell-för-ardoq",
   "status": "draft",
-  "last_updated": "2026-03-18T14:08:10.469Z",
+  "last_updated": "2026-03-19T15:55:14.873Z",
   "versions": [
     {
       "timestamp": "2026-03-15T21:35:05.434Z",
@@ -9,6 +9,10 @@
     },
     {
       "timestamp": "2026-03-18T14:08:10.469Z",
+      "message": "Saved from chapter editor (.md)"
+    },
+    {
+      "timestamp": "2026-03-19T15:55:14.873Z",
       "message": "Saved from chapter editor (.md)"
     }
   ],

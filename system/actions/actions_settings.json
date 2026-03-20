@@ -60,6 +60,16 @@
           "confirm": false
         },
         {
+          "id": "file-browser",
+          "type": "nav",
+          "mode": "file-browser",
+          "label": "File Browser",
+          "icon": "📁",
+          "description": "Browse and manage files",
+          "url": "/browse",
+          "confirm": false
+        },
+        {
           "id": "github",
           "type": "group",
           "mode": "nav",

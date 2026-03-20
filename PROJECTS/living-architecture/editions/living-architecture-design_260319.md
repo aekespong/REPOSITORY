@@ -18,7 +18,7 @@ Here’s a concrete way to design it.
 
 ---
 
-### Core principle: Everything is a PR + everything is traceable
+### 🔧 1. Core principle: Everything is a PR + everything is traceable
 
 You want three things connected:
 
@@ -36,7 +36,7 @@ You want three things connected:
 
 ---
 
-### Link EVERYTHING — but with IDs, not just text
+### 🔗 2. Link EVERYTHING — but with IDs, not just text
 
 This is where many fail.
 
@@ -62,7 +62,7 @@ Markdown## REQ-123 – User authenticationMust comply with POL-SEC-01
 
 ---
 
-### AI as a “critical architect” in every PR
+### 🤖 3. AI as a “critical architect” in every PR
 
 For every PR, run a pipeline that performs three types of analysis:
 
@@ -93,7 +93,7 @@ AI should be uncomfortable here:
 
 ---
 
-### PR pipeline (concrete flow)
+### ⚙️ 4. PR pipeline (concrete flow)
 
 When someone opens a PR:
 
@@ -125,7 +125,7 @@ Example:
 
 ---
 
-### Make PLANS and SPEC machine-readable (critical)
+### 🧠 5. Make PLANS and SPEC machine-readable (critical)
 
 If you only have free text → AI becomes unreliable.
 
@@ -148,7 +148,7 @@ id: REQ-123description: User must log inlinked\_policies:  - POL-SEC-01
 
 ---
 
-### GitHub as platform (concrete implementation)
+### 🧩 6. GitHub as platform (concrete implementation)
 
 You need:
 

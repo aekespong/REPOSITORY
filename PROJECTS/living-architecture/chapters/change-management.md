@@ -34,7 +34,7 @@ Folk börjar:
 
 ---
 
-# ⚖️ 2. Rätt nivå på policies (detta är extremt svårt)
+# Rätt nivå på policies (detta är extremt svårt)
 
 Om policies är:
 
@@ -64,7 +64,7 @@ Att skriva policies som:
 
 ---
 
-# 🤖 3. AI som ger fel feedback (och tappar förtroende)
+# AI som ger fel feedback (och tappar förtroende)
 
 Det räcker med att AI har fel några gånger:
 
@@ -88,7 +88,7 @@ Det räcker med att AI har fel några gånger:
 
 ---
 
-# 🔗 4. Att få spårbarheten att faktiskt fungera
+# Att få spårbarheten att faktiskt fungera
 
 ID-system (REQ, POL, ADR) låter enkelt.
 
@@ -110,7 +110,7 @@ I verkligheten:
 
 ---
 
-# 🧱 5. Att inte göra det för tungt
+# Att inte göra det för tungt
 
 Det här är en klassiker:
 
@@ -133,7 +133,7 @@ Resultat:
 
 ---
 
-# 🧑‍💼 6. Management som inte använder datan
+# Management som inte använder datan
 
 Du kan bygga världens bästa system.
 
@@ -160,7 +160,7 @@ Men om ingen:
 
 ---
 
-# 🧩 7. Olika projekt – olika verkligheter
+# Olika projekt – olika verkligheter
 
 En policy som funkar i ett projekt:
 
@@ -185,7 +185,7 @@ Teamet säger:
 
 ---
 
-# ⏱️ 8. Latens i feedback
+# Latens i feedback
 
 Om analysen tar:
 
@@ -203,7 +203,7 @@ Om analysen tar:
 
 ---
 
-# 🧠 9. Att hålla kunskapen levande
+# Att hålla kunskapen levande
 
 Din idé bygger på att:
 
@@ -233,7 +233,7 @@ AI börjar ge:
 
 ---
 
-# ⚠️ 10. Den obekväma sanningen
+# Den obekväma sanningen
 
 Det svåraste är detta:
 
@@ -245,25 +245,25 @@ Och organisationer brukar:
 
 ---
 
-# 🧭 Så vad är *det* svåraste egentligen?
+# Så vad är *det* svåraste egentligen?
 
 Om man kokar ner allt:
 
-### 🥇 #1 Kultur & beteende
+### #1 Kultur & beteende
 
 → accepterar vi transparens och ansvar?
 
-### 🥈 #2 Policy-design
+### #2 Policy-design
 
 → går reglerna att använda i verkligheten?
 
-### 🥉 #3 Förtroende för AI
+### #3 Förtroende för AI
 
 → tror folk på feedbacken?
 
 ---
 
-# 🚀 Min rekommendation (för att lyckas)
+# Min rekommendation (för att lyckas)
 
 Gör inte detta “perfekt” från början.
 

@@ -1,7 +1,7 @@
 {
   "slug": "min-rekommenderade-mvp",
   "status": "draft",
-  "last_updated": "2026-03-19T08:48:30.993Z",
+  "last_updated": "2026-03-19T16:32:59.447Z",
   "versions": [
     {
       "timestamp": "2026-03-18T15:27:39.787Z",
@@ -41,6 +41,10 @@
     },
     {
       "timestamp": "2026-03-19T08:48:30.993Z",
+      "message": "Saved from chapter editor (.md)"
+    },
+    {
+      "timestamp": "2026-03-19T16:32:59.447Z",
       "message": "Saved from chapter editor (.md)"
     }
   ],

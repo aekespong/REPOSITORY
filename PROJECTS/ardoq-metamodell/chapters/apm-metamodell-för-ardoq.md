@@ -11,7 +11,7 @@ Byt ut de två nedre i ditt förslag och komplettera med två eller fler.
 
 ## Fem workspaces — prioriterade enligt dina behov
 
-## 🟦 Applikation Workspace — Application Portfolio 
+## Applikation Workspace — Application Portfolio 
 
 |Komponenttyp|Beskrivning|
 |---|---|
@@ -35,7 +35,7 @@ Byt ut de två nedre i ditt förslag och komplettera med två eller fler.
 - Direction (In / Out / Bi-directional)
 - Criticality
 
-## 🟩 Data Objects Workspace *(kopplat till integrationer)*
+## Data Objects Workspace *(kopplat till integrationer)*
 
 |Komponenttyp|Beskrivning|
 |---|---|
@@ -60,7 +60,7 @@ Data Object  ──[Belongs To]──▶  Data Domain
 
 > Kopplingen **Interface → Data Object** är det som gör integrationskartan meningsfull för GDPR- och datakvalitetsarbete.
 
-## 🟨 Portfolio Workspace — Portfolio & Investments *(projekt, initiativ, roadmap)*
+## Portfolio Workspace — Portfolio & Investments *(projekt, initiativ, roadmap)*
 
 Baserat på etablerade arbetssätt för portföljstyrning och Ardoqs egen portföljmetamodell.
 
@@ -96,7 +96,7 @@ Project      ──[Owned By]──▶  Organizational Unit
 
 >**Has Successor** på Application, i kombination med projektkopplingarna, ger den faktiska roadmapen visuellt i Ardoq.
 
-## 🟧 Organisation Workspace — Organization *(lätt struktur, inte förmågor)*
+## Organisation Workspace — Organization *(lätt struktur, inte förmågor)*
 
 |Komponenttyp|Beskrivning|
 |---|---|
@@ -122,7 +122,7 @@ Person               ──[Belongs To]──▶  Organizational Unit
 Person               ──[Reports To]──▶  Person
 ```
 
-## 🟥 Ansvar Workspace — Governance 
+## Ansvar Workspace — Governance 
 
 Detta workspace är *går på tvärs* — det binder samman de andra fyra genom ägarskaps- och ansvarsrelationer. Ardoq skiljer på två centrala ägarskapsroller: **Owns** (formellt ansvar) och **Is Expert In** (teknisk expertkunskap), vilket gör det möjligt att styra surveys till rätt person.
 

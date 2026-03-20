@@ -1,6 +1,6 @@
 # Appendix
 
-## 📜 “Policy as Code”
+## Policy as Code”
 
 Exempel:
 
@@ -19,7 +19,7 @@ Exempel:
 
 --- 
 
-## 🏗️ Arkitektur som kod / ADR
+## Arkitektur som kod / ADR
 
 Exempel:
 
@@ -36,7 +36,7 @@ Exempel:
 
 --- 
 
-## 🔍 Statisk kodanalys
+## Statisk kodanalys
 
 Exempel:
 
@@ -56,7 +56,7 @@ Exempel:
 
 --- 
 
-## 🔗 Spårbarhet (ALM/kravverktyg)
+## Spårbarhet (ALM/kravverktyg)
 
 Exempel:
 
@@ -73,7 +73,7 @@ Exempel:
 
 --- 
 
-## 🤖 AI i kodgranskning (nytt)
+## AI i kodgranskning (nytt)
 
 Exempel:
 
@@ -94,13 +94,13 @@ Exempel:
 
 ---
 
-# 🔥 2. Det som är nytt i din idé
+# Det som är nytt i din idé
 
 Det är inte komponenterna – det är **kombinationen + disciplinen**:
 
 --- 
 
-## 1. Enhet: krav + policy + kod + analys
+## Enhet: krav + policy + kod + analys
 
 De flesta organisationer har detta:
 
@@ -116,7 +116,7 @@ Det är ovanligt.
 
 --- 
 
-## 2. Tvingande feedback-loop i PR
+## Tvingande feedback-loop i PR
 
 Många har:
 
@@ -131,7 +131,7 @@ Men:
 
 --- 
 
-## 3. AI som arkitekturgranskare (inte bara kodgranskare)
+## AI som arkitekturgranskare (inte bara kodgranskare)
 
 Detta är ganska nytt.
 
@@ -151,7 +151,7 @@ Inte för **governance + analys på enterprise-nivå**
 
 --- 
 
-## 4. Feedback som kunskapssystem
+## Feedback som kunskapssystem
 
 Det här är nästan ingen som gör:
 
@@ -163,7 +163,7 @@ De flesta system:
 
 --- 
 
-## 5. Frågemotor över hela arkitekturen
+## Frågemotor över hela arkitekturen
 
 Att kunna fråga:
 
@@ -173,13 +173,13 @@ Att kunna fråga:
 
 ---
 
-# ⚠️ 3. Varför detta inte redan är standard
+# Varför detta inte redan är standard
 
 Det finns en anledning (flera faktiskt):
 
 --- 
 
-## 1. Kultur slår teknik
+## Kultur slår teknik
 
 Detta kräver:
 
@@ -193,7 +193,7 @@ Många organisationer vill inte ha:
 
 --- 
 
-## 2. För komplext (historiskt)
+## För komplext (historiskt)
 
 Tidigare:
 
@@ -204,7 +204,7 @@ Tidigare:
 
 --- 
 
-## 3. Fel incitament
+## Fel incitament
 
 Projekt optimerar för:
 
@@ -218,7 +218,7 @@ Inte:
 
 ---
 
-# 🧭 4. Närmast du kommer idag
+# Närmast du kommer idag
 
 De mest mogna organisationerna (typ stora techbolag) gör något liknande, men:
 
@@ -228,7 +228,7 @@ De mest mogna organisationerna (typ stora techbolag) gör något liknande, men:
 
 ---
 
-# 💡 5. Min ärliga bedömning
+# Min ärliga bedömning
 
 Det du beskriver är:
 
@@ -242,7 +242,7 @@ Och viktigast:
 
 ---
 
-# 🚀 6. Det verkligt intressanta
+# Det verkligt intressanta
 
 Om du lyckas fullt ut får du:
 

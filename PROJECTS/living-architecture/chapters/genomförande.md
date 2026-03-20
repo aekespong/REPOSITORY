@@ -367,7 +367,7 @@ Varje PR genererar en uppsättning **Feedback Items**.
 
 ---
 
-# 🏷️ 2. Feedback Item – datamodell
+# Feedback Item – datamodell
 
 Varje AI- eller manuell kommentar blir ett objekt:
 
@@ -382,7 +382,7 @@ YAMLid: FB-00123type: violation | risk | suggestion | questionseverity: critical
 
 ---
 
-# 🚦 3. Statusmodell (kärnan)
+# Statusmodell (kärnan)
 
 ### Tillstånd:
 
@@ -393,17 +393,17 @@ YAMLid: FB-00123type: violation | risk | suggestion | questionseverity: critical
 
 ---
 
-# 🔁 4. PR-flöde (exakt beteende)
+# PR-flöde (exakt beteende)
 
 När PR öppnas:
 
-### 1. AI skapar feedback
+### AI skapar feedback
 
 → Alla items = `open`
 
 --- 
 
-### 2. Teamet måste ta ställning
+### Teamet måste ta ställning
 
 För varje item:
 
@@ -413,7 +413,7 @@ För varje item:
 
 --- 
 
-### 3. Merge-regler
+### Merge-regler
 
 PR får **inte mergas om:**
 
@@ -432,7 +432,7 @@ PR får mergas om:
 
 ---
 
-# 🧠 5. Skillnad på AI vs människa
+# Skillnad på AI vs människa
 
 Du måste designa detta tydligt:
 
@@ -455,7 +455,7 @@ Du måste designa detta tydligt:
 
 ---
 
-# ⚖️ 6. “Rejection kräver ansvar”
+# “Rejection kräver ansvar”
 
 Om någon avvisar feedback:
 
@@ -473,7 +473,7 @@ YAMLrejection_reason: "False positive – endpoint skyddas via gateway"approved_
 
 ---
 
-# 🔍 7. Transparens för alla
+# Transparens för alla
 
 Alla ska kunna se:
 
@@ -492,7 +492,7 @@ Alla ska kunna se:
 
 ---
 
-# 📊 8. Aggregering (detta ger management-värde)
+# Aggregering (detta ger management-värde)
 
 Du kan nu mäta:
 
@@ -512,7 +512,7 @@ Du kan nu mäta:
 
 ---
 
-# 🤖 9. AI-feedback – struktur (så den blir användbar)
+# AI-feedback – struktur (så den blir användbar)
 
 Varje feedback ska alltid innehålla:
 
@@ -538,7 +538,7 @@ Varje feedback ska alltid innehålla:
 
 ---
 
-# 🧪 10. Självläkande system (nästa nivå)
+# Självläkande system (nästa nivå)
 
 När feedback avvisas ofta:
 
@@ -556,7 +556,7 @@ När samma issue upprepas:
 
 ---
 
-# 🧑‍🏫 11. Feedback = utbildning
+# Feedback = utbildning
 
 Varje feedback item är också:
 
