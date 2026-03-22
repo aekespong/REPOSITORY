@@ -1031,6 +1031,102 @@
       "book": "actions",
       "file": "actions_settings.json",
       "ref": "system/actions/actions_settings.json"
+    },
+    {
+      "time": "18:11:04",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "test-book",
+      "file": "chapters/test_editor_sample.md",
+      "ref": "PROJECTS/test-book/chapters/test_editor_sample.md"
+    },
+    {
+      "time": "18:11:04",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "test-book",
+      "file": "chapters/workflow_test.md",
+      "ref": "PROJECTS/test-book/chapters/workflow_test.md"
+    },
+    {
+      "time": "18:14:21",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "test-book",
+      "file": "chapters/test_editor_sample.md",
+      "ref": "PROJECTS/test-book/chapters/test_editor_sample.md"
+    },
+    {
+      "time": "18:14:21",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "test-book",
+      "file": "chapters/workflow_test.md",
+      "ref": "PROJECTS/test-book/chapters/workflow_test.md"
+    },
+    {
+      "time": "18:15:47",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "test-book",
+      "file": "chapters/test_editor_sample.md",
+      "ref": "PROJECTS/test-book/chapters/test_editor_sample.md"
+    },
+    {
+      "time": "18:15:47",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "test-book",
+      "file": "chapters/workflow_test.md",
+      "ref": "PROJECTS/test-book/chapters/workflow_test.md"
+    },
+    {
+      "time": "18:16:25",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "test-book",
+      "file": "chapters/test_editor_sample.md",
+      "ref": "PROJECTS/test-book/chapters/test_editor_sample.md"
+    },
+    {
+      "time": "18:16:25",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "test-book",
+      "file": "chapters/workflow_test.md",
+      "ref": "PROJECTS/test-book/chapters/workflow_test.md"
+    },
+    {
+      "time": "18:49:30",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "business-and-policy-driven-development",
+      "file": "chapters/analysis-of-the-background-and-the-problems-this-solution-addresses.md",
+      "ref": "PROJECTS/business-and-policy-driven-development/chapters/analysis-of-the-background-and-the-problems-this-solution-addresses.md"
+    },
+    {
+      "time": "18:54:22",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "business-and-policy-driven-development",
+      "file": "chapters/analysis-of-the-background-and-the-problems-this-solution-addresses.md",
+      "ref": "PROJECTS/business-and-policy-driven-development/chapters/analysis-of-the-background-and-the-problems-this-solution-addresses.md"
+    },
+    {
+      "time": "18:56:09",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "business-and-policy-driven-development",
+      "file": "chapters/living-architecture-design.md",
+      "ref": "PROJECTS/business-and-policy-driven-development/chapters/living-architecture-design.md"
+    },
+    {
+      "time": "19:04:59",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "business-and-policy-driven-development",
+      "file": "chapters/grundprincip-allt-är-pr--allt-är-spårbart.md",
+      "ref": "PROJECTS/business-and-policy-driven-development/chapters/grundprincip-allt-är-pr--allt-är-spårbart.md"
     }
   ]
 }
