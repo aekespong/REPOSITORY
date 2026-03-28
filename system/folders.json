@@ -1,7 +1,14 @@
 {
   "version": "0.2.1",
-  "build": "2026-03-20 20:01",
+  "build": "2026-03-28 12:20",
   "roots": [
+    {
+      "slug": "ARCHITECTURE",
+      "title": "ARCHITECTURE",
+      "name": "Architecture",
+      "plural_name": "Architectures",
+      "created_at": "2026-03-06 14:49"
+    },
     {
       "slug": "DOCS",
       "title": "DOCS",
@@ -15,6 +22,13 @@
       "name": "Project",
       "plural_name": "Projects",
       "created_at": "2026-03-06 14:49"
+    },
+    {
+      "slug": "GIT",
+      "title": "GIT",
+      "name": "Git",
+      "plural_name": "Git",
+      "created_at": "2026-03-21 09:23"
     },
     {
       "slug": "CODE",

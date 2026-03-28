@@ -1,0 +1,48 @@
+{
+    "version": 1,
+    "commands": [
+        {
+            "id": "architecture_policies",
+            "title": "Architecture Policies",
+            "icon": "📚",
+            "prompt": "What are the architecture policies for LKAB projects?",
+            "pages": [
+                {
+                    "title": "LKAB Architecture Policies",
+                    "content": "1. Modularity: Design systems in modular components to enhance maintainability and scalability.\n2. Scalability: Ensure that the architecture can handle growth in users, data, and functionality without significant performance degradation.\n3. Security: Implement robust security measures to protect data and ensure compliance with industry standards.\n4. Performance: Optimize for fast response times and efficient resource usage.\n5. Maintainability: Write clean, well-documented code to facilitate easy maintenance and updates.\n6. Testability: Design for testability by enabling unit testing, integration testing, and end-to-end testing.\n7. Resilience: Build systems that can recover gracefully from failures and continue to operate under adverse conditions.",
+                    "document": "DOCS/architecture_policies",
+                    "chapter": "modularity"
+                },
+                {
+                    "title": "Scalability",
+                    "content": "Ensure that the architecture can handle growth in users, data, and functionality without significant performance degradation.",
+                    "document": "DOCS/scalability_policies",
+                    "chapter": "scalability"
+                },
+                {
+                    "title": "Resilience",
+                    "content": "Build systems that can recover gracefully from failures and continue to operate under adverse conditions.",
+                    "document": "DOCS/resilience_policies",
+                    "chapter": "resilience"
+                }]
+        },
+        {
+            "id": "outline",
+            "title": "Outline a chapter",
+            "icon": "✍️",
+            "prompt": "Help me outline a new chapter"
+        },
+        {
+            "id": "improve",
+            "title": "Improve structure",
+            "icon": "🔄",
+            "prompt": "Suggest improvements for chapter structure"
+        },
+        {
+            "id": "consistency",
+            "title": "Check consistency",
+            "icon": "🔍",
+            "prompt": "Find inconsistencies in my writing"
+        }
+    ]
+}

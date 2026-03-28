@@ -53,6 +53,11 @@
     {
       "slug": "prompts",
       "title": "Prompts"
+    },
+    {
+      "slug": "big-issues-of-microservices",
+      "title": "The Hidden Risks of Microservices: Why ‘Modern’ Architecture Isn’t Always Better",
+      "created_at": "2026-03-23T09:21:29.502Z"
     }
   ]
 }

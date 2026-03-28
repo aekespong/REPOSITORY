@@ -4,8 +4,6 @@ Inom Model Workspace Protocol (MWP) fungerar en `PLAN.md` ofta som en förlängn
 
 Här är ett exempel på hur en `PLAN.md` kan se ut för ett arbetsflöde som skapar en utbildningsmodul:
 
-***
-
 # PLAN: Produktion av Utbildningsmodul 01
 
 **Status:** 🔄 Pågår
