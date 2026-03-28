@@ -1,12 +1,6 @@
 {
   "chapters": [
     {
-      "id": "chapter1",
-      "title": "Ch 1",
-      "order": 1,
-      "last_updated": "2026-02-07T23:10:35.927Z"
-    },
-    {
       "id": "chapter12",
       "title": "Ch 3  ",
       "order": 2,

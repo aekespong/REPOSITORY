@@ -1,0 +1,14 @@
+{
+  "chapters": [
+    {
+      "id": "analysis-of-the-background-and-the-problems-this-solution-addresses",
+      "title": "Analysis of the background and the problems this solution addresses",
+      "order": 1
+    },
+    {
+      "id": "living-architecture-design",
+      "title": "Living Architecture Design",
+      "order": 2
+    }
+  ]
+}

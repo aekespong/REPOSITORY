@@ -1,0 +1,24 @@
+{
+  "chapters": [
+    {
+      "id": "living-architecture-design",
+      "title": "Living Architecture Design",
+      "order": 1
+    },
+    {
+      "id": "genomförande",
+      "title": "🚀 Min rekommenderade MVP",
+      "order": 2
+    },
+    {
+      "id": "change-management",
+      "title": "🧠 1. Att få människor att acceptera “tvingande transparens”",
+      "order": 3
+    },
+    {
+      "id": "appendix",
+      "title": "🧠 1. Det som redan finns (i delar)",
+      "order": 4
+    }
+  ]
+}

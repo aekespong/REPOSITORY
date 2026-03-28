@@ -1,0 +1,16 @@
+{
+  "id": "chapter1",
+  "title": "Chapter 1",
+  "status": "draft",
+  "created_at": "2026-03-13T15:49:36.613Z",
+  "last_updated": "2026-03-13T15:49:36.613Z",
+  "versions": [
+    {
+      "timestamp": "2026-03-13T15:49:36.613Z",
+      "message": "Auto-created"
+    }
+  ],
+  "meta": {},
+  "org_tasks": [],
+  "edit_tasks": []
+}

@@ -1,0 +1,164 @@
+{
+  "version": 1,
+  "actions": [
+    {
+      "id": "plans",
+      "type": "nav",
+      "mode": "plans",
+      "label": "Plans",
+      "icon": "📋",
+      "description": "View all plans"
+    },
+    {
+      "id": "research",
+      "type": "nav",
+      "mode": "research",
+      "label": "Research",
+      "icon": "🔎",
+      "description": "View all research"
+    },
+    {
+      "id": "material",
+      "type": "nav",
+      "mode": "material",
+      "label": "Material",
+      "icon": "📦",
+      "description": "View all material"
+    },
+    {
+      "id": "prompts",
+      "type": "nav",
+      "mode": "prompts",
+      "label": "Prompts",
+      "icon": "💬",
+      "description": "View all prompts"
+    },
+    {
+      "id": "search",
+      "type": "nav",
+      "mode": "search",
+      "label": "Global Search",
+      "icon": "🔍",
+      "description": "Search across all books"
+    },
+    {
+      "id": "import",
+      "type": "group",
+      "mode": "import",
+      "label": "File Import/Export",
+      "icon": "📥",
+      "description": "Import and export markdown and other file formats",
+      "children": [
+        {
+          "id": "import-markdown",
+          "type": "command",
+          "label": "Import Markdown",
+          "icon": "📥",
+          "description": "Split a markdown document into chapters and create a new book",
+          "endpoint": "/api/actions/import-markdown",
+          "has_form": true,
+          "confirm": false
+        },
+        {
+          "id": "file-browser",
+          "type": "nav",
+          "mode": "file-browser",
+          "label": "File Browser",
+          "icon": "📁",
+          "description": "Browse and manage files",
+          "url": "/browse",
+          "confirm": false
+        },
+        {
+          "id": "github",
+          "type": "group",
+          "mode": "nav",
+          "label": "Github",
+          "icon": "🐙",
+          "description": "Github actions and commands",
+          "children": [
+            {
+              "id": "git-status",
+              "type": "command",
+              "label": "Git Status",
+              "icon": "📊",
+              "description": "Show current Git status and changed files",
+              "endpoint": "/api/actions/git-status",
+              "confirm": false
+            },
+            {
+              "id": "git-open",
+              "type": "command",
+              "label": "Open in Github",
+              "icon": "🔗",
+              "description": "Open the remote repository in your browser",
+              "endpoint": "/api/actions/git-open",
+              "confirm": false
+            },
+            {
+              "id": "git-push",
+              "type": "command",
+              "label": "Git Push",
+              "icon": "🚀",
+              "description": "Commit all changes and push to Github",
+              "endpoint": "/api/actions/git-push",
+              "confirm": true,
+              "confirm_message": "This will commit and push all changes to Github. Continue?"
+            },
+            {
+              "id": "git-init",
+              "type": "command",
+              "label": "Git Init",
+              "icon": "🔧",
+              "description": "Initialize a Git repository and configure remote",
+              "endpoint": "/api/actions/git-init",
+              "confirm": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "system",
+      "type": "group",
+      "mode": "nav",
+      "label": "System",
+      "icon": "⚙️",
+      "description": "System actions and commands",
+      "children": [
+        {
+          "id": "writer-log",
+          "type": "nav",
+          "mode": "writer-log",
+          "label": "Writer logs",
+          "icon": "📜",
+          "description": "Log of changes in writer_actions.json"
+        },
+        {
+          "id": "updated-documents",
+          "type": "nav",
+          "mode": "updated-documents",
+          "label": "Updated documents",
+          "icon": "📝",
+          "description": "Documents from writer_actions.json"
+        },
+        {
+          "id": "debug",
+          "type": "nav",
+          "mode": "debug",
+          "label": "LLM logs",
+          "icon": "🪲",
+          "description": "LLM debug log files"
+        },
+        {
+          "id": "actions-guide",
+          "type": "nav",
+          "mode": "actions-guide",
+          "label": "Actions Guide",
+          "icon": "📖",
+          "description": "View and edit the actions README"
+        }
+      ]
+    }
+  ]
+}

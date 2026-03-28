@@ -1,13 +1,13 @@
 {
   "chapters": [
     {
-      "id": "utgangspunkt-fran-verkligt-problem-till-arkitektur",
-      "title": "1. Utgångspunkt: från verkligt problem till arkitektur",
+      "id": "affarsformagor-som-struktur-inte-process",
+      "title": "2. Affärsförmågor som struktur – inte process",
       "order": 1
     },
     {
-      "id": "affarsformagor-som-struktur-inte-process",
-      "title": "2. Affärsförmågor som struktur – inte process",
+      "id": "utgangspunkt-fran-verkligt-problem-till-arkitektur",
+      "title": "1. Utgångspunkt: från verkligt problem till arkitektur",
       "order": 2
     },
     {

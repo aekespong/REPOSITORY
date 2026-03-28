@@ -1,60 +1,58 @@
 {
-  "books": [
+  "folders": [
     {
       "slug": "a-modern-approach-to-using-ai",
       "title": "A modern approach to using AI",
-      "path": "a-modern-approach-to-using-ai",
-      "chapters_path": "a-modern-approach-to-using-ai/chapters",
       "created_at": "2026-03-10T10:07:01.604Z"
     },
     {
-      "slug": "arkitektur-och-ontologier",
-      "title": "Arkitektur och ontologier",
-      "path": "arkitektur-och-ontologier",
-      "chapters_path": "arkitektur-och-ontologier/chapters",
-      "created_at": "2026-02-22 16:41"
+      "slug": "a-modern-approach-to-using-ai-draft",
+      "title": "A modern approach to using AI draft",
+      "created_at": "2026-03-12T07:44:58.358Z"
     },
     {
-      "slug": "nar-framtiden-blir-personlig-v3",
-      "title": "När framtiden blir personlig v3",
-      "path": "nar-framtiden-blir-personlig-v3",
-      "chapters_path": "nar-framtiden-blir-personlig-v3/chapters",
-      "created_at": "2026-01-19 17:38"
+      "slug": "arkitektur-och-ontologier",
+      "title": "Integrationsarkitektur och ontologier",
+      "created_at": "2026-02-22 16:41"
     },
     {
       "slug": "enterprise-design-claude",
       "title": "Enterprise Design - Claude",
-      "path": "enterprise-design-claude",
-      "chapters_path": "enterprise-design-claude/chapters",
       "created_at": "2026-01-20 10:34"
     },
     {
       "slug": "enterprise-design-i-praktiken",
       "title": "Enterprise Design i praktiken",
-      "path": "enterprise-design-i-praktiken",
-      "chapters_path": "enterprise-design-i-praktiken/chapters",
       "created_at": "2026-01-21 01:05"
     },
     {
       "slug": "gw_code",
       "title": "Kod GW",
-      "path": "gw_code",
-      "chapters_path": "gw_code/code",
       "created_at": "2026-02-08 00:43"
     },
     {
-      "slug": "test-book",
-      "title": "Test Book",
-      "path": "test-book",
-      "chapters_path": "test-book/chapters",
-      "created_at": "2026-02-07 07:48"
+      "slug": "mikrotjänst-eller-adapter",
+      "title": "MIkrotjänst eller adapter",
+      "created_at": "2026-03-14T06:52:18.718Z"
     },
     {
       "slug": "multi-chapter-book",
       "title": "Multi Chapter Book",
-      "path": "multi-chapter-book",
-      "chapters_path": "multi-chapter-book/chapters",
       "created_at": "2026-02-07 07:47"
+    },
+    {
+      "slug": "nar-framtiden-blir-personlig-v3",
+      "title": "När framtiden blir personlig v3",
+      "created_at": "2026-01-19 17:38"
+    },
+    {
+      "slug": "test-book",
+      "title": "Test Book",
+      "created_at": "2026-02-17 06:39"
+    },
+    {
+      "slug": "prompts",
+      "title": "Prompts"
     }
   ]
 }

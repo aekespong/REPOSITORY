@@ -1,0 +1,1132 @@
+{
+  "2026-03-15": [
+    {
+      "time": "22:05:43",
+      "action": "save",
+      "root": "CODE",
+      "book": "code",
+      "file": "chapters/chapter1.md",
+      "ref": "CODE/code/chapters/chapter1.md"
+    },
+    {
+      "time": "22:05:47",
+      "action": "rename",
+      "root": "CODE",
+      "book": "code",
+      "file": "chapters/chapter-1.md",
+      "ref": "CODE/code/chapters/chapter-1.md",
+      "from": "chapters/chapter1.md",
+      "to": "chapters/chapter-1.md"
+    },
+    {
+      "time": "22:11:18",
+      "action": "file-editor-save",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters.json",
+      "ref": "PROJECTS/ardoq-metamodell/chapters.json"
+    },
+    {
+      "time": "22:12:17",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/omstrukturering_av_kod_2026-03-15_18-47-09.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/omstrukturering_av_kod_2026-03-15_18-47-09.md"
+    },
+    {
+      "time": "22:12:26",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/omstrukturering_av_kod_2026-03-15_18-47-09.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/omstrukturering_av_kod_2026-03-15_18-47-09.md"
+    },
+    {
+      "time": "22:12:52",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/omstrukturering_av_kod_2026-03-15_18-47-09.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/omstrukturering_av_kod_2026-03-15_18-47-09.md"
+    },
+    {
+      "time": "22:12:54",
+      "action": "rename",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/chat-reviderad-apm-metamodell-för-ardoq.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/chat-reviderad-apm-metamodell-för-ardoq.md",
+      "from": "chapters/omstrukturering_av_kod_2026-03-15_18-47-09.md",
+      "to": "chapters/chat-reviderad-apm-metamodell-för-ardoq.md"
+    },
+    {
+      "time": "22:20:37",
+      "action": "save",
+      "root": "DOCS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/apm-metamodell-för-ardoq.md",
+      "ref": "DOCS/ardoq-metamodell/chapters/apm-metamodell-för-ardoq.md"
+    },
+    {
+      "time": "22:20:40",
+      "action": "rename",
+      "root": "DOCS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/kopia-av-apm-metamodell-för-ardoq.md",
+      "ref": "DOCS/ardoq-metamodell/chapters/kopia-av-apm-metamodell-för-ardoq.md",
+      "from": "chapters/apm-metamodell-för-ardoq.md",
+      "to": "chapters/kopia-av-apm-metamodell-för-ardoq.md"
+    }
+  ],
+  "2026-03-16": [
+    {
+      "time": "07:17:36",
+      "action": "file-editor-save",
+      "root": "DOCS",
+      "book": "folders.json",
+      "file": "",
+      "ref": "DOCS/folders.json"
+    },
+    {
+      "time": "07:23:19",
+      "action": "file-editor-save",
+      "root": "DOCS",
+      "book": "folders.json",
+      "file": "",
+      "ref": "DOCS/folders.json"
+    },
+    {
+      "time": "07:23:35",
+      "action": "file-editor-save",
+      "root": "DOCS",
+      "book": "docs",
+      "file": "chapters.json",
+      "ref": "DOCS/docs/chapters.json"
+    },
+    {
+      "time": "07:33:14",
+      "action": "save",
+      "root": "DOCS",
+      "book": "docs",
+      "file": "chapters/chapter1.md",
+      "ref": "DOCS/docs/chapters/chapter1.md"
+    },
+    {
+      "time": "07:33:17",
+      "action": "rename",
+      "root": "DOCS",
+      "book": "docs",
+      "file": "chapters/docs-test-chapter-1.md",
+      "ref": "DOCS/docs/chapters/docs-test-chapter-1.md",
+      "from": "chapters/chapter1.md",
+      "to": "chapters/docs-test-chapter-1.md"
+    },
+    {
+      "time": "08:20:47",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "ai-agent-framework",
+      "file": "chapters/agentarkitektur.md",
+      "ref": "PROJECTS/ai-agent-framework/chapters/agentarkitektur.md"
+    },
+    {
+      "time": "08:30:13",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "ai-agent-framework",
+      "file": "chapters/agentarkitektur.md",
+      "ref": "PROJECTS/ai-agent-framework/chapters/agentarkitektur.md"
+    },
+    {
+      "time": "10:37:35",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/apm-metamodell-för-ardoq-leanix-inspirerad.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/apm-metamodell-för-ardoq-leanix-inspirerad.md"
+    },
+    {
+      "time": "10:37:37",
+      "action": "rename",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/leanix-inspirerad-apm-metamodell-för-ardoq.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/leanix-inspirerad-apm-metamodell-för-ardoq.md",
+      "from": "chapters/apm-metamodell-för-ardoq-leanix-inspirerad.md",
+      "to": "chapters/leanix-inspirerad-apm-metamodell-för-ardoq.md"
+    },
+    {
+      "time": "11:00:34",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/apm-metamodell-för-ardoq.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/apm-metamodell-för-ardoq.md"
+    },
+    {
+      "time": "11:03:21",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/apm-metamodell-för-ardoq.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/apm-metamodell-för-ardoq.md"
+    },
+    {
+      "time": "11:05:06",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/chat-reviderad-apm-metamodell-för-ardoq.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/chat-reviderad-apm-metamodell-för-ardoq.md"
+    },
+    {
+      "time": "11:05:38",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/chat-reviderad-apm-metamodell-för-ardoq.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/chat-reviderad-apm-metamodell-för-ardoq.md"
+    },
+    {
+      "time": "11:05:41",
+      "action": "rename",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/chatgpt-reviderad-apm-metamodell-för-ardoq.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/chatgpt-reviderad-apm-metamodell-för-ardoq.md",
+      "from": "chapters/chat-reviderad-apm-metamodell-för-ardoq.md",
+      "to": "chapters/chatgpt-reviderad-apm-metamodell-för-ardoq.md"
+    },
+    {
+      "time": "11:05:44",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/chatgpt-reviderad-apm-metamodell-för-ardoq.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/chatgpt-reviderad-apm-metamodell-för-ardoq.md"
+    },
+    {
+      "time": "11:06:50",
+      "action": "file-editor-save",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/chatgpt-reviderad-apm-metamodell-för-ardoq.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/chatgpt-reviderad-apm-metamodell-för-ardoq.md"
+    },
+    {
+      "time": "11:13:08",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/chatgpt-reviderad-apm-metamodell-för-ardoq.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/chatgpt-reviderad-apm-metamodell-för-ardoq.md"
+    }
+  ],
+  "2026-03-17": [
+    {
+      "time": "08:00:01",
+      "action": "save",
+      "root": "DOCS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/apm-metamodell-för-ardoq.md",
+      "ref": "DOCS/ardoq-metamodell/chapters/apm-metamodell-för-ardoq.md"
+    },
+    {
+      "time": "08:00:07",
+      "action": "rename",
+      "root": "DOCS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/apm-metamodell-för-ardoq-på-lkab.md",
+      "ref": "DOCS/ardoq-metamodell/chapters/apm-metamodell-för-ardoq-på-lkab.md",
+      "from": "chapters/apm-metamodell-för-ardoq.md",
+      "to": "chapters/apm-metamodell-för-ardoq-på-lkab.md"
+    },
+    {
+      "time": "17:01:04",
+      "action": "file-editor-save",
+      "root": "DOCS",
+      "book": "folders.json",
+      "file": "",
+      "ref": "DOCS/folders.json"
+    },
+    {
+      "time": "17:02:32",
+      "action": "save",
+      "root": "CODE",
+      "book": "code-index",
+      "file": "chapters/chapter-1.md",
+      "ref": "CODE/code-index/chapters/chapter-1.md"
+    },
+    {
+      "time": "17:02:35",
+      "action": "rename",
+      "root": "CODE",
+      "book": "code-index",
+      "file": "chapters/code-chapter.md",
+      "ref": "CODE/code-index/chapters/code-chapter.md",
+      "from": "chapters/chapter-1.md",
+      "to": "chapters/code-chapter.md"
+    },
+    {
+      "time": "17:03:08",
+      "action": "file-editor-save",
+      "root": "CODE",
+      "book": "folders.json",
+      "file": "",
+      "ref": "CODE/folders.json"
+    },
+    {
+      "time": "17:05:38",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "prompts",
+      "file": "chapters/chapter1.md",
+      "ref": "PROJECTS/prompts/chapters/chapter1.md"
+    },
+    {
+      "time": "17:05:42",
+      "action": "rename",
+      "root": "PROJECTS",
+      "book": "prompts",
+      "file": "chapters/prompts-test.md",
+      "ref": "PROJECTS/prompts/chapters/prompts-test.md",
+      "from": "chapters/chapter1.md",
+      "to": "chapters/prompts-test.md"
+    }
+  ],
+  "2026-03-18": [
+    {
+      "time": "04:59:45",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "ai-agent-framework",
+      "file": "chapters/agentarkitektur.md",
+      "ref": "PROJECTS/ai-agent-framework/chapters/agentarkitektur.md"
+    },
+    {
+      "time": "04:59:47",
+      "action": "rename",
+      "root": "PROJECTS",
+      "book": "ai-agent-framework",
+      "file": "chapters/arkitektur-för-agenter.md",
+      "ref": "PROJECTS/ai-agent-framework/chapters/arkitektur-för-agenter.md",
+      "from": "chapters/agentarkitektur.md",
+      "to": "chapters/arkitektur-för-agenter.md"
+    },
+    {
+      "time": "07:54:46",
+      "action": "file-editor-save",
+      "root": "DOCS",
+      "book": "document_test",
+      "file": "chapters/docs-test-chapter-1.md",
+      "ref": "DOCS/document_test/chapters/docs-test-chapter-1.md"
+    },
+    {
+      "time": "08:04:04",
+      "action": "file-editor-save",
+      "root": "DOCS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/kopia-av-apm-metamodell-för-ardoq.md",
+      "ref": "DOCS/ardoq-metamodell/chapters/kopia-av-apm-metamodell-för-ardoq.md"
+    },
+    {
+      "time": "09:12:52",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "ai-agent-framework",
+      "file": "chapters/arkitektur-för-agenter.md",
+      "ref": "PROJECTS/ai-agent-framework/chapters/arkitektur-för-agenter.md"
+    },
+    {
+      "time": "14:08:10",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/apm-metamodell-för-ardoq.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/apm-metamodell-för-ardoq.md"
+    },
+    {
+      "time": "15:21:18",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/leanix-inspirerad-apm-metamodell-för-ardoq.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/leanix-inspirerad-apm-metamodell-för-ardoq.md"
+    },
+    {
+      "time": "15:35:42",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/living-architecture-design.md",
+      "ref": "PROJECTS/living-architecture/chapters/living-architecture-design.md"
+    }
+  ],
+  "2026-03-19": [
+    {
+      "time": "02:46:51",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/living-architecture-design.md",
+      "ref": "PROJECTS/living-architecture/chapters/living-architecture-design.md"
+    },
+    {
+      "time": "02:47:27",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/living-architecture-design.md",
+      "ref": "PROJECTS/living-architecture/chapters/living-architecture-design.md"
+    },
+    {
+      "time": "02:48:28",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/living-architecture-design.md",
+      "ref": "PROJECTS/living-architecture/chapters/living-architecture-design.md"
+    },
+    {
+      "time": "04:12:47",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/living-architecture-design.md",
+      "ref": "PROJECTS/living-architecture/chapters/living-architecture-design.md"
+    },
+    {
+      "time": "04:13:18",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/living-architecture-design.md",
+      "ref": "PROJECTS/living-architecture/chapters/living-architecture-design.md"
+    },
+    {
+      "time": "04:14:53",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/living-architecture-design.md",
+      "ref": "PROJECTS/living-architecture/chapters/living-architecture-design.md"
+    },
+    {
+      "time": "04:17:47",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/living-architecture-design.md",
+      "ref": "PROJECTS/living-architecture/chapters/living-architecture-design.md"
+    },
+    {
+      "time": "04:18:00",
+      "action": "rename",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/1-living-architecture-design.md",
+      "ref": "PROJECTS/living-architecture/chapters/1-living-architecture-design.md",
+      "from": "chapters/living-architecture-design.md",
+      "to": "chapters/1-living-architecture-design.md"
+    },
+    {
+      "time": "04:18:13",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/1-living-architecture-design.md",
+      "ref": "PROJECTS/living-architecture/chapters/1-living-architecture-design.md"
+    },
+    {
+      "time": "04:18:25",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/1-living-architecture-design.md",
+      "ref": "PROJECTS/living-architecture/chapters/1-living-architecture-design.md"
+    },
+    {
+      "time": "04:18:29",
+      "action": "rename",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/living-architecture-design.md",
+      "ref": "PROJECTS/living-architecture/chapters/living-architecture-design.md",
+      "from": "chapters/1-living-architecture-design.md",
+      "to": "chapters/living-architecture-design.md"
+    },
+    {
+      "time": "04:18:31",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/living-architecture-design.md",
+      "ref": "PROJECTS/living-architecture/chapters/living-architecture-design.md"
+    },
+    {
+      "time": "04:18:32",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/living-architecture-design.md",
+      "ref": "PROJECTS/living-architecture/chapters/living-architecture-design.md"
+    },
+    {
+      "time": "04:18:35",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/living-architecture-design.md",
+      "ref": "PROJECTS/living-architecture/chapters/living-architecture-design.md"
+    },
+    {
+      "time": "04:18:47",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/living-architecture-design.md",
+      "ref": "PROJECTS/living-architecture/chapters/living-architecture-design.md"
+    },
+    {
+      "time": "04:18:50",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/living-architecture-design.md",
+      "ref": "PROJECTS/living-architecture/chapters/living-architecture-design.md"
+    },
+    {
+      "time": "04:18:56",
+      "action": "rename",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/1-living-architecture-design.md",
+      "ref": "PROJECTS/living-architecture/chapters/1-living-architecture-design.md",
+      "from": "chapters/living-architecture-design.md",
+      "to": "chapters/1-living-architecture-design.md"
+    },
+    {
+      "time": "04:19:01",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/1-living-architecture-design.md",
+      "ref": "PROJECTS/living-architecture/chapters/1-living-architecture-design.md"
+    },
+    {
+      "time": "04:22:04",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/min-rekommenderade-mvp.md",
+      "ref": "PROJECTS/living-architecture/chapters/min-rekommenderade-mvp.md"
+    },
+    {
+      "time": "04:22:10",
+      "action": "rename",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/mvp.md",
+      "ref": "PROJECTS/living-architecture/chapters/mvp.md",
+      "from": "chapters/min-rekommenderade-mvp.md",
+      "to": "chapters/mvp.md"
+    },
+    {
+      "time": "04:25:24",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/1-living-architecture-design.md",
+      "ref": "PROJECTS/living-architecture/chapters/1-living-architecture-design.md"
+    },
+    {
+      "time": "04:30:52",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/1-living-architecture-design.md",
+      "ref": "PROJECTS/living-architecture/chapters/1-living-architecture-design.md"
+    },
+    {
+      "time": "04:31:20",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/1-living-architecture-design.md",
+      "ref": "PROJECTS/living-architecture/chapters/1-living-architecture-design.md"
+    },
+    {
+      "time": "04:31:27",
+      "action": "rename",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/living-architecture-design.md",
+      "ref": "PROJECTS/living-architecture/chapters/living-architecture-design.md",
+      "from": "chapters/1-living-architecture-design.md",
+      "to": "chapters/living-architecture-design.md"
+    },
+    {
+      "time": "08:30:31",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/mvp.md",
+      "ref": "PROJECTS/living-architecture/chapters/mvp.md"
+    },
+    {
+      "time": "08:31:07",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/mvp.md",
+      "ref": "PROJECTS/living-architecture/chapters/mvp.md"
+    },
+    {
+      "time": "08:31:46",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/1-grundprincip.md",
+      "ref": "PROJECTS/living-architecture/chapters/1-grundprincip.md"
+    },
+    {
+      "time": "08:32:02",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/1-grundprincip.md",
+      "ref": "PROJECTS/living-architecture/chapters/1-grundprincip.md"
+    },
+    {
+      "time": "08:32:10",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/1-grundprincip.md",
+      "ref": "PROJECTS/living-architecture/chapters/1-grundprincip.md"
+    },
+    {
+      "time": "08:32:11",
+      "action": "rename",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/feedback-som-grundprincip.md",
+      "ref": "PROJECTS/living-architecture/chapters/feedback-som-grundprincip.md",
+      "from": "chapters/1-grundprincip.md",
+      "to": "chapters/feedback-som-grundprincip.md"
+    },
+    {
+      "time": "08:33:07",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/feedback-som-grundprincip.md",
+      "ref": "PROJECTS/living-architecture/chapters/feedback-som-grundprincip.md"
+    },
+    {
+      "time": "08:33:51",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/mvp.md",
+      "ref": "PROJECTS/living-architecture/chapters/mvp.md"
+    },
+    {
+      "time": "08:33:52",
+      "action": "rename",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/genomförande.md",
+      "ref": "PROJECTS/living-architecture/chapters/genomförande.md",
+      "from": "chapters/mvp.md",
+      "to": "chapters/genomförande.md"
+    },
+    {
+      "time": "08:33:54",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/genomförande.md",
+      "ref": "PROJECTS/living-architecture/chapters/genomförande.md"
+    },
+    {
+      "time": "08:34:52",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/genomförande.md",
+      "ref": "PROJECTS/living-architecture/chapters/genomförande.md"
+    },
+    {
+      "time": "08:34:56",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/genomförande.md",
+      "ref": "PROJECTS/living-architecture/chapters/genomförande.md"
+    },
+    {
+      "time": "08:35:09",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/genomförande.md",
+      "ref": "PROJECTS/living-architecture/chapters/genomförande.md"
+    },
+    {
+      "time": "08:36:53",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/living-architecture-design.md",
+      "ref": "PROJECTS/living-architecture/chapters/living-architecture-design.md"
+    },
+    {
+      "time": "08:37:30",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/12-viktiga-designval-här-avgör-du-allt.md",
+      "ref": "PROJECTS/living-architecture/chapters/12-viktiga-designval-här-avgör-du-allt.md"
+    },
+    {
+      "time": "08:38:05",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/12-viktiga-designval-här-avgör-du-allt.md",
+      "ref": "PROJECTS/living-architecture/chapters/12-viktiga-designval-här-avgör-du-allt.md"
+    },
+    {
+      "time": "08:38:07",
+      "action": "rename",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/viktiga-designval-här-avgör-du-allt.md",
+      "ref": "PROJECTS/living-architecture/chapters/viktiga-designval-här-avgör-du-allt.md",
+      "from": "chapters/12-viktiga-designval-här-avgör-du-allt.md",
+      "to": "chapters/viktiga-designval-här-avgör-du-allt.md"
+    },
+    {
+      "time": "08:38:52",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/1-att-få-människor-att-acceptera-tvingande-transparens.md",
+      "ref": "PROJECTS/living-architecture/chapters/1-att-få-människor-att-acceptera-tvingande-transparens.md"
+    },
+    {
+      "time": "08:38:53",
+      "action": "rename",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/change-management.md",
+      "ref": "PROJECTS/living-architecture/chapters/change-management.md",
+      "from": "chapters/1-att-få-människor-att-acceptera-tvingande-transparens.md",
+      "to": "chapters/change-management.md"
+    },
+    {
+      "time": "08:38:58",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/change-management.md",
+      "ref": "PROJECTS/living-architecture/chapters/change-management.md"
+    },
+    {
+      "time": "08:39:44",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/1-det-som-redan-finns-i-delar.md",
+      "ref": "PROJECTS/living-architecture/chapters/1-det-som-redan-finns-i-delar.md"
+    },
+    {
+      "time": "08:39:45",
+      "action": "rename",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/appendix.md",
+      "ref": "PROJECTS/living-architecture/chapters/appendix.md",
+      "from": "chapters/1-det-som-redan-finns-i-delar.md",
+      "to": "chapters/appendix.md"
+    },
+    {
+      "time": "08:44:36",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/6-det-verkligt-intressanta.md",
+      "ref": "PROJECTS/living-architecture/chapters/6-det-verkligt-intressanta.md"
+    },
+    {
+      "time": "08:45:17",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/appendix.md",
+      "ref": "PROJECTS/living-architecture/chapters/appendix.md"
+    },
+    {
+      "time": "08:46:04",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/change-management.md",
+      "ref": "PROJECTS/living-architecture/chapters/change-management.md"
+    },
+    {
+      "time": "08:47:36",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/viktiga-designval-här-avgör-du-allt.md",
+      "ref": "PROJECTS/living-architecture/chapters/viktiga-designval-här-avgör-du-allt.md"
+    },
+    {
+      "time": "08:47:38",
+      "action": "rename",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/viktiga-val-för-implmentation-här-avgör-du-allt.md",
+      "ref": "PROJECTS/living-architecture/chapters/viktiga-val-för-implmentation-här-avgör-du-allt.md",
+      "from": "chapters/viktiga-designval-här-avgör-du-allt.md",
+      "to": "chapters/viktiga-val-för-implmentation-här-avgör-du-allt.md"
+    },
+    {
+      "time": "08:48:30",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/genomförande.md",
+      "ref": "PROJECTS/living-architecture/chapters/genomförande.md"
+    },
+    {
+      "time": "09:13:50",
+      "action": "file-editor-save",
+      "root": "sidebar_settings.json",
+      "book": "",
+      "file": "",
+      "ref": "sidebar_settings.json"
+    },
+    {
+      "time": "09:37:46",
+      "action": "file-editor-save",
+      "root": "..",
+      "book": "cli.py",
+      "file": "",
+      "ref": "../cli.py"
+    },
+    {
+      "time": "09:40:21",
+      "action": "file-editor-save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "book.json",
+      "ref": "PROJECTS/living-architecture/book.json"
+    },
+    {
+      "time": "14:38:16",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/living-architecture-design.md",
+      "ref": "PROJECTS/living-architecture/chapters/living-architecture-design.md"
+    },
+    {
+      "time": "14:40:08",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/living-architecture-design.md",
+      "ref": "PROJECTS/living-architecture/chapters/living-architecture-design.md"
+    },
+    {
+      "time": "14:43:25",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/living-architecture-design.md",
+      "ref": "PROJECTS/living-architecture/chapters/living-architecture-design.md"
+    },
+    {
+      "time": "15:04:08",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "business-and-policy-driven-development",
+      "file": "chapters/1-grundprincip-allt-är-pr-allt-är-spårbart.md",
+      "ref": "PROJECTS/business-and-policy-driven-development/chapters/1-grundprincip-allt-är-pr-allt-är-spårbart.md"
+    },
+    {
+      "time": "15:04:31",
+      "action": "rename",
+      "root": "PROJECTS",
+      "book": "business-and-policy-driven-development",
+      "file": "chapters/1-grundprincip-allt-är-pr--allt-är-spårbart.md",
+      "ref": "PROJECTS/business-and-policy-driven-development/chapters/1-grundprincip-allt-är-pr--allt-är-spårbart.md",
+      "from": "chapters/1-grundprincip-allt-är-pr-allt-är-spårbart.md",
+      "to": "chapters/1-grundprincip-allt-är-pr--allt-är-spårbart.md"
+    },
+    {
+      "time": "15:04:34",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "business-and-policy-driven-development",
+      "file": "chapters/1-grundprincip-allt-är-pr--allt-är-spårbart.md",
+      "ref": "PROJECTS/business-and-policy-driven-development/chapters/1-grundprincip-allt-är-pr--allt-är-spårbart.md"
+    },
+    {
+      "time": "15:09:46",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/living-architecture-design.md",
+      "ref": "PROJECTS/living-architecture/chapters/living-architecture-design.md"
+    },
+    {
+      "time": "15:55:14",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "ardoq-metamodell",
+      "file": "chapters/apm-metamodell-för-ardoq.md",
+      "ref": "PROJECTS/ardoq-metamodell/chapters/apm-metamodell-för-ardoq.md"
+    },
+    {
+      "time": "16:13:16",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "business-and-policy-driven-development",
+      "file": "chapters/analysis-of-the-background-and-the-problems-this-solution-addresses.md",
+      "ref": "PROJECTS/business-and-policy-driven-development/chapters/analysis-of-the-background-and-the-problems-this-solution-addresses.md"
+    },
+    {
+      "time": "16:32:16",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/appendix.md",
+      "ref": "PROJECTS/living-architecture/chapters/appendix.md"
+    },
+    {
+      "time": "16:32:33",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/change-management.md",
+      "ref": "PROJECTS/living-architecture/chapters/change-management.md"
+    },
+    {
+      "time": "16:32:59",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "living-architecture",
+      "file": "chapters/genomförande.md",
+      "ref": "PROJECTS/living-architecture/chapters/genomförande.md"
+    },
+    {
+      "time": "16:34:02",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "business-and-policy-driven-development",
+      "file": "chapters/1-grundprincip-allt-är-pr--allt-är-spårbart.md",
+      "ref": "PROJECTS/business-and-policy-driven-development/chapters/1-grundprincip-allt-är-pr--allt-är-spårbart.md"
+    },
+    {
+      "time": "16:34:09",
+      "action": "rename",
+      "root": "PROJECTS",
+      "book": "business-and-policy-driven-development",
+      "file": "chapters/grundprincip-allt-är-pr--allt-är-spårbart.md",
+      "ref": "PROJECTS/business-and-policy-driven-development/chapters/grundprincip-allt-är-pr--allt-är-spårbart.md",
+      "from": "chapters/1-grundprincip-allt-är-pr--allt-är-spårbart.md",
+      "to": "chapters/grundprincip-allt-är-pr--allt-är-spårbart.md"
+    },
+    {
+      "time": "16:34:11",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "business-and-policy-driven-development",
+      "file": "chapters/grundprincip-allt-är-pr--allt-är-spårbart.md",
+      "ref": "PROJECTS/business-and-policy-driven-development/chapters/grundprincip-allt-är-pr--allt-är-spårbart.md"
+    },
+    {
+      "time": "16:35:03",
+      "action": "file-editor-save",
+      "root": "PROJECTS",
+      "book": "business-and-policy-driven-development",
+      "file": "chapters.json",
+      "ref": "PROJECTS/business-and-policy-driven-development/chapters.json"
+    },
+    {
+      "time": "17:03:03",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "business-and-policy-driven-development",
+      "file": "chapters/analysis-of-the-background-and-the-problems-this-solution-addresses.md",
+      "ref": "PROJECTS/business-and-policy-driven-development/chapters/analysis-of-the-background-and-the-problems-this-solution-addresses.md"
+    },
+    {
+      "time": "17:03:47",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "business-and-policy-driven-development",
+      "file": "chapters/analysis-of-the-background-and-the-problems-this-solution-addresses.md",
+      "ref": "PROJECTS/business-and-policy-driven-development/chapters/analysis-of-the-background-and-the-problems-this-solution-addresses.md"
+    },
+    {
+      "time": "17:04:12",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "business-and-policy-driven-development",
+      "file": "chapters/analysis-of-the-background-and-the-problems-this-solution-addresses.md",
+      "ref": "PROJECTS/business-and-policy-driven-development/chapters/analysis-of-the-background-and-the-problems-this-solution-addresses.md"
+    },
+    {
+      "time": "17:04:59",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "business-and-policy-driven-development",
+      "file": "chapters/analysis-of-the-background-and-the-problems-this-solution-addresses.md",
+      "ref": "PROJECTS/business-and-policy-driven-development/chapters/analysis-of-the-background-and-the-problems-this-solution-addresses.md"
+    },
+    {
+      "time": "17:21:11",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "business-and-policy-driven-development",
+      "file": "chapters/analysis-of-the-background-and-the-problems-this-solution-addresses.md",
+      "ref": "PROJECTS/business-and-policy-driven-development/chapters/analysis-of-the-background-and-the-problems-this-solution-addresses.md"
+    }
+  ],
+  "2026-03-20": [
+    {
+      "time": "06:10:34",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "business-and-policy-driven-development",
+      "file": "chapters/analysis-of-the-background-and-the-problems-this-solution-addresses.md",
+      "ref": "PROJECTS/business-and-policy-driven-development/chapters/analysis-of-the-background-and-the-problems-this-solution-addresses.md"
+    },
+    {
+      "time": "09:25:13",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "test-book",
+      "file": "chapters/test_editor_sample.md",
+      "ref": "PROJECTS/test-book/chapters/test_editor_sample.md"
+    },
+    {
+      "time": "09:25:13",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "test-book",
+      "file": "chapters/workflow_test.md",
+      "ref": "PROJECTS/test-book/chapters/workflow_test.md"
+    },
+    {
+      "time": "10:10:53",
+      "action": "file-editor-save",
+      "root": "system",
+      "book": "actions",
+      "file": "actions_settings.json",
+      "ref": "system/actions/actions_settings.json"
+    },
+    {
+      "time": "18:11:04",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "test-book",
+      "file": "chapters/test_editor_sample.md",
+      "ref": "PROJECTS/test-book/chapters/test_editor_sample.md"
+    },
+    {
+      "time": "18:11:04",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "test-book",
+      "file": "chapters/workflow_test.md",
+      "ref": "PROJECTS/test-book/chapters/workflow_test.md"
+    },
+    {
+      "time": "18:14:21",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "test-book",
+      "file": "chapters/test_editor_sample.md",
+      "ref": "PROJECTS/test-book/chapters/test_editor_sample.md"
+    },
+    {
+      "time": "18:14:21",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "test-book",
+      "file": "chapters/workflow_test.md",
+      "ref": "PROJECTS/test-book/chapters/workflow_test.md"
+    },
+    {
+      "time": "18:15:47",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "test-book",
+      "file": "chapters/test_editor_sample.md",
+      "ref": "PROJECTS/test-book/chapters/test_editor_sample.md"
+    },
+    {
+      "time": "18:15:47",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "test-book",
+      "file": "chapters/workflow_test.md",
+      "ref": "PROJECTS/test-book/chapters/workflow_test.md"
+    },
+    {
+      "time": "18:16:25",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "test-book",
+      "file": "chapters/test_editor_sample.md",
+      "ref": "PROJECTS/test-book/chapters/test_editor_sample.md"
+    },
+    {
+      "time": "18:16:25",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "test-book",
+      "file": "chapters/workflow_test.md",
+      "ref": "PROJECTS/test-book/chapters/workflow_test.md"
+    },
+    {
+      "time": "18:49:30",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "business-and-policy-driven-development",
+      "file": "chapters/analysis-of-the-background-and-the-problems-this-solution-addresses.md",
+      "ref": "PROJECTS/business-and-policy-driven-development/chapters/analysis-of-the-background-and-the-problems-this-solution-addresses.md"
+    },
+    {
+      "time": "18:54:22",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "business-and-policy-driven-development",
+      "file": "chapters/analysis-of-the-background-and-the-problems-this-solution-addresses.md",
+      "ref": "PROJECTS/business-and-policy-driven-development/chapters/analysis-of-the-background-and-the-problems-this-solution-addresses.md"
+    },
+    {
+      "time": "18:56:09",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "business-and-policy-driven-development",
+      "file": "chapters/living-architecture-design.md",
+      "ref": "PROJECTS/business-and-policy-driven-development/chapters/living-architecture-design.md"
+    },
+    {
+      "time": "19:04:59",
+      "action": "save",
+      "root": "PROJECTS",
+      "book": "business-and-policy-driven-development",
+      "file": "chapters/grundprincip-allt-är-pr--allt-är-spårbart.md",
+      "ref": "PROJECTS/business-and-policy-driven-development/chapters/grundprincip-allt-är-pr--allt-är-spårbart.md"
+    }
+  ]
+}
