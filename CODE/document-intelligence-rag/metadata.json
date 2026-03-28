@@ -1,0 +1,5 @@
+{
+  "name": "Document Intelligence RAG",
+  "description": "A high-end editorial search and analysis tool for digital archives using RAG.",
+  "requestFramePermissions": []
+}
