@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Workspace - Technical Index</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-secondary-container": "#405682",
+              "tertiary": "#924700",
+              "surface-container-high": "#e7e8e9",
+              "inverse-on-surface": "#f0f1f2",
+              "on-primary-container": "#fefcff",
+              "secondary-fixed-dim": "#b1c6f9",
+              "surface-variant": "#e1e3e4",
+              "surface-tint": "#005ac2",
+              "outline": "#727785",
+              "background": "#f8f9fa",
+              "on-error-container": "#93000a",
+              "on-error": "#ffffff",
+              "secondary-fixed": "#d8e2ff",
+              "on-tertiary": "#ffffff",
+              "surface-container-lowest": "#ffffff",
+              "surface-dim": "#d9dadb",
+              "on-background": "#191c1d",
+              "on-tertiary-fixed": "#311400",
+              "surface-container-low": "#f3f4f5",
+              "error": "#ba1a1a",
+              "primary-container": "#2170e4",
+              "error-container": "#ffdad6",
+              "on-primary": "#ffffff",
+              "surface-container-highest": "#e1e3e4",
+              "tertiary-fixed": "#ffdcc6",
+              "inverse-surface": "#2e3132",
+              "on-secondary-fixed": "#001a42",
+              "secondary": "#495e8a",
+              "secondary-container": "#b6ccff",
+              "primary": "#0058be",
+              "on-primary-fixed-variant": "#004395",
+              "on-secondary-fixed-variant": "#304671",
+              "outline-variant": "#c2c6d6",
+              "on-surface-variant": "#424754",
+              "on-tertiary-container": "#fffbff",
+              "on-primary-fixed": "#001a42",
+              "on-tertiary-fixed-variant": "#723600",
+              "surface-bright": "#f8f9fa",
+              "tertiary-fixed-dim": "#ffb786",
+              "surface": "#f8f9fa",
+              "primary-fixed": "#d8e2ff",
+              "on-secondary": "#ffffff",
+              "inverse-primary": "#adc6ff",
+              "surface-container": "#edeeef",
+              "on-surface": "#191c1d",
+              "primary-fixed-dim": "#adc6ff",
+              "tertiary-container": "#b75b00"
+            },
+            fontFamily: {
+              "headline": ["Inter"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; background-color: #f8f9fa; color: #191c1d; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .glass-header { backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-surface selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 bg-slate-50/80 dark:bg-slate-900/80 backdrop-blur-lg border-b border-slate-200/20 dark:border-slate-800/20 flex justify-between items-center h-14 px-6 w-full font-inter tracking-tight antialiased">
+<div class="flex items-center gap-8">
+<span class="text-lg font-bold text-slate-900 dark:text-slate-50 tracking-tighter">Workspace</span>
+<div class="hidden md:flex items-center gap-6">
+<a class="text-blue-700 dark:text-blue-400 font-semibold border-b-2 border-blue-700 dark:border-blue-400 pb-1 cursor-pointer active:opacity-70 transition-all duration-200" href="#">Explorer</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-100 cursor-pointer active:opacity-70 transition-all duration-200" href="#">History</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-100 cursor-pointer active:opacity-70 transition-all duration-200" href="#">Settings</a>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="relative hidden sm:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-sm">search</span>
+<input class="bg-surface-container-low border-none rounded-lg py-1.5 pl-9 pr-4 text-xs w-64 focus:ring-1 focus:ring-primary outline-none transition-all" placeholder="Search resources..." type="text"/>
+</div>
+<button class="material-symbols-outlined text-slate-500 hover:bg-slate-100/50 p-2 rounded-full transition-all">notifications</button>
+<button class="material-symbols-outlined text-slate-500 hover:bg-slate-100/50 p-2 rounded-full transition-all">account_circle</button>
+</div>
+</header>
+<!-- SideNavBar -->
+<aside class="h-screen w-64 fixed left-0 top-0 pt-14 flex flex-col bg-slate-100 dark:bg-slate-950 flex flex-col gap-2 p-4 border-r border-slate-200/10">
+<div class="px-2 py-6">
+<h2 class="text-xs font-black tracking-widest text-slate-400 dark:text-slate-600 uppercase">Library</h2>
+<p class="text-[10px] text-slate-400 uppercase tracking-widest mt-1">Technical Index</p>
+</div>
+<nav class="flex-1 space-y-1">
+<a class="flex items-center gap-3 px-3 py-2.5 text-blue-700 dark:text-blue-400 bg-white dark:bg-slate-900 font-bold shadow-sm rounded transition-colors duration-150 ease-in-out" href="#">
+<span class="material-symbols-outlined text-[20px]">description</span>
+<span class="text-xs font-medium uppercase tracking-widest Inter">Recent Docs</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2.5 text-slate-600 dark:text-slate-400 hover:bg-slate-200/50 dark:hover:bg-slate-800/50 rounded transition-colors duration-150 ease-in-out" href="#">
+<span class="material-symbols-outlined text-[20px]">group_work</span>
+<span class="text-xs font-medium uppercase tracking-widest Inter">Shared Space</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2.5 text-slate-600 dark:text-slate-400 hover:bg-slate-200/50 dark:hover:bg-slate-800/50 rounded transition-colors duration-150 ease-in-out" href="#">
+<span class="material-symbols-outlined text-[20px]">architecture</span>
+<span class="text-xs font-medium uppercase tracking-widest Inter">Project Blueprints</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2.5 text-slate-600 dark:text-slate-400 hover:bg-slate-200/50 dark:hover:bg-slate-800/50 rounded transition-colors duration-150 ease-in-out" href="#">
+<span class="material-symbols-outlined text-[20px]">history_edu</span>
+<span class="text-xs font-medium uppercase tracking-widest Inter">Archive</span>
+</a>
+</nav>
+<div class="mt-auto border-t border-slate-200/20 pt-4 pb-2">
+<a class="flex items-center gap-3 px-3 py-2.5 text-slate-600 dark:text-slate-400 hover:bg-slate-200/50 dark:hover:bg-slate-800/50 rounded transition-colors duration-150 ease-in-out" href="#">
+<span class="material-symbols-outlined text-[20px]">chat_bubble</span>
+<span class="text-xs font-medium uppercase tracking-widest Inter">Support Chat</span>
+</a>
+</div>
+</aside>
+<!-- Main Content Area -->
+<main class="ml-64 pt-14 min-h-screen">
+<div class="p-8 max-w-7xl mx-auto">
+<!-- Breadcrumbs & Header -->
+<div class="mb-10">
+<nav class="flex items-center gap-2 text-[10px] uppercase tracking-[0.1em] text-on-surface-variant font-medium mb-4">
+<span>Library</span>
+<span class="material-symbols-outlined text-[12px]">chevron_right</span>
+<span>Project Blueprints</span>
+<span class="material-symbols-outlined text-[12px]">chevron_right</span>
+<span class="text-primary">Q4 Infrastructure</span>
+</nav>
+<div class="flex justify-between items-end">
+<div>
+<h1 class="text-4xl font-extrabold tracking-tighter text-on-surface">Explorer</h1>
+<p class="text-on-surface-variant mt-2 max-w-2xl text-sm leading-relaxed">Access and manage high-fidelity technical documentation and project blueprints within the workspace hierarchy.</p>
+</div>
+<button class="bg-gradient-to-br from-primary to-primary-container text-white px-6 py-2.5 rounded-lg text-xs font-bold uppercase tracking-widest flex items-center gap-2 shadow-sm hover:opacity-90 transition-all">
+<span class="material-symbols-outlined text-sm">add</span>
+                        New Blueprint
+                    </button>
+</div>
+</div>
+<!-- Bento Grid - Document Explorer -->
+<div class="grid grid-cols-12 gap-6">
+<!-- Primary Document Card (Featured) -->
+<div class="col-span-12 lg:col-span-8 bg-surface-container-lowest border border-outline-variant/10 rounded-xl overflow-hidden group">
+<div class="h-64 overflow-hidden relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Modern architectural structure with clean lines and blue glass under bright daylight, wide perspective" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCvJvpRQDBWk3qfV6c_pabm1YR_xdGTI_NYUs36NwFeSuf-dmBBohWEU4CT0ZJ2Ph75XeIDNONbd1udEHTpEbA0bK8L-s1ILfVXXT4XM2j_01Ko9h9O9B4uBhOIHmn6GXvw-_LWjcv0I8_JXM07m1ad2ucO4qYMmNHuCQEcg6MPPXPkIwMxY4K-Bk7fc2mJv-SeUxxUHCEn3SVbmTfxlrxisUdb0jBzocKDSCk9Bo8SDz5sIlqt14jadzzTMCpC63t7ssk_2uqZsqKa"/>
+<div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent"></div>
+<div class="absolute bottom-6 left-6 text-white">
+<span class="bg-primary/90 px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-widest mb-2 inline-block">Active Draft</span>
+<h3 class="text-2xl font-bold tracking-tight">System Architecture 2024</h3>
+</div>
+</div>
+<div class="p-6 flex justify-between items-center">
+<div class="flex items-center gap-6">
+<div>
+<p class="text-[10px] uppercase tracking-widest text-slate-400 font-bold">Author</p>
+<p class="text-xs font-semibold text-on-surface">Marcus Thorne</p>
+</div>
+<div>
+<p class="text-[10px] uppercase tracking-widest text-slate-400 font-bold">Last Modified</p>
+<p class="text-xs font-semibold text-on-surface">2 hours ago</p>
+</div>
+<div>
+<p class="text-[10px] uppercase tracking-widest text-slate-400 font-bold">Size</p>
+<p class="text-xs font-semibold text-on-surface">12.4 MB</p>
+</div>
+</div>
+<button class="text-primary hover:bg-primary/5 p-2 rounded-lg transition-all">
+<span class="material-symbols-outlined">open_in_new</span>
+</button>
+</div>
+</div>
+<!-- Quick Stats / Meta Rail -->
+<div class="col-span-12 lg:col-span-4 flex flex-col gap-6">
+<div class="bg-surface-container-low p-6 rounded-xl border border-outline-variant/10 flex-1">
+<h4 class="text-[10px] font-black uppercase tracking-widest text-slate-400 mb-6">Workspace Health</h4>
+<div class="space-y-6">
+<div class="flex justify-between items-center">
+<span class="text-xs font-medium text-on-surface">Storage Capacity</span>
+<span class="text-xs font-bold text-primary">82%</span>
+</div>
+<div class="w-full bg-slate-200 h-1 rounded-full overflow-hidden">
+<div class="bg-primary h-full" style="width: 82%;"></div>
+</div>
+<div class="grid grid-cols-2 gap-4 pt-4">
+<div class="bg-white p-4 rounded-lg border border-slate-200/50">
+<p class="text-[10px] uppercase tracking-tighter text-slate-400">Total Assets</p>
+<p class="text-xl font-extrabold text-on-surface mt-1">1,402</p>
+</div>
+<div class="bg-white p-4 rounded-lg border border-slate-200/50">
+<p class="text-[10px] uppercase tracking-tighter text-slate-400">Collaborators</p>
+<p class="text-xl font-extrabold text-on-surface mt-1">24</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Document List - Tonal Shift Separation -->
+<div class="col-span-12 bg-surface-container-lowest rounded-xl border border-outline-variant/10 overflow-hidden">
+<div class="p-6 border-b border-slate-100 flex justify-between items-center">
+<h4 class="text-[10px] font-black uppercase tracking-widest text-slate-400">Technical Assets</h4>
+<div class="flex gap-2">
+<button class="material-symbols-outlined text-slate-400 hover:text-primary transition-colors">grid_view</button>
+<button class="material-symbols-outlined text-primary">list</button>
+</div>
+</div>
+<div class="divide-y divide-slate-50">
+<!-- Asset Item -->
+<div class="group flex items-center justify-between p-4 hover:bg-slate-50 transition-all cursor-pointer">
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 bg-blue-50 flex items-center justify-center rounded text-primary">
+<span class="material-symbols-outlined">schema</span>
+</div>
+<div>
+<p class="text-sm font-bold tracking-tight text-on-surface">Network Topology v2.1</p>
+<p class="text-[11px] text-slate-400">PDF Document • Updated Oct 12, 2023</p>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<span class="hidden md:block text-[10px] font-medium uppercase tracking-widest text-slate-400">Technical-Internal</span>
+<div class="flex -space-x-2">
+<div class="w-6 h-6 rounded-full border-2 border-white bg-slate-200 flex items-center justify-center text-[8px] font-bold">JD</div>
+<div class="w-6 h-6 rounded-full border-2 border-white bg-blue-100 flex items-center justify-center text-[8px] font-bold text-primary">AS</div>
+</div>
+<button class="opacity-0 group-hover:opacity-100 material-symbols-outlined text-slate-400 hover:text-primary transition-all">more_vert</button>
+</div>
+</div>
+<!-- Asset Item -->
+<div class="group flex items-center justify-between p-4 hover:bg-slate-50 transition-all cursor-pointer">
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 bg-slate-100 flex items-center justify-center rounded text-slate-400">
+<span class="material-symbols-outlined">data_object</span>
+</div>
+<div>
+<p class="text-sm font-bold tracking-tight text-on-surface">API Endpoint Specifications</p>
+<p class="text-[11px] text-slate-400">JSON Schema • Updated Oct 10, 2023</p>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<span class="hidden md:block text-[10px] font-medium uppercase tracking-widest text-slate-400">Dev-Ops</span>
+<div class="flex -space-x-2">
+<div class="w-6 h-6 rounded-full border-2 border-white bg-slate-200 flex items-center justify-center text-[8px] font-bold">ML</div>
+</div>
+<button class="opacity-0 group-hover:opacity-100 material-symbols-outlined text-slate-400 hover:text-primary transition-all">more_vert</button>
+</div>
+</div>
+<!-- Asset Item -->
+<div class="group flex items-center justify-between p-4 hover:bg-slate-50 transition-all cursor-pointer">
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 bg-orange-50 flex items-center justify-center rounded text-orange-500">
+<span class="material-symbols-outlined">lock</span>
+</div>
+<div>
+<p class="text-sm font-bold tracking-tight text-on-surface">Security Protocol Ledger</p>
+<p class="text-[11px] text-slate-400">Confidential • Updated Oct 08, 2023</p>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<span class="hidden md:block text-[10px] font-medium uppercase tracking-widest text-slate-400">Compliance</span>
+<div class="flex -space-x-2">
+<div class="w-6 h-6 rounded-full border-2 border-white bg-slate-200 flex items-center justify-center text-[8px] font-bold">TH</div>
+<div class="w-6 h-6 rounded-full border-2 border-white bg-slate-100 flex items-center justify-center text-[8px] font-bold">+3</div>
+</div>
+<button class="opacity-0 group-hover:opacity-100 material-symbols-outlined text-slate-400 hover:text-primary transition-all">more_vert</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Secondary Cards Section -->
+<div class="col-span-12 md:col-span-6 lg:col-span-4 bg-white p-6 rounded-xl border border-outline-variant/10 group">
+<span class="material-symbols-outlined text-primary mb-4 text-3xl">insights</span>
+<h5 class="font-bold text-on-surface mb-2 tracking-tight">Analytics Dashboard</h5>
+<p class="text-xs text-on-surface-variant leading-relaxed mb-6">Real-time tracking of workspace activity and document engagement metrics.</p>
+<a class="text-primary text-[10px] font-black uppercase tracking-widest flex items-center gap-2 group-hover:gap-3 transition-all" href="#">
+                        View Report
+                        <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+<div class="col-span-12 md:col-span-6 lg:col-span-4 bg-white p-6 rounded-xl border border-outline-variant/10 group">
+<span class="material-symbols-outlined text-primary mb-4 text-3xl">terminal</span>
+<h5 class="font-bold text-on-surface mb-2 tracking-tight">Deployment Logs</h5>
+<p class="text-xs text-on-surface-variant leading-relaxed mb-6">Historical record of automated infrastructure updates and CI/CD pipelines.</p>
+<a class="text-primary text-[10px] font-black uppercase tracking-widest flex items-center gap-2 group-hover:gap-3 transition-all" href="#">
+                        Access Logs
+                        <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+<div class="col-span-12 md:col-span-6 lg:col-span-4 bg-white p-6 rounded-xl border border-outline-variant/10 group">
+<span class="material-symbols-outlined text-primary mb-4 text-3xl">verified_user</span>
+<h5 class="font-bold text-on-surface mb-2 tracking-tight">Audit Trail</h5>
+<p class="text-xs text-on-surface-variant leading-relaxed mb-6">Immutable ledger of all administrative actions and permission changes.</p>
+<a class="text-primary text-[10px] font-black uppercase tracking-widest flex items-center gap-2 group-hover:gap-3 transition-all" href="#">
+                        Review Audit
+                        <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Detail Rail (Metadata Strip) -->
+<div class="fixed right-0 top-14 bottom-0 w-12 bg-surface-container-high flex flex-col items-center py-6 gap-8 border-l border-slate-200/20">
+<div class="rotate-90 origin-center whitespace-nowrap text-[8px] font-black uppercase tracking-[0.4em] text-slate-400 absolute top-24">
+                Version Control System
+            </div>
+<div class="mt-auto space-y-6 pb-6">
+<button class="material-symbols-outlined text-slate-400 hover:text-primary transition-all text-xl">info</button>
+<button class="material-symbols-outlined text-slate-400 hover:text-primary transition-all text-xl">settings_ethernet</button>
+<button class="material-symbols-outlined text-slate-400 hover:text-primary transition-all text-xl">cloud_done</button>
+</div>
+</div>
+</main>
+</body></html>

@@ -1,4 +1,4 @@
-# Analysis of the background and the problems this solution addresses
+# Analysis of the background 
 
 ## Background
 

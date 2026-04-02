@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Technical Archive - Tabular View</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "on-primary-container": "#00285d",
+                        "on-background": "#e5e2e1",
+                        "surface-bright": "#393939",
+                        "secondary-fixed-dim": "#b1c6f9",
+                        "on-primary-fixed-variant": "#004395",
+                        "on-primary-fixed": "#001a42",
+                        "outline": "#8c909f",
+                        "on-primary": "#002e6a",
+                        "background": "#131313",
+                        "secondary-container": "#304671",
+                        "tertiary": "#ffb786",
+                        "inverse-surface": "#e5e2e1",
+                        "inverse-on-surface": "#313030",
+                        "inverse-primary": "#005ac2",
+                        "error-container": "#93000a",
+                        "surface-dim": "#131313",
+                        "on-tertiary-fixed-variant": "#723600",
+                        "on-surface-variant": "#c2c6d6",
+                        "primary-fixed": "#d8e2ff",
+                        "on-error": "#690005",
+                        "surface-container-lowest": "#0e0e0e",
+                        "tertiary-fixed-dim": "#ffb786",
+                        "secondary": "#b1c6f9",
+                        "on-tertiary": "#502400",
+                        "surface-variant": "#353534",
+                        "outline-variant": "#424754",
+                        "on-error-container": "#ffdad6",
+                        "on-tertiary-fixed": "#311400",
+                        "surface-container-low": "#1c1b1b",
+                        "tertiary-fixed": "#ffdcc6",
+                        "secondary-fixed": "#d8e2ff",
+                        "primary-fixed-dim": "#adc6ff",
+                        "on-secondary": "#182f59",
+                        "error": "#ffb4ab",
+                        "surface-container-highest": "#353534",
+                        "on-tertiary-container": "#461f00",
+                        "on-secondary-fixed-variant": "#304671",
+                        "primary": "#adc6ff",
+                        "surface-container": "#201f1f",
+                        "surface-tint": "#adc6ff",
+                        "surface-container-high": "#2a2a2a",
+                        "surface": "#131313",
+                        "on-surface": "#e5e2e1",
+                        "primary-container": "#4d8eff",
+                        "on-secondary-fixed": "#001a42",
+                        "on-secondary-container": "#9fb5e7",
+                        "tertiary-container": "#df7412"
+                    },
+                    fontFamily: {
+                        "headline": ["Inter"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    },
+                    borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            background-color: #131313;
+            color: #e5e2e1;
+            font-family: 'Inter', sans-serif;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        ::-webkit-scrollbar {
+            width: 4px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0e0e0e;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #353534;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background antialiased overflow-x-hidden">
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 bg-[#131313]/70 backdrop-blur-md flex items-center justify-between px-6 h-16 w-full transition-all duration-200 ease-in-out">
+<div class="flex items-center gap-8">
+<span class="text-xl font-bold tracking-tighter text-[#adc6ff] font-['Inter']">Technical Archive</span>
+<nav class="hidden md:flex items-center gap-6">
+<a class="text-[#adc6ff] border-b-2 border-[#adc6ff] pb-1 font-['Inter'] tracking-tight text-sm" href="#">Inventory</a>
+<a class="text-[#c2c6d6] hover:text-white transition-colors font-['Inter'] tracking-tight text-sm" href="#">Architecture</a>
+<a class="text-[#c2c6d6] hover:text-white transition-colors font-['Inter'] tracking-tight text-sm" href="#">Protocols</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<div class="relative hidden lg:block">
+<input class="bg-[#1c1b1b] border-none text-sm px-4 py-2 w-64 rounded focus:ring-1 focus:ring-[#adc6ff] text-on-surface-variant outline-none" placeholder="Search parameters..." type="text"/>
+</div>
+<div class="flex items-center gap-2">
+<button class="p-2 text-[#c2c6d6] hover:bg-[#2a2a2a] rounded transition-all">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+</button>
+<button class="p-2 text-[#c2c6d6] hover:bg-[#2a2a2a] rounded transition-all">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+</button>
+<div class="ml-2 w-8 h-8 rounded-full bg-[#2a2a2a] overflow-hidden border border-outline-variant/20">
+<img alt="User profile avatar" data-alt="Close up portrait of a professional researcher with neutral expression in a high-tech lab setting with cool lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHYBOdjSNstc7FnQpMCmiR9j7aCFEz4r62xNknKINoKlTz5cjA8u5nR2mVMXDDaEwghDd_lZCSd6SBnEu437bXtJVmApJ48OU3gujOl4lDBls_02D08wEXIhnPZZOasp72Zi0UhUvJOK3RaJGeust9IUqQUyihWV5pXlMwJPbQmCcumjiEjiWGS_eNFEujRepk06ElLW6BCY5OZxtwzaqWyOWVXxRWwS6jNfOqbc4iVDe7r_cVAcY4E9trS7Xf5-M0WCymYlgcKIfN"/>
+</div>
+</div>
+</div>
+</header>
+<!-- SideNavBar -->
+<aside class="fixed left-0 top-0 h-full w-64 z-40 bg-[#0e0e0e] flex flex-col h-full pt-20 pb-6 hidden md:flex">
+<div class="px-6 mb-8">
+<h2 class="text-lg font-black text-[#adc6ff] font-['Inter']">Inventory</h2>
+<p class="text-[#c2c6d6] text-xs font-medium uppercase tracking-widest mt-1">Technical Skills</p>
+</div>
+<nav class="flex-1 space-y-1">
+<a class="flex items-center gap-3 bg-[#2a2a2a] text-[#adc6ff] border-l-2 border-[#adc6ff] px-6 py-3 font-['Inter'] text-sm font-medium transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="folder_open">folder_open</span>
+                Library
+            </a>
+<a class="flex items-center gap-3 text-[#c2c6d6] px-6 py-3 hover:bg-[#1c1b1b] font-['Inter'] text-sm font-medium transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="layers">layers</span>
+                Collections
+            </a>
+<a class="flex items-center gap-3 text-[#c2c6d6] px-6 py-3 hover:bg-[#1c1b1b] font-['Inter'] text-sm font-medium transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="history">history</span>
+                History
+            </a>
+</nav>
+<div class="px-2 mt-auto">
+<a class="flex items-center gap-3 text-[#c2c6d6] px-4 py-3 hover:bg-[#1c1b1b] font-['Inter'] text-sm font-medium transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="description">description</span>
+                Documentation
+            </a>
+<a class="flex items-center gap-3 text-[#c2c6d6] px-4 py-3 hover:bg-[#1c1b1b] font-['Inter'] text-sm font-medium transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="help_outline">help_outline</span>
+                Support
+            </a>
+</div>
+</aside>
+<!-- Main Content -->
+<main class="md:ml-64 pt-24 pb-12 px-8 min-h-screen">
+<div class="max-w-5xl mx-auto">
+<!-- Header Section -->
+<header class="mb-12 flex flex-col md:flex-row md:items-end justify-between gap-6">
+<div>
+<h1 class="text-4xl font-extrabold tracking-tighter text-on-background mb-2 font-headline uppercase">Skills Inventory</h1>
+<p class="text-on-surface-variant max-w-2xl font-body text-sm leading-relaxed">
+                        A comprehensive repository of verified technical competencies. This archival view provides granular specifications for core architecture and development modules within the monolith system.
+                    </p>
+</div>
+<!-- Toggle/Sub-nav -->
+<div class="flex bg-surface-container-lowest p-1 rounded-sm border border-outline-variant/10">
+<button class="px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-[#adc6ff] bg-surface-container-high transition-all">Tabular</button>
+<button class="px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-on-surface-variant hover:text-white transition-all">Schema</button>
+<button class="px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-on-surface-variant hover:text-white transition-all">Graph</button>
+</div>
+</header>
+<!-- List of Skills (Tabular View) -->
+<div class="space-y-16">
+<!-- Skill Item 1 -->
+<article class="flex flex-col md:flex-row gap-8 group">
+<div class="w-full md:w-64 h-80 flex-shrink-0 bg-surface-container-low overflow-hidden transition-transform duration-500 group-hover:scale-[1.02]">
+<img alt="Advanced Cryptography module" class="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" data-alt="Abstract 3D rendering of complex mathematical fractals in deep blue and silver with microscopic digital texture details" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgWJzbza-0YMHxeLRlNu_FA_pwZc-fIU7VCAgMN1YD6Sh8RplzAYKfjSzy3RqZN7Wpjdk1oIZFXsA19GLKx2fEBG4vfCN4B_HEEWkJDGZqkSfis1ye9gCMJ10ebUxxBq1BM5unwgMcsktk_n9ri_uxU35CncZChEIK44xrX1UXgmt4ISI_dUM_bHligRhpv8YuM-oreiJQ6o26qNqPRwQ-x646howsko3253MhcUI-0cEt4G33xFzC5OwhdK_TO-aAjb7vWaDv_-3R"/>
+</div>
+<div class="flex-1 flex flex-col justify-center">
+<div class="mb-4">
+<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-[#adc6ff] block mb-1">Architecture // 01</span>
+<h3 class="text-2xl font-bold tracking-tight text-white uppercase font-headline">Advanced Cryptography</h3>
+</div>
+<div class="space-y-4 text-on-surface-variant font-body text-sm leading-[1.8] max-w-2xl">
+<p>
+                                Implementation and management of multi-layered encryption protocols for enterprise-scale data integrity. This skill encompasses the deployment of elliptic curve cryptography (ECC) alongside post-quantum algorithmic frameworks to ensure long-term security resilience against emerging computational threats.
+                            </p>
+<p>
+                                Mastery includes secure key exchange orchestration, HSM (Hardware Security Module) integration, and the rigorous auditing of cryptographic primitives within distributed ledger environments. Systems architected under this competency focus on zero-trust verification and end-to-end ephemeral session management across heterogeneous cloud infrastructures.
+                            </p>
+<div class="flex gap-2 pt-2">
+<span class="px-2 py-0.5 bg-secondary-container/30 text-secondary text-[10px] font-bold rounded-full">AES-256</span>
+<span class="px-2 py-0.5 bg-secondary-container/30 text-secondary text-[10px] font-bold rounded-full">RSA-OEP</span>
+<span class="px-2 py-0.5 bg-secondary-container/30 text-secondary text-[10px] font-bold rounded-full">FIPS-140-2</span>
+</div>
+</div>
+</div>
+</article>
+<!-- Skill Item 2 -->
+<article class="flex flex-col md:flex-row gap-8 group">
+<div class="w-full md:w-64 h-80 flex-shrink-0 bg-surface-container-low overflow-hidden transition-transform duration-500 group-hover:scale-[1.02]">
+<img alt="Distributed Systems module" class="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" data-alt="Dark satellite view of earth with glowing blue data network lines connecting major global hubs in a tech aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAHlLK_U1BcJwQWbuF4RoFE0qed_I7EMYVbJs9hzSyvOMFPFuXXeys7NaIh5ygxttDfANYZ3Ds5uhe7xgjlzfdyfHbbPCQGow996j4ykZ4s13C7zHzO5umB2NtjLxf3v3SofypXyp5ajbuvbLamlDQJIUVhOWgnjyqPDKlHeMlKWcucUGchPdWJHVFFO6JXv7O_H8J4m_ccOH6tBddJVoZbq9f9utTYO7h5DsgzlYJJ_ZYs6TUsPaGF9KLooxc1I3FhVgjS5pbQC1L2"/>
+</div>
+<div class="flex-1 flex flex-col justify-center">
+<div class="mb-4">
+<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-[#adc6ff] block mb-1">Infrastructure // 04</span>
+<h3 class="text-2xl font-bold tracking-tight text-white uppercase font-headline">Distributed Systems Design</h3>
+</div>
+<div class="space-y-4 text-on-surface-variant font-body text-sm leading-[1.8] max-w-2xl">
+<p>
+                                Engineering robust, high-availability clusters utilizing eventual consistency models and Raft consensus protocols. Expertise focuses on the mitigation of network partitions, latency optimization in multi-region deployments, and the strategic application of the CAP theorem to balance availability and consistency requirements.
+                            </p>
+<p>
+                                This domain requires deep technical understanding of message brokers like Kafka, container orchestration via Kubernetes, and service mesh architectures. Analysis includes performance tuning of gRPC communications and the design of self-healing mechanisms that leverage automated circuit-breaking and backpressure strategies to maintain system stability under extreme load.
+                            </p>
+<div class="flex gap-2 pt-2">
+<span class="px-2 py-0.5 bg-secondary-container/30 text-secondary text-[10px] font-bold rounded-full">MICROSERVICES</span>
+<span class="px-2 py-0.5 bg-secondary-container/30 text-secondary text-[10px] font-bold rounded-full">KUBERNETES</span>
+<span class="px-2 py-0.5 bg-secondary-container/30 text-secondary text-[10px] font-bold rounded-full">KAFKA</span>
+</div>
+</div>
+</div>
+</article>
+<!-- Skill Item 3 -->
+<article class="flex flex-col md:flex-row gap-8 group">
+<div class="w-full md:w-64 h-80 flex-shrink-0 bg-surface-container-low overflow-hidden transition-transform duration-500 group-hover:scale-[1.02]">
+<img alt="Hardware Engineering module" class="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" data-alt="Close-up of server room circuit boards with blue glowing status lights and intricate wiring patterns in dark room" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCKq1UitPuDD_LXgUGqlz-lMEOgZeeREW61pIvOtTddB3BAgKWPlngRvKupIUmrpkdaGv9BupskpDnIO_-hMTKGTx_-Mb5Va09FROY0Vk_ZgCFfkBqpgQF5gklc5iU1RT_e7bRBF2meMKFuyf9gBoV3t4eXyc2t2BEDQ-iSoDFQnXidFOoq_pyI3HWHWTJUJQb2MhyADWyQjO4428jFCcoPS4A1D98CeS3wqIsBzSZZFpOJ72X9lOx1b5KkZK18CZUAhmtv341bcjlB"/>
+</div>
+<div class="flex-1 flex flex-col justify-center">
+<div class="mb-4">
+<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-[#adc6ff] block mb-1">Low-Level // 12</span>
+<h3 class="text-2xl font-bold tracking-tight text-white uppercase font-headline">Embedded Kernel Logic</h3>
+</div>
+<div class="space-y-4 text-on-surface-variant font-body text-sm leading-[1.8] max-w-2xl">
+<p>
+                                Development of specialized firmware and RTOS (Real-Time Operating System) kernels for low-power ARM and RISC-V architectures. Focus is placed on memory-safe programming using Rust and C, interrupt handling optimization, and direct memory access (DMA) controller programming for ultra-low latency signal processing.
+                            </p>
+<p>
+                                Proficiency encompasses the entire hardware-software interface, including custom bootloader design and the implementation of secure enclave execution environments. Projects typically involve the synchronization of heterogeneous sensor arrays and the development of power-aware scheduling algorithms for mission-critical industrial telemetry systems operating in remote environments.
+                            </p>
+<div class="flex gap-2 pt-2">
+<span class="px-2 py-0.5 bg-secondary-container/30 text-secondary text-[10px] font-bold rounded-full">RTOS</span>
+<span class="px-2 py-0.5 bg-secondary-container/30 text-secondary text-[10px] font-bold rounded-full">RUST-EMBEDDED</span>
+<span class="px-2 py-0.5 bg-secondary-container/30 text-secondary text-[10px] font-bold rounded-full">ARM-CORTEX</span>
+</div>
+</div>
+</div>
+</article>
+<!-- Skill Item 4 -->
+<article class="flex flex-col md:flex-row gap-8 group">
+<div class="w-full md:w-64 h-80 flex-shrink-0 bg-surface-container-low overflow-hidden transition-transform duration-500 group-hover:scale-[1.02]">
+<img alt="Neural Networks module" class="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" data-alt="Abstract digital network visualization with flowing data streams and neon blue glowing nodes on black background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0Q4oEHqqRAD0nABxKELFYv9j6cEHIIrfYFDxUND63XtO-UyWcOtuyznzWYjiYFw9SKFI0Fvuy8qUZQMIqYHcHF6xThr30owgMWfCgASp57gUnxHoUholRCCwaFDtmUPSP1IW0I14IKXPuUSKoS5XWmWeUuJmuaqfYRyGGMEAPZraLniEuDIQZzP7kSq8U9eG35KaL3bpFDbQNR-f3CYaPK5JYLmMtV3o83qcKmY6E2R7LwlfsWmU-oZC2fRCn0v7BsSCQQ_ugbNRt"/>
+</div>
+<div class="flex-1 flex flex-col justify-center">
+<div class="mb-4">
+<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-[#adc6ff] block mb-1">Intelligence // 07</span>
+<h3 class="text-2xl font-bold tracking-tight text-white uppercase font-headline">Neural Pattern Recognition</h3>
+</div>
+<div class="space-y-4 text-on-surface-variant font-body text-sm leading-[1.8] max-w-2xl">
+<p>
+                                Design and training of deep learning architectures for high-dimensional feature extraction and predictive modeling. This skill set includes transformer model optimization, generative adversarial network (GAN) stabilization, and the implementation of attention mechanisms for complex sequential data analysis in real-time.
+                            </p>
+<p>
+                                Specialization extends to the deployment of models on edge devices through quantization and pruning techniques. Evaluation of system performance relies on rigorous cross-validation and bias-detection metrics, ensuring that autonomous decision-making processes align with established ethical frameworks and technical accuracy thresholds in production-grade AI environments.
+                            </p>
+<div class="flex gap-2 pt-2">
+<span class="px-2 py-0.5 bg-secondary-container/30 text-secondary text-[10px] font-bold rounded-full">PYTORCH</span>
+<span class="px-2 py-0.5 bg-secondary-container/30 text-secondary text-[10px] font-bold rounded-full">TRANSFORMERS</span>
+<span class="px-2 py-0.5 bg-secondary-container/30 text-secondary text-[10px] font-bold rounded-full">TENSORFLOW</span>
+</div>
+</div>
+</div>
+</article>
+</div>
+<!-- Pagination/Footer -->
+<footer class="mt-24 pt-12 border-t border-outline-variant/10 flex items-center justify-between">
+<div class="text-[10px] font-bold uppercase tracking-widest text-[#c2c6d6]">
+                    Page 01 of 08 // Archive Index
+                </div>
+<div class="flex gap-4">
+<button class="flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-on-surface-variant hover:text-white transition-all">
+<span class="material-symbols-outlined text-sm" data-icon="chevron_left">chevron_left</span> Previous
+                    </button>
+<button class="flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-[#adc6ff] hover:text-white transition-all">
+                        Next <span class="material-symbols-outlined text-sm" data-icon="chevron_right">chevron_right</span>
+</button>
+</div>
+</footer>
+</div>
+</main>
+</body></html>

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The Digital Archive | Workspace</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "on-tertiary-container": "#461f00",
+                        "surface": "#131313",
+                        "on-secondary-fixed-variant": "#304671",
+                        "on-tertiary-fixed-variant": "#723600",
+                        "outline-variant": "#424754",
+                        "on-primary-container": "#00285d",
+                        "secondary": "#b1c6f9",
+                        "surface-container-high": "#2a2a2a",
+                        "primary-fixed-dim": "#adc6ff",
+                        "outline": "#8c909f",
+                        "on-secondary-container": "#9fb5e7",
+                        "surface-container-highest": "#353534",
+                        "surface-bright": "#393939",
+                        "error-container": "#93000a",
+                        "on-error-container": "#ffdad6",
+                        "surface-tint": "#adc6ff",
+                        "primary-container": "#4d8eff",
+                        "on-surface": "#e5e2e1",
+                        "secondary-fixed-dim": "#b1c6f9",
+                        "surface-container-low": "#1c1b1b",
+                        "on-error": "#690005",
+                        "inverse-primary": "#005ac2",
+                        "primary-fixed": "#d8e2ff",
+                        "on-surface-variant": "#c2c6d6",
+                        "tertiary-fixed-dim": "#ffb786",
+                        "tertiary-container": "#df7412",
+                        "tertiary-fixed": "#ffdcc6",
+                        "surface-container": "#201f1f",
+                        "surface-variant": "#353534",
+                        "on-secondary-fixed": "#001a42",
+                        "on-tertiary": "#502400",
+                        "on-primary": "#002e6a",
+                        "on-primary-fixed-variant": "#004395",
+                        "tertiary": "#ffb786",
+                        "primary": "#adc6ff",
+                        "on-secondary": "#182f59",
+                        "error": "#ffb4ab",
+                        "on-tertiary-fixed": "#311400",
+                        "secondary-fixed": "#d8e2ff",
+                        "on-primary-fixed": "#001a42",
+                        "on-background": "#e5e2e1",
+                        "inverse-surface": "#e5e2e1",
+                        "inverse-on-surface": "#313030",
+                        "surface-dim": "#131313",
+                        "surface-container-lowest": "#0e0e0e",
+                        "secondary-container": "#304671",
+                        "background": "#131313"
+                    },
+                    fontFamily: {
+                        "headline": ["Inter"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    },
+                    borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            line-height: 1;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
+        }
+        ::-webkit-scrollbar { width: 4px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #353534; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb:hover { background: #424754; }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary/30 antialiased">
+<!-- Top Navigation Bar -->
+<header class="fixed top-0 w-full z-50 bg-[#131313]/70 backdrop-blur-xl no-border bg-[#1c1b1b] shadow-[0px_12px_32px_rgba(0,0,0,0.45)]">
+<div class="flex justify-between items-center h-14 px-6 w-full">
+<div class="text-lg font-bold tracking-tighter text-[#adc6ff]" style="">The Digital Archive</div>
+<div class="hidden md:flex items-center gap-8">
+<nav class="flex gap-6 font-['Inter'] tracking-tight font-medium antialiased text-sm">
+<a class="text-[#c2c6d6] hover:text-[#ffffff] transition-colors" href="#" style="">Explorer</a>
+<a class="text-[#c2c6d6] hover:text-[#ffffff] transition-colors" href="#" style="">Search</a>
+<a class="text-[#ffffff] border-b-2 border-[#adc6ff] pb-1" href="#" style="">History</a>
+<a class="text-[#c2c6d6] hover:text-[#ffffff] transition-colors" href="#" style="">Settings</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-[#adc6ff] p-2 hover:bg-[#2a2a2a] rounded-md transition-all active:scale-95 duration-200" data-icon="share" style="">share</button>
+<button class="material-symbols-outlined text-[#adc6ff] p-2 hover:bg-[#2a2a2a] rounded-md transition-all active:scale-95 duration-200" data-icon="download" style="">download</button>
+<div class="w-8 h-8 rounded-full overflow-hidden border border-outline-variant/20">
+<img alt="Profile" class="" data-alt="Close up portrait of a professional man in high key lighting with neutral studio background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3jlds1U-Tx1alc9wvsPiHAHr3xvnCIUpUtHAb-Pne6ED71IJlMCeef_qUXFhHQPiI85kMYTMkjSgZv99aqnnh5WFZTluOUHuxY3izqKK-fnDPfwL2ajy2n-YaN3B20ShH5Qacir0b0f7ZNfNcXrTMAywS_WFz8qBsPldEfTqNe61fOUs5HDjU--XU60pRrHWaH-3V3NG-cy9Kz7pKi-B6z61N-GrHeJ9GnftcnL_SqCQfPbTKBIXWcgJ6LLiz7595Jvc1seJXKAyz" style=""/>
+</div>
+</div>
+</div>
+</header>
+<!-- Side Navigation Bar -->
+<aside class="h-screen w-64 fixed left-0 top-0 bg-[#0e0e0e] flex flex-col no-border border-r-0 z-40">
+<div class="px-6 mb-4 pt-20">
+<div class="flex items-center gap-3 mb-1">
+<div class="w-2 h-2 rounded-full bg-primary"></div>
+<span class="text-xs font-semibold uppercase tracking-widest text-[#adc6ff]" style="">Project Alpha</span>
+</div>
+<p class="text-[10px] text-on-surface-variant uppercase tracking-tighter opacity-60" style="">Technical Archive</p>
+</div>
+<!-- Detailed Explorer Section -->
+<div class="flex-1 overflow-y-auto px-2 custom-scrollbar">
+<div class="rounded-lg bg-[#1a1a1a]/40 p-2 space-y-4">
+<!-- Section 1 -->
+<div class="space-y-1">
+<div class="px-2 py-1.5">
+<h3 class="text-[11px] font-bold text-on-surface tracking-tight truncate leading-tight">1. Analysis of the background and t...</h3>
+<p class="text-[9px] text-on-surface-variant/50 mt-1 font-medium">Updated 7d 18h · 416 lines</p>
+</div>
+<div class="space-y-[1px] ml-2 border-l border-outline-variant/20">
+<a class="block px-3 py-1.5 text-[10px] text-on-surface-variant hover:text-primary transition-colors truncate" href="#">Analysis of the background and the pro...</a>
+<a class="block px-3 py-1.5 text-[10px] text-on-surface-variant hover:text-primary transition-colors truncate" href="#">Background</a>
+<a class="block px-3 py-1.5 text-[10px] text-on-surface-variant hover:text-primary transition-colors truncate" href="#">Core organizational problem</a>
+<a class="block px-3 py-1.5 text-[10px] text-on-surface-variant hover:text-primary transition-colors truncate" href="#">Main issues in the current state</a>
+<a class="block px-3 py-1.5 text-[10px] text-on-surface-variant hover:text-primary transition-colors truncate" href="#">Fragmentation of knowledge</a>
+<a class="block px-3 py-1.5 text-[10px] text-on-surface-variant hover:text-primary transition-colors truncate" href="#">Weak traceability</a>
+<a class="block px-3 py-1.5 text-[10px] text-on-surface-variant hover:text-primary transition-colors truncate" href="#">Architecture is disconnected from delivery</a>
+<a class="block px-3 py-1.5 text-[10px] text-on-surface-variant hover:text-primary transition-colors truncate" href="#">Policies are too abstract to be actionable</a>
+<a class="block px-3 py-1.5 text-[10px] text-on-surface-variant hover:text-primary transition-colors truncate" href="#">Quality checks happen too late</a>
+<a class="block px-3 py-1.5 text-[10px] text-on-surface-variant hover:text-primary transition-colors truncate" href="#">Feedback is inconsistent and easily lost</a>
+<a class="block px-3 py-1.5 text-[10px] text-on-surface-variant hover:text-primary transition-colors truncate" href="#">Governance depends too much on indivi...</a>
+<a class="block px-3 py-1.5 text-[10px] text-on-surface-variant hover:text-primary transition-colors truncate" href="#">Onboarding and learning are inefficient</a>
+<a class="block px-3 py-1.5 text-[10px] text-on-surface-variant hover:text-primary transition-colors truncate" href="#">Management lacks real-time visibility</a>
+<a class="block px-3 py-1.5 text-[10px] text-on-surface-variant hover:text-primary transition-colors truncate" href="#">Deeper weaknesses such a solution coul...</a>
+<a class="block px-3 py-1.5 text-[10px] text-on-surface-variant hover:text-primary transition-colors truncate" href="#">Document-driven governance is passive</a>
+<a class="block px-3 py-1.5 text-[10px] text-on-surface-variant hover:text-primary transition-colors truncate" href="#">2 Organizational memory decays quickly</a>
+<a class="block px-3 py-1.5 text-[10px] text-on-surface-variant hover:text-primary transition-colors truncate" href="#">Continuous inconsistency between inten...</a>
+<a class="block px-3 py-1.5 text-[10px] text-on-surface-variant hover:text-primary transition-colors truncate" href="#">Learning is not accumulated</a>
+<a class="block px-3 py-1.5 text-[10px] text-on-surface-variant hover:text-primary transition-colors truncate" href="#">Practical problems this solution could so...</a>
+<a class="block px-3 py-1.5 text-[10px] text-on-surface-variant hover:text-primary transition-colors truncate" href="#">Strategic value of the solution</a>
+<a class="block px-3 py-1.5 text-[10px] text-on-surface-variant hover:text-primary transition-colors truncate" href="#">Limits and realism</a>
+<a class="block px-3 py-1.5 text-[10px] text-on-surface-variant hover:text-primary transition-colors truncate" href="#">Bottom-line assessment</a>
+</div>
+</div>
+<!-- Section 2 -->
+<div class="space-y-1">
+<div class="px-2 py-1.5">
+<h3 class="text-[11px] font-bold text-on-surface tracking-tight truncate leading-tight">2. Living Architecture Design</h3>
+<p class="text-[9px] text-on-surface-variant/50 mt-1 font-medium">Updated 7d 18h · 230 lines</p>
+</div>
+</div>
+</div>
+</div>
+<!-- New Analysis Button -->
+<div class="px-4 mt-4">
+<button class="w-full py-3 px-4 bg-primary text-on-primary rounded-lg text-[10px] font-bold uppercase tracking-[0.2em] flex items-center justify-center gap-2 hover:opacity-90 transition-opacity" style="">
+<span class="material-symbols-outlined text-sm" data-icon="add" style="">add</span>
+                New Analysis
+            </button>
+</div>
+<div class="mt-4 space-y-1 border-t border-outline-variant/10 pt-4 font-['Inter'] text-xs font-semibold uppercase tracking-widest">
+<a class="flex items-center gap-3 text-[#c2c6d6] px-4 py-3 hover:bg-[#1c1b1b] transition-all duration-150 active:translate-x-1" href="#" style="">
+<span class="material-symbols-outlined" data-icon="help_outline" style="">help_outline</span>
+<span class="" style="">Help</span>
+</a>
+<a class="flex items-center gap-3 text-error/80 px-4 py-3 hover:bg-error/5 transition-all duration-150 active:translate-x-1" href="#" style="">
+<span class="material-symbols-outlined" data-icon="logout" style="">logout</span>
+<span class="" style="">Logout</span>
+</a>
+</div>
+</aside>
+<!-- Main Workspace Canvas -->
+<main class="ml-64 pt-14 min-h-screen flex">
+<!-- Document Content Pane -->
+<section class="flex-1 px-12 py-16 overflow-y-auto bg-surface flex justify-center">
+<div class="max-w-[800px] w-full">
+<!-- Document Header -->
+<header class="mb-12">
+<div class="flex items-center gap-2 text-on-surface-variant text-[10px] font-bold tracking-widest uppercase mb-4 opacity-50">
+<span class="" style="">Archive</span>
+<span class="material-symbols-outlined text-[10px]" data-icon="chevron_right" style="">chevron_right</span>
+<span class="" style="">Projects</span>
+<span class="material-symbols-outlined text-[10px]" data-icon="chevron_right" style="">chevron_right</span>
+<span class="" style="">Alpha</span>
+</div>
+<div class="flex items-start justify-between">
+<div>
+<h1 class="text-4xl font-headline font-extrabold tracking-tight text-on-surface mb-2" style="">Analysis of the background...</h1>
+<div class="flex items-center gap-4 text-xs text-on-surface-variant">
+<span class="flex items-center gap-1" style=""><span class="material-symbols-outlined text-sm" data-icon="schedule" style="">schedule</span> Updated 2h ago</span>
+<span class="flex items-center gap-1" style=""><span class="material-symbols-outlined text-sm" data-icon="description" style="">description</span> 14,204 words</span>
+</div>
+</div>
+<!-- File Actions Menu -->
+<div class="relative group">
+<button class="p-2 hover:bg-surface-container-high rounded-full transition-colors active:scale-95" style="">
+<span class="material-symbols-outlined text-primary" data-icon="more_vert" style="">more_vert</span>
+</button>
+<!-- Contextual Action Menu -->
+<div class="absolute right-0 mt-2 w-48 bg-surface-container-high shadow-[0px_12px_32px_rgba(0,0,0,0.45)] rounded-lg overflow-hidden border border-outline-variant/10 z-50 invisible group-focus-within:visible">
+<div class="py-1">
+<button class="w-full flex items-center gap-3 px-4 py-2.5 text-sm text-on-surface hover:bg-surface-bright transition-colors text-left" style="">
+<span class="material-symbols-outlined text-on-surface-variant text-lg" data-icon="edit" style="">edit</span>
+                                        Rename
+                                    </button>
+<button class="w-full flex items-center gap-3 px-4 py-2.5 text-sm text-on-surface hover:bg-surface-bright transition-colors text-left" style="">
+<span class="material-symbols-outlined text-on-surface-variant text-lg" data-icon="picture_as_pdf" style="">picture_as_pdf</span>
+                                        Export to PDF
+                                    </button>
+<div class="h-px bg-outline-variant/10 my-1"></div>
+<button class="w-full flex items-center gap-3 px-4 py-2.5 text-sm text-error hover:bg-error/10 transition-colors text-left" style="">
+<span class="material-symbols-outlined text-lg" data-icon="delete" style="">delete</span>
+                                        Delete
+                                    </button>
+</div>
+</div>
+</div>
+</div>
+</header>
+<!-- Manuscript Content -->
+<article class="prose prose-invert prose-blue max-w-none">
+<p class="text-lg leading-relaxed text-on-surface mb-8" style="">
+                        The structural integrity of the background architecture reveals a significant shift in computational density. Historically, analysis suggests that the Intellectual Monolith relies on a tiered system of retrieval—not unlike the very document we are currently auditing. 
+                    </p>
+<div class="grid grid-cols-2 gap-8 my-12">
+<div class="bg-surface-container-low p-6 rounded-lg border border-outline-variant/5">
+<span class="text-[10px] font-bold text-primary tracking-[0.2em] uppercase mb-2 block" style="">Primary Metric</span>
+<div class="text-3xl font-headline font-bold text-on-surface mb-1" style="">98.2%</div>
+<p class="text-xs text-on-surface-variant" style="">Cognitive coherence score in early iteration phase.</p>
+</div>
+<div class="bg-surface-container-low p-6 rounded-lg border border-outline-variant/5">
+<span class="text-[10px] font-bold text-tertiary tracking-[0.2em] uppercase mb-2 block" style="">Anomaly Count</span>
+<div class="text-3xl font-headline font-bold text-on-surface mb-1" style="">14</div>
+<p class="text-xs text-on-surface-variant" style="">Potential data leaks identified in the secondary sector.</p>
+</div>
+</div>
+<h2 class="text-xl font-headline font-bold text-on-surface mt-12 mb-6 tracking-tight" style="">Technical Decomposition</h2>
+<p class="text-on-surface-variant leading-loose mb-6" style="">
+                        During the initial deep-dive, the system flagged several inconsistencies within the archive's metadata layer. These artifacts, while seemingly benign, suggest a deeper recursive loop that could affect future analysis cycles. The following points outline the essential observations:
+                    </p>
+<ul class="space-y-4 text-on-surface-variant">
+<li class="flex gap-3" style="">
+<span class="text-primary mt-1 material-symbols-outlined text-sm" data-icon="check_circle" style="">check_circle</span>
+<span class="" style="">Standardized indexing protocols have been surpassed by the new "Void" architecture.</span>
+</li>
+<li class="flex gap-3" style="">
+<span class="text-primary mt-1 material-symbols-outlined text-sm" data-icon="check_circle" style="">check_circle</span>
+<span class="" style="">Memory allocation remains within the 70th percentile of optimal efficiency.</span>
+</li>
+</ul>
+<div class="my-12 rounded-xl overflow-hidden border border-outline-variant/10">
+<img alt="Data Visualization" class="w-full h-64 object-cover" data-alt="Abstract 3D data visualization showing glowing blue and orange particle streams flowing through a dark digital void" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpPIiUh8wMJWwlAdYWZhd8ERnyvnR8p9-QGxOb-EghDm-kOzZwWsNWGAFz2qRATXyjQENLDEu3U3mJn88yHL4zQkg89AH5FFzUOcL7hmUHps_Moqh2ta7q_-MphjuV4tgpfqpo-lgDGjicuMdBkTS6u1xfEYDuRkXq9e3nklj3HaLYcw0RIuD3q7cbdbBCEMv9hxdAuCY9SeDwuvQ6TXJ5seqNNk56a6b3QbEZNXkgksj-IwixCl-qkqxT0S0CqSHMIpd35wvcjSK-" style=""/>
+</div>
+</article>
+</div>
+</section>
+<!-- Chat Analysis Sidebar -->
+<aside class="w-80 bg-surface-container-low flex flex-col border-l border-outline-variant/10 shadow-[-12px_0_32px_rgba(0,0,0,0.2)]">
+<div class="p-4 border-b border-outline-variant/10 flex items-center justify-between">
+<span class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant" style="">Archive Analyst</span>
+<span class="flex h-2 w-2 rounded-full bg-primary animate-pulse"></span>
+</div>
+<!-- Chat Messages -->
+<div class="flex-1 overflow-y-auto p-4 space-y-6">
+<!-- Bot Message -->
+<div class="flex flex-col gap-2 max-w-[90%]">
+<div class="bg-surface-container-high p-3 rounded-lg rounded-tl-none border border-outline-variant/5">
+<p class="text-xs leading-relaxed text-on-surface" style="">
+                            I've finished scanning the "Project Alpha" manifest. There's a notable deviation in section 4.3. Should I flag this for the Export?
+                        </p>
+</div>
+<span class="text-[8px] text-on-surface-variant uppercase font-bold px-1" style="">Archive Analyst • 14:22</span>
+</div>
+<!-- User Message -->
+<div class="flex flex-col gap-2 max-w-[90%] self-end items-end">
+<div class="bg-primary/10 p-3 rounded-lg rounded-tr-none border border-primary/20">
+<p class="text-xs leading-relaxed text-primary" style="">
+                            Yes, flag it and include the PDF export summary.
+                        </p>
+</div>
+<span class="text-[8px] text-on-surface-variant uppercase font-bold px-1" style="">You • 14:24</span>
+</div>
+<!-- Bot Message -->
+<div class="flex flex-col gap-2 max-w-[90%]">
+<div class="bg-surface-container-high p-3 rounded-lg rounded-tl-none border border-outline-variant/5">
+<p class="text-xs leading-relaxed text-on-surface" style="">
+                            Understood. Preparing technical annotations for the PDF document. Will proceed with flagging the deviation.
+                        </p>
+</div>
+<span class="text-[8px] text-on-surface-variant uppercase font-bold px-1" style="">Archive Analyst • 14:25</span>
+</div>
+</div>
+<!-- Chat Input -->
+<div class="p-4 border-t border-outline-variant/10">
+<div class="relative">
+<input class="w-full bg-surface-container-lowest border-none rounded-lg text-xs py-3 pl-4 pr-10 text-on-surface placeholder:text-on-surface-variant/40 focus:ring-1 focus:ring-primary/50 transition-all" placeholder="Ask about this archive..." type="text"/>
+<button class="absolute right-2 top-1/2 -translate-y-1/2 text-primary hover:text-primary-container p-1" style="">
+<span class="material-symbols-outlined" data-icon="send" style="">send</span>
+</button>
+</div>
+</div>
+</aside>
+</main>
+</body></html>

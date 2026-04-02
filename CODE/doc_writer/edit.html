@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The Archive - Markdown Workspace</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "tertiary-fixed-dim": "#ffb786",
+            "surface-variant": "#353534",
+            "secondary-fixed-dim": "#b1c6f9",
+            "secondary": "#b1c6f9",
+            "tertiary-container": "#df7412",
+            "primary-fixed": "#d8e2ff",
+            "on-tertiary-fixed-variant": "#723600",
+            "inverse-on-surface": "#313030",
+            "primary": "#adc6ff",
+            "on-tertiary-container": "#461f00",
+            "surface-tint": "#adc6ff",
+            "on-primary-fixed-variant": "#004395",
+            "surface": "#131313",
+            "surface-container-highest": "#353534",
+            "on-secondary-fixed": "#001a42",
+            "inverse-surface": "#e5e2e1",
+            "on-secondary": "#182f59",
+            "surface-container-high": "#2a2a2a",
+            "error-container": "#93000a",
+            "surface-container": "#201f1f",
+            "outline-variant": "#424754",
+            "on-primary": "#002e6a",
+            "on-error": "#690005",
+            "surface-dim": "#131313",
+            "primary-fixed-dim": "#adc6ff",
+            "tertiary-fixed": "#ffdcc6",
+            "primary-container": "#4d8eff",
+            "on-error-container": "#ffdad6",
+            "on-background": "#e5e2e1",
+            "on-secondary-container": "#9fb5e7",
+            "error": "#ffb4ab",
+            "on-tertiary-fixed": "#311400",
+            "inverse-primary": "#005ac2",
+            "tertiary": "#ffb786",
+            "surface-container-low": "#1c1b1b",
+            "on-secondary-fixed-variant": "#304671",
+            "secondary-fixed": "#d8e2ff",
+            "surface-container-lowest": "#0e0e0e",
+            "on-primary-fixed": "#001a42",
+            "on-surface": "#e5e2e1",
+            "background": "#131313",
+            "surface-bright": "#393939",
+            "on-surface-variant": "#c2c6d6",
+            "on-tertiary": "#502400",
+            "on-primary-container": "#00285d",
+            "outline": "#8c909f",
+            "secondary-container": "#304671"
+          },
+          fontFamily: {
+            "headline": ["Inter"],
+            "body": ["Inter"],
+            "label": ["Inter"]
+          },
+          borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+        },
+      },
+    }
+  </script>
+<style>
+    body { font-family: 'Inter', sans-serif; }
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+    .custom-scrollbar::-webkit-scrollbar { width: 4px; }
+    .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+    .custom-scrollbar::-webkit-scrollbar-thumb { background: #353534; border-radius: 10px; }
+    .glass-nav { backdrop-filter: blur(20px); }
+  </style>
+</head>
+<body class="bg-background text-on-surface selection:bg-primary/30">
+<!-- SideNavBar Implementation -->
+<aside class="h-screen w-64 fixed left-0 top-0 bg-[#0e0e0e] flex flex-col py-4 gap-1 font-['Inter'] text-sm antialiased z-40">
+<div class="px-4 mb-6">
+<div class="flex items-center gap-3 p-2">
+<div class="w-8 h-8 rounded bg-primary-container flex items-center justify-center text-on-primary-container font-bold">A</div>
+<div>
+<div class="text-[#adc6ff] font-bold">Project Alpha</div>
+<div class="text-xs text-on-surface-variant opacity-70">Technical Archive</div>
+</div>
+</div>
+<button class="w-full mt-4 py-2 px-4 bg-primary text-on-primary font-semibold rounded-lg flex items-center justify-center gap-2 hover:opacity-90 transition-opacity">
+<span class="material-symbols-outlined text-sm">add</span>
+        New Document
+      </button>
+</div>
+<nav class="flex-grow">
+<div class="flex flex-col gap-1">
+<a class="flex items-center gap-3 px-4 py-2 text-[#c2c6d6] hover:bg-[#1c1b1b] transition-colors duration-150 cursor-pointer" href="#">
+<span class="material-symbols-outlined">description</span> Documentation
+        </a>
+<a class="flex items-center gap-3 px-4 py-2 text-[#c2c6d6] hover:bg-[#1c1b1b] transition-colors duration-150 cursor-pointer" href="#">
+<span class="material-symbols-outlined">terminal</span> Technical Specs
+        </a>
+<a class="flex items-center gap-3 px-4 py-2 bg-[#201f1f] text-[#adc6ff] border-l-2 border-[#adc6ff] transition-colors duration-150 cursor-pointer" href="#">
+<span class="material-symbols-outlined">api</span> API Reference
+        </a>
+<a class="flex items-center gap-3 px-4 py-2 text-[#c2c6d6] hover:bg-[#1c1b1b] transition-colors duration-150 cursor-pointer" href="#">
+<span class="material-symbols-outlined">science</span> Research Notes
+        </a>
+<a class="flex items-center gap-3 px-4 py-2 text-[#c2c6d6] hover:bg-[#1c1b1b] transition-colors duration-150 cursor-pointer" href="#">
+<span class="material-symbols-outlined">edit_note</span> Drafts
+        </a>
+</div>
+</nav>
+<div class="mt-auto pt-4 border-t border-outline-variant/10">
+<a class="flex items-center gap-3 px-4 py-2 text-[#c2c6d6] hover:bg-[#1c1b1b] transition-colors duration-150 cursor-pointer" href="#">
+<span class="material-symbols-outlined">delete</span> Trash
+      </a>
+<a class="flex items-center gap-3 px-4 py-2 text-[#c2c6d6] hover:bg-[#1c1b1b] transition-colors duration-150 cursor-pointer" href="#">
+<span class="material-symbols-outlined">archive</span> Archive
+      </a>
+</div>
+</aside>
+<!-- Main Canvas -->
+<main class="ml-64 pt-2 h-screen overflow-hidden flex flex-col">
+<!-- Editor Toolbar -->
+<header class="h-12 border-b border-outline-variant/10 bg-surface flex items-center justify-between px-6">
+<div class="flex items-center gap-4">
+<div class="flex items-center gap-1">
+<button class="p-1.5 hover:bg-surface-container-high rounded text-on-surface-variant transition-colors"><span class="material-symbols-outlined text-lg">format_bold</span></button>
+<button class="p-1.5 hover:bg-surface-container-high rounded text-on-surface-variant transition-colors"><span class="material-symbols-outlined text-lg">format_italic</span></button>
+<div class="w-[1px] h-4 bg-outline-variant/30 mx-1"></div>
+<button class="p-1.5 hover:bg-surface-container-high rounded text-on-surface-variant transition-colors"><span class="material-symbols-outlined text-lg">format_list_bulleted</span></button>
+<button class="p-1.5 hover:bg-surface-container-high rounded text-on-surface-variant transition-colors"><span class="material-symbols-outlined text-lg">link</span></button>
+<button class="p-1.5 hover:bg-surface-container-high rounded text-on-surface-variant transition-colors"><span class="material-symbols-outlined text-lg">image</span></button>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<span class="text-xs font-mono text-on-surface-variant bg-surface-container px-2 py-1 rounded">Last saved: 2m ago</span>
+<div class="relative group">
+<button class="p-1.5 hover:bg-surface-container-high rounded text-on-surface-variant transition-colors">
+<span class="material-symbols-outlined">more_vert</span>
+</button>
+<!-- Context Menu -->
+<div class="absolute right-0 top-full mt-1 w-48 bg-surface-container-high border border-outline-variant/20 rounded shadow-xl opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-all z-50 py-1">
+<button class="w-full flex items-center gap-3 px-3 py-2 text-sm text-on-surface hover:bg-surface-bright transition-colors">
+<span class="material-symbols-outlined text-sm">edit</span> Rename
+            </button>
+<button class="w-full flex items-center gap-3 px-3 py-2 text-sm text-on-surface hover:bg-surface-bright transition-colors">
+<span class="material-symbols-outlined text-sm">picture_as_pdf</span> Export to PDF
+            </button>
+<button class="w-full flex items-center gap-3 px-3 py-2 text-sm text-on-surface hover:bg-surface-bright transition-colors border-t border-outline-variant/10">
+<span class="material-symbols-outlined text-sm">settings_applications</span> Editor Settings
+            </button>
+<button class="w-full flex items-center gap-3 px-3 py-2 text-sm text-error hover:bg-error/10 transition-colors border-t border-outline-variant/10">
+<span class="material-symbols-outlined text-sm">delete</span> Delete
+            </button>
+</div>
+</div>
+</div>
+</header>
+<!-- Split Pane Workspace -->
+<div class="flex-grow flex overflow-hidden">
+<!-- Markdown Editor Pane -->
+<section class="flex-1 bg-surface-container-lowest flex flex-col border-r border-outline-variant/5">
+<div class="flex-grow flex font-mono text-sm overflow-y-auto custom-scrollbar p-6">
+<!-- Line Numbers -->
+<div class="pr-6 text-right text-on-surface-variant/30 select-none">
+<div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div><div>9</div><div>10</div><div>11</div><div>12</div><div>13</div><div>14</div><div>15</div><div>16</div><div>17</div><div>18</div>
+</div>
+<!-- Syntax Highlighted Content -->
+<div class="flex-grow outline-none whitespace-pre-wrap leading-relaxed text-on-surface-variant">
+<span class="text-primary font-bold"># API Reference v2.4</span>
+<span class="text-tertiary-fixed-dim">## Authentication</span>
+To access the <span class="text-secondary">Project Alpha</span> repository, you must provide a valid Bearer token in the header of each request.
+
+<span class="text-outline">```json</span>
+{
+  <span class="text-primary-fixed">"status"</span>: <span class="text-tertiary-fixed-dim">"success"</span>,
+  <span class="text-primary-fixed">"endpoint"</span>: <span class="text-tertiary-fixed-dim">"/v2/auth/verify"</span>,
+  <span class="text-primary-fixed">"timestamp"</span>: <span class="text-tertiary-fixed-dim">"2023-11-24T12:00:00Z"</span>
+}
+<span class="text-outline">```</span>
+<span class="text-tertiary-fixed-dim">## Endpoints</span>
+<span class="text-secondary-fixed-dim">- GET /archive/search</span>
+<span class="text-secondary-fixed-dim">- POST /archive/ingest</span>
+<span class="text-secondary-fixed-dim">- DELETE /archive/purge</span>
+<span class="bg-primary/20 border-l-2 border-primary pl-2 italic">Note: All requests are logged for security auditing purposes.</span></div>
+</div>
+</section>
+<!-- Rendered Preview Pane -->
+<section class="flex-1 bg-surface flex flex-col p-12 overflow-y-auto custom-scrollbar">
+<article class="max-w-[700px] mx-auto w-full prose prose-invert">
+<h1 class="text-4xl font-extrabold tracking-tight mb-8 text-on-surface">API Reference v2.4</h1>
+<h2 class="text-xl font-bold border-b border-outline-variant/20 pb-2 mb-4 mt-8">Authentication</h2>
+<p class="text-on-surface-variant leading-relaxed mb-6">
+            To access the <span class="text-primary font-semibold">Project Alpha</span> repository, you must provide a valid Bearer token in the header of each request.
+          </p>
+<div class="bg-surface-container-high rounded-lg p-6 mb-8 border border-outline-variant/10 shadow-lg">
+<div class="flex gap-2 mb-4">
+<div class="w-3 h-3 rounded-full bg-error/40"></div>
+<div class="w-3 h-3 rounded-full bg-tertiary/40"></div>
+<div class="w-3 h-3 rounded-full bg-secondary/40"></div>
+</div>
+<pre class="font-mono text-sm"><span class="text-primary">{</span>
+  <span class="text-on-surface-variant">"status":</span> <span class="text-tertiary-fixed-dim">"success"</span><span class="text-on-surface-variant">,</span>
+  <span class="text-on-surface-variant">"endpoint":</span> <span class="text-tertiary-fixed-dim">"/v2/auth/verify"</span><span class="text-on-surface-variant">,</span>
+  <span class="text-on-surface-variant">"timestamp":</span> <span class="text-tertiary-fixed-dim">"2023-11-24T12:00:00Z"</span>
+<span class="text-primary">}</span></pre>
+</div>
+<h2 class="text-xl font-bold border-b border-outline-variant/20 pb-2 mb-4 mt-8">Endpoints</h2>
+<ul class="space-y-3 mb-8">
+<li class="flex items-center gap-3">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+<code class="bg-secondary-container/30 px-2 py-1 rounded text-secondary">GET /archive/search</code>
+</li>
+<li class="flex items-center gap-3">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+<code class="bg-secondary-container/30 px-2 py-1 rounded text-secondary">POST /archive/ingest</code>
+</li>
+<li class="flex items-center gap-3">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+<code class="bg-secondary-container/30 px-2 py-1 rounded text-secondary">DELETE /archive/purge</code>
+</li>
+</ul>
+<div class="bg-surface-container p-4 border-l-4 border-primary rounded-r">
+<p class="text-on-surface-variant italic text-sm">Note: All requests are logged for security auditing purposes.</p>
+</div>
+<div class="mt-12">
+<img class="w-full h-64 object-cover rounded shadow-2xl grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-700" data-alt="abstract tech concept with glowing blue server matrix lines and digital circuitry on a dark charcoal background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSNMOkM_kYGdtvmnPZasZEUHY0T3ZKOMEtG7tNCqt8ZfGhjU8CVcS50iSxaO3GKXwuZE7VAnnSyxNN2oSRB5IjC0dDZfJJwz0H5J_tsw8c8aec1NhGeZVoo3wA97_zQpoIF4FyuAdum3TZ-3PWUdFNhcG87KMZXDG3qjhN3lDf82njAv-Sbscx_b7WWF6n1jga2JKFp9LXKIB0vCmzsh63Mwrqn-bUYKwAvTvACljrU8uZuVeVdDsNGMD7620kqGxqB-ccY0EhvVtf"/>
+</div>
+</article>
+</section>
+</div>
+</main>
+<!-- Keyboard Shortcuts Floating Help -->
+<div class="fixed bottom-6 right-6 flex flex-col items-end gap-2">
+<div class="bg-surface-container-high border border-outline-variant/20 rounded px-3 py-1.5 text-[10px] font-mono text-on-surface-variant flex gap-4 shadow-xl">
+<span>CMD+S: Save</span>
+<span>CMD+B: Bold</span>
+<span>CMD+P: Preview</span>
+</div>
+</div>
+</body></html>
